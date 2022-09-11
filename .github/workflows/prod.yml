@@ -23,7 +23,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.4.8
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          REPOSITORY_NAME: factoriolab/factoriolab.github.io
+          REPOSITORY_NAME: leastwise/foxholelab.github.io
           BRANCH: main
           FOLDER: dist
           CLEAN: true
