@@ -1384,6 +1384,381 @@
          "id":"zipline",
          "color":"#ac8154",
          "position":"-64px -960px"
+      },
+      {
+         "id":"mats",
+         "color":"#72645f",
+         "position":"-128px -704px"
+      },
+      {
+         "id":"bmats",
+         "color":"#65514f",
+         "position":"-128px -704px"
+      },
+      {
+         "id":"emats",
+         "color":"#463d3e",
+         "position":"-192px -704px"
+      },
+      {
+         "id":"hemats",
+         "color":"#534c45",
+         "position":"-320px -704px"
+      },
+      {
+         "id":"rmats",
+         "color":"#80818c",
+         "position":"-448px -704px"
+      },
+	  {
+         "id":"concrete",
+         "color":"#92857a",
+         "position":"-384px -768px"
+      },
+      {
+         "id":"cons",
+         "color":"#72645f",
+         "position":"-192px -1792px"
+      },
+      {
+         "id":"bcons",
+         "color":"#877a72",
+         "position":"-192px -1792px"
+      },
+      {
+         "id":"pcons",
+         "color":"#877a72",
+         "position":"-256px -1792px"
+      },
+      {
+         "id":"scons",
+         "color":"#877a72",
+         "position":"-320px -1792px"
+      },
+      {
+         "id":"ams",
+         "color":"#72645f",
+         "position":"-384px -1792px"
+      },
+      {
+         "id":"cams",
+         "color":"#877a72",
+         "position":"-384px -1792px"
+      },
+      {
+         "id":"pams",
+         "color":"#877a72",
+         "position":"-448px -1792px"
+      },
+      {
+         "id":"sams",
+         "color":"#877a72",
+         "position":"-0px -1856px"
+      },
+      {
+         "id":"hams",
+         "color":"#877a72",
+         "position":"-64px -1856px"
+      },
+      {
+         "id":"nams",
+         "color":"#877a72",
+         "position":"-128px -1856px"
+      },
+      {
+         "id":"raw",
+         "color":"#4c332e",
+         "position":"-64px -768px"
+      },
+      {
+         "id":"scrap",
+         "color":"#766d6d",
+         "position":"-0px -768px"
+      },
+      {
+         "id":"comps",
+         "color":"#766d6d",
+         "position":"-64px -768px"
+      },
+      {
+         "id":"sulfur",
+         "color":"#766d6d",
+         "position":"-128px -768px"
+      },
+      {
+         "id":"coal",
+         "color":"#766d6d",
+         "position":"-192px -1856px"
+      },
+      {
+         "id":"coke",
+         "color":"#766d6d",
+         "position":"-0px -1984px"
+      },
+      {
+         "id":"small",
+         "color":"#766d6d",
+         "position":"-192px -0px"
+      },
+      {
+         "id":"heavyarms",
+         "color":"#766d6d",
+         "position":"-384px -256px"
+      },
+      {
+         "id":"heavyammo",
+         "color":"#766d6d",
+         "position":"-384px -384px"
+      },
+      {
+         "id":"flame-barrel",
+         "color":"#766d6d",
+         "position":"-448px -768px"
+      },
+      {
+         "id":"rocket",
+         "color":"#766d6d",
+         "position":"-256px -320px"
+      },
+      {
+         "id":"in-rocket",
+         "color":"#766d6d",
+         "position":"-128px -320px"
+      },
+      {
+         "id":"75mm",
+         "color":"#766d6d",
+         "position":"-192px -384px"
+      },
+      {
+         "id":"94-5mm",
+         "color":"#766d6d",
+         "position":"-256px -448px"
+      },
+      {
+         "id":"300mm",
+         "color":"#766d6d",
+         "position":"-448px -384px"
+      },
+      {
+         "id":"fluids",
+         "color":"#72645f",
+         "position":"-448px -640px"
+      },
+      {
+         "id":"oil",
+         "color":"#766d6d",
+         "position":"-448px -768px"
+      },
+      {
+         "id":"hoil",
+         "color":"#766d6d",
+         "position":"-448px -768px"
+      },
+      {
+         "id":"eoil",
+         "color":"#766d6d",
+         "position":"-448px -768px"
+      },
+      {
+         "id":"water",
+         "color":"#766d6d",
+         "position":"-384px -1856px"
+      },
+      {
+         "id":"diesel",
+         "color":"#766d6d",
+         "position":"-384px -640px"
+      },
+      {
+         "id":"petrol",
+         "color":"#766d6d",
+         "position":"-448px -640px"
+      },
+      {
+         "id":"shippable",
+         "color":"#766d6d",
+         "position":"-256px -1600px"
+      },
+      {
+         "id":"sandbags",
+         "color":"#766d6d",
+         "position":"-448px -1600px"
+      },
+      {
+         "id":"barbed-wire",
+         "color":"#766d6d",
+         "position":"-384px -1600px"
+      },
+      {
+         "id":"metal-beams",
+         "color":"#766d6d",
+         "position":"-0px -1664px"
+      },
+      {
+         "id":"hammer-mine",
+         "color":"#766d6d",
+         "position":"-128px -576px"
+      },
+      {
+         "id":"sledge-mine",
+         "color":"#766d6d",
+         "position":"-448px -512px"
+      },
+      {
+         "id":"harvester",
+         "color":"#766d6d",
+         "position":"-64px -1216px"
+      },
+      {
+         "id":"petrol-miner",
+         "color":"#766d6d",
+         "position":"-448px -1856px"
+      },
+      {
+         "id":"hoil-miner",
+         "color":"#766d6d",
+         "position":"-64px -1920px"
+      },
+      {
+         "id":"oil-well",
+         "color":"#766d6d",
+         "position":"-128px -1920px"
+      },
+      {
+         "id":"oil-well-t1",
+         "color":"#766d6d",
+         "position":"-128px -1920px"
+      },
+      {
+         "id":"water-pump",
+         "color":"#766d6d",
+         "position":"-320px -1920px"
+      },
+      {
+         "id":"e-water-pump",
+         "color":"#766d6d",
+         "position":"-384px -1920px"
+      },
+      {
+         "id":"e-water-pump-0",
+         "color":"#766d6d",
+         "position":"-384px -1920px"
+      },
+      {
+         "id":"oil-refinery",
+         "color":"#766d6d",
+         "position":"-320px -1856px"
+      },
+      {
+         "id":"reformer",
+         "color":"#766d6d",
+         "position":"-320px -1856px"
+      },
+      {
+         "id":"cracking-unit",
+         "color":"#766d6d",
+         "position":"-320px -1856px"
+      },
+      {
+         "id":"petro-plant",
+         "color":"#766d6d",
+         "position":"-320px -1856px"
+      },
+      {
+         "id":"coal-refinery",
+         "color":"#766d6d",
+         "position":"-320px -1856px"
+      },
+      {
+         "id":"coke-furnace",
+         "color":"#766d6d",
+         "position":"-320px -1856px"
+      },
+      {
+         "id":"coal-liquefier",
+         "color":"#766d6d",
+         "position":"-320px -1856px"
+      },
+      {
+         "id":"adv-coal-liquefier",
+         "color":"#766d6d",
+         "position":"-320px -1856px"
+      },
+      {
+         "id":"materials-factory",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"forge",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"metal-press",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"mat-recycler",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"smelter",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"metalworks",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"blast-furnace",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"blast-furnace-8",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"metal-recycler",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"engineering-station-8",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"engineering-station-9",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"ammo-factory",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"rocket-factory",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"large-shell-factory",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"pipeline",
+         "color":"#766d6d",
+         "position":"-64px -1984px"
       }
    ],
    "items":[
