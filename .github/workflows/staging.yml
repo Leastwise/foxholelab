@@ -24,7 +24,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.4.8
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          REPOSITORY_NAME: factoriolab/staging
+          REPOSITORY_NAME: foxholelab/staging
           BRANCH: main
           FOLDER: dist
           CLEAN: true
