@@ -15,7 +15,7 @@
          "id":"equipment",
          "name":"Equipment"
       },
-	  {
+      {
          "id":"mats",
          "name":"Materials"
       },
@@ -35,35 +35,35 @@
          "id":"raw",
          "name":"Raw Resources"
       },
-	  {
+      {
          "id":"small",
          "name":"Small Arms"
       },
-	  {
+      {
          "id":"heavyarms",
          "name":"Heavy Arms"
       },
-	  {
+      {
          "id":"heavyammo",
          "name":"Heavy Ammunition"
       },
-	  {
+      {
          "id":"utility",
          "name":"Utility"
       },
-	  {
+      {
          "id":"medical",
          "name":"Medical"
       },
-	  {
+      {
          "id":"uniforms",
          "name":"Uniforms"
       },
-	  {
+      {
          "id":"vics",
          "name":"Vehicles"
       },
-	  {
+      {
          "id":"shippable",
          "name":"Shippables"
       }
@@ -1410,7 +1410,7 @@
          "color":"#80818c",
          "position":"-448px -704px"
       },
-	  {
+      {
          "id":"concrete",
          "color":"#92857a",
          "position":"-384px -768px"
@@ -3102,7 +3102,7 @@
          "name":"Explosive Materials",
          "row":0,
          "stack":100
-      },    
+      },
       {
          "category":"mats",
          "id":"hemats",
@@ -3277,10 +3277,10 @@
          "name":"Crude Oil",
          "row":1,
          "stack":100,
-		 "fuel":{
+         "fuel":{
             "category":"chemical",
             "value":50
-		 }
+         }
       },
       {
          "category":"fluids",
@@ -3288,10 +3288,10 @@
          "name":"Heavy Oil",
          "row":1,
          "stack":100,
-		 "fuel":{
+         "fuel":{
             "category":"chemical",
             "value":30
-		 }
+         }
       },
       {
          "category":"fluids",
@@ -3299,21 +3299,21 @@
          "name":"Enriched Oil",
          "row":1,
          "stack":100,
-		 "fuel":{
+         "fuel":{
             "category":"chemical",
             "value":30
-		 }
+         }
       },
       {
          "category":"fluids",
          "id":"water",
          "name":"Water",
          "row":1,
-		 "stack":100,
-		 "fuel":{
+         "stack":100,
+         "fuel":{
             "category":"chemical",
             "value":50
-		 }
+         }
       },
       {
          "category":"fluids",
@@ -3321,10 +3321,10 @@
          "name":"Diesel",
          "row":1,
          "stack":100,
-		 "fuel":{
+         "fuel":{
             "category":"chemical",
             "value":100
-		 }
+         }
       },
       {
          "category":"fluids",
@@ -3332,10 +3332,10 @@
          "name":"Petrol",
          "row":1,
          "stack":100,
-		 "fuel":{
+         "fuel":{
             "category":"chemical",
             "value":100
-		 }
+         }
       },
       {
          "category":"other",
@@ -7117,6 +7117,788 @@
          },
          "out":{
             "smokeless-powder":2
+         }
+      },
+      {
+         "id":"hammer-mine-scrap",
+         "name":"Hammer-Mined Scrap",
+         "producers":[
+            "hammer-mine"
+         ],
+         "time":12,
+         "cost":2000,
+         "out":{
+            "scrap":50
+         },
+         "in":{
+            
+         }
+      },
+      {
+         "id":"hammer-mine-coal",
+         "name":"Hammer-Mined Coal",
+         "producers":[
+            "hammer-mine"
+         ],
+         "time":12,
+         "cost":2000,
+         "out":{
+            "coal":50
+         },
+         "in":{
+            
+         }
+      },
+      {
+         "id":"sledge-mine-scrap",
+         "name":"Sledge-Mined Scrap",
+         "producers":[
+            "sledge-mine"
+         ],
+         "time":12,
+         "cost":2000,
+         "out":{
+            "scrap":150
+         },
+         "in":{
+            
+         }
+      },
+      {
+         "id":"sledge-mine-coal",
+         "name":"Sledge-Mined Coal",
+         "producers":[
+            "sledge-mine"
+         ],
+         "time":12,
+         "cost":2000,
+         "out":{
+            "coal":150
+         },
+         "in":{
+            
+         }
+      },
+      {
+         "id":"sledge-mine-comps",
+         "name":"Sledge-Mined Comps",
+         "producers":[
+            "sledge-mine"
+         ],
+         "time":12,
+         "cost":2000,
+         "out":{
+            "comps":50
+         },
+         "in":{
+            
+         }
+      },
+      {
+         "id":"sledge-mine-sulfur",
+         "name":"Sledge-Mined Sulfur",
+         "producers":[
+            "sledge-mine"
+         ],
+         "time":12,
+         "cost":2000,
+         "out":{
+            "sulfur":50
+         },
+         "in":{
+            
+         }
+      },
+      {
+         "id":"harvester-scrap",
+         "name":"Harvester-Mined Scrap",
+         "producers":[
+            "harvester"
+         ],
+         "time":12,
+         "cost":2000,
+         "out":{
+            "scrap":800
+         },
+         "in":{
+            "petrol":50
+         }
+      },
+      {
+         "id":"harvester-comps",
+         "name":"Harvester-Mined Comps",
+         "producers":[
+            "harvester"
+         ],
+         "time":12,
+         "cost":2000,
+         "out":{
+            "comps":500
+         },
+         "in":{
+            "petrol":50
+         }
+      },
+      {
+         "id":"harvester-coal",
+         "name":"Harvester-Mined Coal",
+         "producers":[
+            "harvester"
+         ],
+         "time":12,
+         "cost":2000,
+         "out":{
+            "coal":800
+         },
+         "in":{
+            "petrol":50
+         }
+      },
+      {
+         "id":"harvester-sulfur",
+         "name":"Harvester-Mined Sulfur",
+         "producers":[
+            "harvester"
+         ],
+         "time":12,
+         "cost":2000,
+         "out":{
+            "sulfur":800
+         },
+         "in":{
+            "petrol":50
+         }
+      },
+      {
+         "id":"scrap",
+         "name":"Auto-Harvester Scrap",
+         "producers":[
+            "petrol-miner"
+         ],
+         "time":12,
+         "cost":1000,
+         "out":{
+            "scrap":50
+         },
+         "in":{
+            "petrol":2
+         }
+      },
+      {
+         "id":"coal",
+         "name":"Auto-Harvester Coal",
+         "producers":[
+            "petrol-miner"
+         ],
+         "time":12,
+         "cost":1000,
+         "out":{
+            "coal":50
+         },
+         "in":{
+            "petrol":2
+         }
+      },
+      {
+         "id":"sulfur",
+         "name":"Auto-Harvester Sulfur",
+         "producers":[
+            "hoil-miner"
+         ],
+         "time":12,
+         "cost":1000,
+         "out":{
+            "sulfur":6
+         },
+         "in":{
+            "hoil":2
+         }
+      },
+      {
+         "id":"comps",
+         "name":"Auto-Harvester Components",
+         "producers":[
+            "hoil-miner"
+         ],
+         "time":12,
+         "cost":1000,
+         "out":{
+            "comps":6
+         },
+         "in":{
+            "hoil":2
+         }
+      },
+      {
+         "id":"oil",
+         "name":"Oil Well",
+         "producers":[
+            "oil-well"
+         ],
+         "time":50,
+         "cost":1000,
+         "out":{
+            "oil":50
+         },
+         "in":{
+            
+         }
+      },
+      {
+         "id":"oil-t1",
+         "name":"Electric Oil Well T1",
+         "producers":[
+            "oil-well-t1"
+         ],
+         "time":26,
+         "cost":1000,
+         "out":{
+            "oil":50
+         },
+         "in":{
+            
+         }
+      },
+      {
+         "id":"oil-fluid",
+         "name":"Electric Oil Well T2",
+         "producers":[
+            "oil-well-t2"
+         ],
+         "time":40,
+         "cost":1000,
+         "out":{
+            "oil":75
+         },
+         "in":{
+            
+         }
+      },
+      {
+         "id":"water",
+         "name":"Water Pump Water",
+         "producers":[
+            "water-pump"
+         ],
+         "time":50,
+         "cost":1000,
+         "out":{
+            "water":50
+         },
+         "in":{
+            
+         }
+      },
+      {
+         "id":"water-e",
+         "name":"Electric Pump Water",
+         "producers":[
+            "e-water-pump-0"
+         ],
+         "time":40,
+         "cost":1000,
+         "out":{
+            "water":50
+         },
+         "in":{
+            
+         }
+      },
+      {
+         "id":"water-fluid",
+         "name":"Pipeline Water",
+         "producers":[
+            "e-water-pump"
+         ],
+         "time":50,
+         "cost":1000,
+         "out":{
+            "water":60
+         },
+         "in":{
+            
+         }
+      },
+      {
+         "id":"petrol-refinery",
+         "name":"Refinery Petrol",
+         "producers":[
+            "oil-refinery"
+         ],
+         "time":150,
+         "cost":1000,
+         "in":{
+            "oil":150
+         },
+         "out":{
+            "petrol":150
+         }
+      },
+      {
+         "id":"petrol-reformer",
+         "name":"Reformer Petrol",
+         "producers":[
+            "reformer"
+         ],
+         "time":150,
+         "cost":1000,
+         "in":{
+            "oil":120,
+            "water":30
+         },
+         "out":{
+            "petrol":150
+         }
+      },
+      {
+         "id":"hoil",
+         "name":"Heavy Oil",
+         "producers":[
+            "cracking-unit"
+         ],
+         "time":160,
+         "cost":1000,
+         "in":{
+            "oil":120
+         },
+         "out":{
+            "hoil":90
+         }
+      },
+      {
+         "id":"eoil",
+         "name":"Enriched Oil",
+         "producers":[
+            "petro-plant"
+         ],
+         "time":160,
+         "cost":1000,
+         "in":{
+            "hoil":90,
+            "sulfur":20
+         },
+         "out":{
+            "eoil":90
+         }
+      },
+      {
+         "id":"coke",
+         "name":"Refinery Coke",
+         "producers":[
+            "coal-refinery"
+         ],
+         "time":120,
+         "cost":1000,
+         "in":{
+            "coal":200
+         },
+         "out":{
+            "coke":180
+         }
+      },
+      {
+         "id":"coke-furnace",
+         "name":"Coke Furnace",
+         "producers":[
+            "coke-furnace"
+         ],
+         "time":120,
+         "cost":1000,
+         "in":{
+            "coal":200
+         },
+         "out":{
+            "coke":165,
+            "sulfur":15
+         }
+      },
+      {
+         "id":"coal-liquefier",
+         "name":"Coal Liquefier",
+         "producers":[
+            "coal-liquefier"
+         ],
+         "time":120,
+         "cost":1000,
+         "in":{
+            "coal":300,
+            "water":75
+         },
+         "out":{
+            "hoil":30,
+            "concrete":1
+         }
+      },
+      {
+         "id":"adv-coal-liquefier",
+         "name":"Advanced Coal Liquefier",
+         "producers":[
+            "adv-coal-liquefier"
+         ],
+         "time":180,
+         "cost":1000,
+         "in":{
+            "coal":300,
+            "water":150
+         },
+         "out":{
+            "hoil":60,
+            "coke":260
+         }
+      },
+      {
+         "id":"bcons",
+         "name":"Materials Factory bCons",
+         "producers":[
+            "materials-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "scrap":20
+         },
+         "out":{
+            "bcons":1
+         }
+      },
+      {
+         "id":"cams",
+         "name":"Forge Cams",
+         "producers":[
+            "forge"
+         ],
+         "time":60,
+         "cost":1000,
+         "in":{
+            "scrap":20,
+            "coke":180
+         },
+         "out":{
+            "cams":1
+         }
+      },
+      {
+         "id":"pams",
+         "name":"Forge Pams",
+         "producers":[
+            "forge"
+         ],
+         "time":60,
+         "cost":1000,
+         "in":{
+            "scrap":20,
+            "petrol":90
+         },
+         "out":{
+            "pams":1
+         }
+      },
+      {
+         "id":"metal-press-bcons",
+         "name":"Metal Press Bcons",
+         "producers":[
+            "metal-press"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "scrap":20,
+            "petrol":6
+         },
+         "out":{
+            "bcons":3
+         }
+      },
+      {
+         "id":"recycler-sandbags",
+         "name":"Recycler Sandbags",
+         "producers":[
+            "mat-recycler"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "scrap":25
+         },
+         "out":{
+            "sandbags":5,
+            "bcons":1
+         }
+      },
+      {
+         "id":"recycler-wire",
+         "name":"Recycler Barbed Wire",
+         "producers":[
+            "mat-recycler"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "scrap":25
+         },
+         "out":{
+            "barbed-wire":5,
+            "bcons":1
+         }
+      },
+      {
+         "id":"smelter-bcons",
+         "name":"Smelter bCons",
+         "producers":[
+            "smelter"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "scrap":20,
+            "coke":30
+         },
+         "out":{
+            "bcons":3
+         }
+      },
+      {
+         "id":"metalworks-pcons",
+         "name":"Metalworks pCons",
+         "producers":[
+            "metalworks"
+         ],
+         "time":60,
+         "cost":1000,
+         "in":{
+            "bcons":3,
+            "comps":20
+         },
+         "out":{
+            "pcons":1
+         }
+      },
+      {
+         "id":"blast-furnace-hams",
+         "name":"Blast Furnace Hams",
+         "producers":[
+            "blast-furnace"
+         ],
+         "time":120,
+         "cost":1000,
+         "in":{
+            "pcons":1,
+            "hoil":66
+         },
+         "out":{
+            "hams":1
+         }
+      },
+      {
+         "id":"blast-furnace-sams",
+         "name":"Blast Furnace Sams",
+         "producers":[
+            "blast-furnace"
+         ],
+         "time":120,
+         "cost":1000,
+         "in":{
+            "bcons":3,
+            "sulfur":20
+         },
+         "out":{
+            "sams":1
+         }
+      },
+      {
+         "id":"blast-furnace-pCons",
+         "name":"Blast Furnace pCons",
+         "producers":[
+            "blast-furnace-8"
+         ],
+         "time":60,
+         "cost":1000,
+         "in":{
+            "bcons":3,
+            "comps":56,
+            "hoil":6
+         },
+         "out":{
+            "pcons":3
+         }
+      },
+      {
+         "id":"metal-recycler-beams",
+         "name":"Metalworks Recycler Beams",
+         "producers":[
+            "metal-recycler"
+         ],
+         "time":60,
+         "cost":1000,
+         "in":{
+            "bcons":3,
+            "comps":20
+         },
+         "out":{
+            "metal-beams":1,
+            "pcons":1
+         }
+      },
+      {
+         "id":"metal-recycler-scrap",
+         "name":"Metalworks Recycler Scrap",
+         "producers":[
+            "metal-recycler"
+         ],
+         "time":90,
+         "cost":1000,
+         "in":{
+            "scrap":250
+         },
+         "out":{
+            "comps":1
+         }
+      },
+      {
+         "id":"engineer-scons",
+         "name":"Engineering Scons",
+         "producers":[
+            "engineering-station-9"
+         ],
+         "time":160,
+         "cost":1000,
+         "in":{
+            "pcons":3,
+            "comps":20,
+            "eoil":6
+         },
+         "out":{
+            "scons":1
+         }
+      },
+      {
+         "id":"engineer-sulfur-scons",
+         "name":"Engineering Sulfur Scons",
+         "producers":[
+            "engineering-station-8"
+         ],
+         "time":160,
+         "cost":1000,
+         "in":{
+            "pcons":3,
+            "comps":20,
+            "sulfur":20,
+            "eoil":3
+         },
+         "out":{
+            "scons":3
+         }
+      },
+      {
+         "id":"engineer-nams",
+         "name":"Engineering Nams",
+         "producers":[
+            "engineering-station-8"
+         ],
+         "time":160,
+         "cost":1000,
+         "in":{
+            "scons":1,
+            "eoil":6
+         },
+         "out":{
+            "nams":1
+         }
+      },
+      {
+         "id":"ammo-factory-flame-barrel",
+         "name":"Ammo Factory Flame Barrel",
+         "producers":[
+            "ammo-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "hemats":1,
+            "bcons":1
+         },
+         "out":{
+            "flame-barrel":1
+         }
+      },
+      {
+         "id":"rocket",
+         "name":"Rocket",
+         "producers":[
+            "rocket-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "hemats":2,
+            "bcons":2
+         },
+         "out":{
+            "rocket":1
+         }
+      },
+      {
+         "id":"in-rocket",
+         "name":"Incendiary Rocket",
+         "producers":[
+            "rocket-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "hemats":2,
+            "bcons":2
+         },
+         "out":{
+            "in-rocket":1
+         }
+      },
+      {
+         "id":"75mm",
+         "name":"75mm HE Round",
+         "producers":[
+            "large-shell-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "hemats":2,
+            "bcons":2
+         },
+         "out":{
+            "75mm":1
+         }
+      },
+      {
+         "id":"94-5mm",
+         "name":"94.5mm AT Round",
+         "producers":[
+            "large-shell-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "hemats":2,
+            "bcons":2
+         },
+         "out":{
+            "94-5mm":1
+         }
+      },
+      {
+         "id":"300mm",
+         "name":"300mm Round",
+         "producers":[
+            "large-shell-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "hemats":6,
+            "bcons":3
+         },
+         "out":{
+            "300mm":1
          }
       }
    ],
