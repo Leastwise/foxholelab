@@ -350,6 +350,36 @@
          "position":"-256px -1856px"
       },
       {
+         "id":"metalworks",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"blast-furnace",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"blast-furnace-8",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"metal-recycler",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"engineering-station-8",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"engineering-station-9",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
          "id":"ai-limiter",
          "color":"#333735",
          "position":"-128px -0px"
@@ -3183,6 +3213,19 @@
       },
       {
          "category":"other",
+         "id":"blast-furnace-8",
+         "name":"Blast Furnace",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":8000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
          "id":"metal-recycler",
          "name":"Metalworks Recycler",
          "row":5,
@@ -4093,6 +4136,155 @@
 		 },
          "out":{
             "bcons":3
+         }
+      },
+      {
+         "id":"metalworks-pcons",
+         "name":"Metalworks pCons",
+         "producers":[
+            "metalworks"
+         ],
+         "time":60,
+         "cost":1000,
+         "in":{
+            "bcons":3,
+			"comps":20
+		 },
+         "out":{
+            "pcons":1
+         }
+      },
+      {
+         "id":"blast-furnace-hams",
+         "name":"Blast Furnace Hams",
+         "producers":[
+            "blast-furnace"
+         ],
+         "time":120,
+         "cost":1000,
+         "in":{
+            "pcons":1,
+			"hoil":66
+		 },
+         "out":{
+            "hams":1
+         }
+      },
+      {
+         "id":"blast-furnace-sams",
+         "name":"Blast Furnace Sams",
+         "producers":[
+            "blast-furnace"
+         ],
+         "time":120,
+         "cost":1000,
+         "in":{
+            "bcons":3,
+			"sulfur":20
+		 },
+         "out":{
+            "sams":1
+         }
+      },
+      {
+         "id":"blast-furnace-pCons",
+         "name":"Blast Furnace pCons",
+         "producers":[
+            "blast-furnace-8"
+         ],
+         "time":60,
+         "cost":1000,
+         "in":{
+            "bcons":3,
+			"comps":56,
+			"hoil":6
+		 },
+         "out":{
+            "pcons":3
+         }
+      },
+      {
+         "id":"metal-recycler-beams",
+         "name":"Metalworks Recycler Beams",
+         "producers":[
+            "metal-recycler"
+         ],
+         "time":60,
+         "cost":1000,
+         "in":{
+            "bcons":3,
+			"comps":20
+		 },
+         "out":{
+            "metal-beams":1,
+			"pcons":1
+			
+         }
+      },
+      {
+         "id":"metal-recycler-scrap",
+         "name":"Metalworks Recycler Scrap",
+         "producers":[
+            "metal-recycler"
+         ],
+         "time":90,
+         "cost":1000,
+         "in":{
+            "scrap":250
+		 },
+         "out":{
+            "comps":1
+         }
+      },
+      {
+         "id":"engineer-scons",
+         "name":"Engineering Scons",
+         "producers":[
+            "engineering-station-9"
+         ],
+         "time":160,
+         "cost":1000,
+         "in":{
+            "pcons":3,
+			"comps":20,
+			"eoil":6
+		 },
+         "out":{
+            "scons":1
+         }
+      },
+      {
+         "id":"engineer-scons",
+         "name":"Engineering Sulfur Scons",
+         "producers":[
+            "engineering-station-8"
+         ],
+         "time":160,
+         "cost":1000,
+         "in":{
+            "pcons":3,
+			"comps":20,
+			"sulfur":20,
+			"eoil":3
+		 },
+         "out":{
+            "scons":3
+         }
+      },
+      {
+         "id":"engineer-nams",
+         "name":"Engineering Nams",
+         "producers":[
+            "engineering-station-8"
+         ],
+         "time":160,
+         "cost":1000,
+         "in":{
+            "scons":1,
+			"eoil":6
+		 },
+         "out":{
+            "nams":1
          }
       },
       {
