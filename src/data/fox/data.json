@@ -180,6 +180,51 @@
          "position":"-0px -1984px"
       },
       {
+         "id":"small",
+         "color":"#766d6d",
+         "position":"-192px -0px"
+      },
+      {
+         "id":"heavyarms",
+         "color":"#766d6d",
+         "position":"-384px -256px"
+      },
+      {
+         "id":"heavyammo",
+         "color":"#766d6d",
+         "position":"-384px -384px"
+      },
+      {
+         "id":"flame-barrel",
+         "color":"#766d6d",
+         "position":"-448px -768px"
+      },
+      {
+         "id":"rocket",
+         "color":"#766d6d",
+         "position":"-256px -320px"
+      },
+      {
+         "id":"in-rocket",
+         "color":"#766d6d",
+         "position":"-128px -320px"
+      },
+      {
+         "id":"75mm",
+         "color":"#766d6d",
+         "position":"-192px -384px"
+      },
+      {
+         "id":"94-5mm",
+         "color":"#766d6d",
+         "position":"-256px -448px"
+      },
+      {
+         "id":"300mm",
+         "color":"#766d6d",
+         "position":"-448px -384px"
+      },
+      {
          "id":"fluids",
          "color":"#72645f",
          "position":"-448px -640px"
@@ -376,6 +421,21 @@
       },
       {
          "id":"engineering-station-9",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"ammo-factory",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"rocket-factory",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"large-shell-factory",
          "color":"#766d6d",
          "position":"-256px -1856px"
       },
@@ -1806,6 +1866,48 @@
          "category":"raw",
          "id":"coke",
          "name":"Coke",
+         "row":1,
+         "stack":100
+      },
+      {
+         "category":"heavyammo",
+         "id":"flame-barrel",
+         "name":"Flame Barrel",
+         "row":1,
+         "stack":100
+      },
+      {
+         "category":"heavyammo",
+         "id":"rocket",
+         "name":"Rocket",
+         "row":1,
+         "stack":100
+      },
+      {
+         "category":"heavyammo",
+         "id":"in-rocket",
+         "name":"Incendiary Rocket",
+         "row":1,
+         "stack":100
+      },
+      {
+         "category":"heavyammo",
+         "id":"75mm",
+         "name":"75mm HE Round",
+         "row":1,
+         "stack":100
+      },
+      {
+         "category":"heavyammo",
+         "id":"94-5mm",
+         "name":"94.5mm AT Round",
+         "row":1,
+         "stack":100
+      },
+      {
+         "category":"heavyammo",
+         "id":"300mm",
+         "name":"300mm Round",
          "row":1,
          "stack":100
       },
@@ -3265,6 +3367,45 @@
       },
       {
          "category":"other",
+         "id":"ammo-factory",
+         "name":"Ammunition Factory",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":4000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"rocket-factory",
+         "name":"Rocket Factory",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":4000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"large-shell-factory",
+         "name":"large-shell-factory",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":4000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
          "id":"diesel-power-plant",
          "name":"Diesel Power Plant",
          "row":6,
@@ -4285,6 +4426,102 @@
 		 },
          "out":{
             "nams":1
+         }
+      },
+      {
+         "id":"ammo-factory-flame-barrel",
+         "name":"Ammo Factory Flame Barrel",
+         "producers":[
+            "ammo-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "hemats":1,
+			"bcons":1
+		 },
+         "out":{
+            "flame-barrel":1
+         }
+      },
+      {
+         "id":"rocket",
+         "name":"Rocket",
+         "producers":[
+            "rocket-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "hemats":2,
+			"bcons":2
+		 },
+         "out":{
+            "rocket":1
+         }
+      },
+      {
+         "id":"in-rocket",
+         "name":"Incendiary Rocket",
+         "producers":[
+            "rocket-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "hemats":2,
+			"bcons":2
+		 },
+         "out":{
+            "in-rocket":1
+         }
+      },
+      {
+         "id":"75mm",
+         "name":"75mm HE Round",
+         "producers":[
+            "large-shell-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "hemats":2,
+			"bcons":2
+		 },
+         "out":{
+            "75mm":1
+         }
+      },
+      {
+         "id":"94-5mm",
+         "name":"94.5mm AT Round",
+         "producers":[
+            "large-shell-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "hemats":2,
+			"bcons":2
+		 },
+         "out":{
+            "94-5mm":1
+         }
+      },
+      {
+         "id":"300mm",
+         "name":"300mm Round",
+         "producers":[
+            "large-shell-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "hemats":6,
+			"bcons":3
+		 },
+         "out":{
+            "300mm":1
          }
       },
       {
