@@ -220,6 +220,21 @@
          "position":"-256px -1600px"
       },
       {
+         "id":"sandbags",
+         "color":"#766d6d",
+         "position":"-448px -1600px"
+      },
+      {
+         "id":"barbed-wire",
+         "color":"#766d6d",
+         "position":"-384px -1600px"
+      },
+      {
+         "id":"metal-beams",
+         "color":"#766d6d",
+         "position":"-0px -1664px"
+      },
+      {
          "id":"petrol-miner",
          "color":"#766d6d",
          "position":"-448px -1856px"
@@ -1659,9 +1674,58 @@
          "stack":100
       },
       {
+         "category":"ams",
+         "id":"cams",
+         "name":"Coal Assembly Materials",
+         "row":0,
+         "stack":100
+      },
+      {
+         "category":"ams",
+         "id":"pams",
+         "name":"Petrol Assembly Materials",
+         "row":0,
+         "stack":100
+      },
+      {
+         "category":"ams",
+         "id":"sams",
+         "name":"Sulfur Assembly Materials",
+         "row":0,
+         "stack":100
+      },
+      {
+         "category":"ams",
+         "id":"hams",
+         "name":"Heavy Oil Assembly Materials",
+         "row":0,
+         "stack":100
+      },
+      {
+         "category":"ams",
+         "id":"nams",
+         "name":"Encriched Oil Assembly Materials",
+         "row":0,
+         "stack":100
+      },
+      {
          "category":"shippable",
-         "id":"bauxite",
-         "name":"Bauxite",
+         "id":"sandbags",
+         "name":"Sandbags",
+         "row":0,
+         "stack":100
+      },
+      {
+         "category":"shippable",
+         "id":"metal-beams",
+         "name":"Metal Beams",
+         "row":0,
+         "stack":100
+      },
+      {
+         "category":"shippable",
+         "id":"barbed-wire",
+         "name":"Barbed Wire",
          "row":0,
          "stack":100
       },
@@ -3736,6 +3800,72 @@
 		 },
          "out":{
             "pams":1
+         }
+      },
+      {
+         "id":"metal-press-bcons",
+         "name":"Metal Press Bcons",
+         "producers":[
+            "metal-press"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "scrap":20,
+			"petrol":6
+		 },
+         "out":{
+            "bcons":3
+         }
+      },
+      {
+         "id":"recycler-sandbags",
+         "name":"Recycler Sandbags",
+         "producers":[
+            "mat-recycler"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "scrap":25
+		 },
+         "out":{
+			"sandbags":5,
+            "bcons":1
+			
+         }
+      },
+      {
+         "id":"recycler-wire",
+         "name":"Recycler Barbed Wire",
+         "producers":[
+            "mat-recycler"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "scrap":25
+		 },
+         "out":{
+			"barbed-wire":5,
+            "bcons":1
+			
+         }
+      },
+      {
+         "id":"smelter-bcons",
+         "name":"Smelter bCons",
+         "producers":[
+            "smelter"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "scrap":20,
+			"coke":30
+		 },
+         "out":{
+            "bcons":3
          }
       },
       {
