@@ -295,6 +295,31 @@
          "position":"-320px -1856px"
       },
       {
+         "id":"materials-factory",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"forge",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"metal-press",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"mat-recycler",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"smelter",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
          "id":"ai-limiter",
          "color":"#333735",
          "position":"-128px -0px"
@@ -1371,11 +1396,6 @@
          "position":"-512px -768px"
       },
       {
-         "id":"smelter",
-         "color":"#655b4f",
-         "position":"-576px -768px"
-      },
-      {
          "id":"smokeless-powder",
          "color":"#7e6567",
          "position":"-640px -768px"
@@ -1614,6 +1634,27 @@
          "category":"mats",
          "id":"concrete",
          "name":"Concrete Materials",
+         "row":0,
+         "stack":100
+      },
+      {
+         "category":"cons",
+         "id":"bcons",
+         "name":"Construction Materials",
+         "row":0,
+         "stack":100
+      },
+      {
+         "category":"cons",
+         "id":"pcons",
+         "name":"Processed Construction Materials",
+         "row":0,
+         "stack":100
+      },
+      {
+         "category":"cons",
+         "id":"scons",
+         "name":"Steel Construction Materials",
          "row":0,
          "stack":100
       },
@@ -2720,7 +2761,7 @@
             "speed":1,
             "type":"electric",
             "usage":2000,
-            "modules":1
+            "modules":0
          }
       },
       {
@@ -2915,6 +2956,136 @@
             "speed":1,
             "type":"electric",
             "usage":4000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"materials-factory",
+         "name":"Materials Factory",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":25,
+            "type":"electric",
+            "usage":2000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"forge",
+         "name":"Forge",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":60,
+            "type":"electric",
+            "usage":2000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"metal-press",
+         "name":"Metal Press",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":25,
+            "type":"electric",
+            "usage":4000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"mat-recycler",
+         "name":"Materials Recycler",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":25,
+            "type":"electric",
+            "usage":2000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"smelter",
+         "name":"Smelter",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":25,
+            "type":"electric",
+            "usage":4000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"metalworks",
+         "name":"Metalworks Factory",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":5000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"blast-furnace",
+         "name":"Blast Furnace",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":5000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"metal-recycler",
+         "name":"Metalworks Recycler",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":5000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"engineering-station-9",
+         "name":"Engineering Station",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":9000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"engineering-station-8",
+         "name":"Engineering Station",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":8000,
             "modules":0
          }
       },
@@ -3185,17 +3356,6 @@
             "type":"electric",
             "usage":30000,
             "modules":1
-         }
-      },
-      {
-         "category":"other",
-         "id":"smelter",
-         "name":"Smelter",
-         "row":6,
-         "factory":{
-            "speed":1,
-            "type":"electric",
-            "usage":4000
          }
       },
       {
@@ -3512,6 +3672,38 @@
          "out":{
             "hoil":30,
 			"concrete":1
+         }
+      },
+      {
+         "id":"adv-coal-liquefier",
+         "name":"Advanced Coal Liquefier",
+         "producers":[
+            "adv-coal-liquefier"
+         ],
+         "time":180,
+         "cost":1000,
+         "in":{
+            "coal":300,
+			"water":150
+		 },
+         "out":{
+            "hoil":60,
+			"coke":260
+         }
+      },
+      {
+         "id":"materials-factory",
+         "name":"Materials Factory",
+         "producers":[
+            "materials-factory"
+         ],
+         "time":25,
+         "cost":1000,
+         "in":{
+            "scrap":20
+		 },
+         "out":{
+            "bcons":1
          }
       },
       {
