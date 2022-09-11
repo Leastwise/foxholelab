@@ -23,10 +23,6 @@
           <span class="separator">|</span>
           <a href="satisfactory">{{ 'game.Satisfactory' | translate }}</a>
         </ng-container>
-        <ng-container *ngIf="vm.game !== Game.Foxhole">
-          <span class="separator">|</span>
-          <a href="foxhole">{{ 'game.Foxhole' | translate }}</a>
-        </ng-container>
       </div>
       <div class="links">
         <a

@@ -79,7 +79,6 @@ export const data: AppData = {
     'ang',
     'msc',
     'sfy',
-	'fox',
     'coi',
     'qat',
     '1.1e',
