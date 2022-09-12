@@ -1756,6 +1756,76 @@
          "position":"-256px -1856px"
       },
       {
+         "id":"vics",
+         "color":"#766d6d",
+         "position":"-128px -1472px"
+      },
+      {
+         "id":"lv-assembly",
+         "color":"#766d6d",
+         "position":"-128px -1472px"
+      },
+      {
+         "id":"r1-hauler",
+         "color":"#766d6d",
+         "position":"-128px -1472px"
+      },
+      {
+         "id":"r1-upgrade",
+         "color":"#766d6d",
+         "position":"-384px -1472px"
+      },
+      {
+         "id":"motorpool",
+         "color":"#766d6d",
+         "position":"-128px -1408px"
+      },
+      {
+         "id":"argonaut",
+         "color":"#766d6d",
+         "position":"-128px -1408px"
+      },
+      {
+         "id":"icarus",
+         "color":"#766d6d",
+         "position":"-192px -1408px"
+      },
+      {
+         "id":"odyssey",
+         "color":"#766d6d",
+         "position":"-320px -1408px"
+      },
+      {
+         "id":"actaeon",
+         "color":"#766d6d",
+         "position":"-128px -960px"
+      },
+      {
+         "id":"vesta",
+         "color":"#766d6d",
+         "position":"-128px -960px"
+      },
+      {
+         "id":"xiphos",
+         "color":"#766d6d",
+         "position":"-64px -960px"
+      },
+      {
+         "id":"gemini",
+         "color":"#766d6d",
+         "position":"-64px -1728px"
+      },
+      {
+         "id":"percutio",
+         "color":"#766d6d",
+         "position":"-256px -960px"
+      },
+      {
+         "id":"ixion",
+         "color":"#766d6d",
+         "position":"-0px -1472px"
+      },
+      {
          "id":"pipeline",
          "color":"#766d6d",
          "position":"-64px -1984px"
@@ -1955,6 +2025,83 @@
          "name":"300mm Round",
          "row":1,
          "stack":100
+      },
+      {
+         "category":"vics",
+         "id":"r1-hauler",
+         "name":"R-1 Hauler",
+         "row":1,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"r1-upgrade",
+         "name":"R-1 Hauler Upgrade",
+         "row":1,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"odyssey",
+         "name":"UV-5c Odyssey",
+         "row":2,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"argonaut",
+         "name":"UV-5a Argonaut",
+         "row":2,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"icarus",
+         "name":"UV-24 Icarus",
+         "row":2,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"actaeon",
+         "name":"T12 Actaeon Tankette",
+         "row":3,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"vesta",
+         "name":"T14 Vesta Tankette",
+         "row":3,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"ixion",
+         "name":"T20 Ixion Tankette",
+         "row":3,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"xiphos",
+         "name":"T3 Xiphos Armored Car",
+         "row":4,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"gemini",
+         "name":"T8 Gemini RPG Armored Car",
+         "row":4,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"percutio",
+         "name":"T5 Percutio AT Armored Car",
+         "row":4,
+         "stack":1
       },
       {
          "category":"fluids",
@@ -2453,6 +2600,32 @@
       },
       {
          "category":"other",
+         "id":"lv-assembly",
+         "name":"Light Vehicle Assembly Station",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":2000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"motorpool",
+         "name":"Motor Pool",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":2000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
          "id":"diesel-power-plant",
          "name":"Diesel Power Plant",
          "row":6,
@@ -2506,15 +2679,14 @@
          }
       },
       {
-         "category":"other",
+         "category":"vics",
          "id":"short-gauge",
          "name":"BMS Minesweeper Small-Gauge Locomotive",
-         "row":0,
+         "row":1,
          "belt":{
             "speed":1
          }
       }
-	  
    ],
    "recipes":[
       {
@@ -3298,8 +3470,140 @@
          "out":{
             "300mm":1
          }
+      },
+      {
+         "id":"r1-upgrade",
+         "name":"R-1 Upgrade",
+         "producers":[
+            "lv-assembly"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "bcons":10,
+            "r1-hauler":1
+         },
+         "out":{
+            "r1-upgrade":1
+         }
+      },
+      {
+         "id":"small-gauge",
+         "name":"BMS Minesweeper Small-Gauge Locomotive",
+         "producers":[
+            "lv-assembly"
+         ],
+         "time":900,
+         "cost":1000,
+         "in":{
+            "pcons":35
+         },
+         "out":{
+            "r1-upgrade":1
+         }
+      },
+      {
+         "id":"argonaut",
+         "name":"UV-05a Argonaut",
+         "producers":[
+            "motorpool"
+         ],
+         "time":180,
+         "cost":1000,
+         "in":{
+            "bcons":5,
+            "odyssey":1
+         },
+         "out":{
+            "argonaut":1
+         }
+      },
+      {
+         "id":"icarus",
+         "name":"UV-24 Icarus RPG LUV",
+         "producers":[
+            "motorpool"
+         ],
+         "time":180,
+         "cost":1000,
+         "in":{
+            "bcons":5,
+            "odyssey":1,
+            "pams":10
+         },
+         "out":{
+            "icarus":1
+         }
+      },
+      {
+         "id":"vesta",
+         "name":"T14 Vesta Tankette",
+         "producers":[
+            "motorpool"
+         ],
+         "time":600,
+         "cost":1000,
+         "in":{
+            "pcons":10,
+            "actaeon":1,
+            "cams":15
+         },
+         "out":{
+            "vesta":1
+         }
+      },
+      {
+         "id":"gemini",
+         "name":"T8 Gemini RPG Armored Car",
+         "producers":[
+            "motorpool"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "bcons":20,
+            "xiphos":1,
+            "cams":10
+         },
+         "out":{
+            "gemini":1
+         }
+      },
+      {
+         "id":"percutio",
+         "name":"T5 Percutio AT Armored Car",
+         "producers":[
+            "motorpool"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":10,
+            "xiphos":1,
+            "cams":10
+         },
+         "out":{
+            "percutio":1
+         }
+      },
+      {
+         "id":"ixion",
+         "name":"T20 Ixion Tankette",
+         "producers":[
+            "motorpool"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "bcons":20,
+            "xiphos":1,
+            "cams":15
+         },
+         "out":{
+            "ixion":1
+         }
       }
-   ],   
+   ],
    "defaults":{
       "minBelt":"short-gauge",
       "maxBelt":"short-gauge",
@@ -3309,6 +3613,7 @@
       "cargoWagon":"freight-car",
       "fluidWagon":"freight-car",
       "disabledRecipes":[
+         
       ],
       "minFactoryRank":[
          "hammer-mine"
