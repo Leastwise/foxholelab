@@ -34,6 +34,7 @@ export const data: AppData = {
     { id: 'xan', name: 'Xander Mod', game: Game.Factorio },
     { id: 'dsp', name: 'Dyson Sphere Program', game: Game.DysonSphereProgram },
     { id: 'sfy', name: 'Satisfactory', game: Game.Satisfactory },
+	{ id: 'fox', name: 'Foxhole', game: Game.Foxhole },
     { id: 'coi', name: 'Captain of Industry', game: Game.CaptainOfIndustry },
   ],
   v0: [

@@ -6,12 +6,9 @@ This is the repository for the [FactorioLab](https://factoriolab.github.io) proj
 This project is intended to build on the features of the Kirk McDonald [Factorio Calculator](https://kirkmcdonald.github.io) ([GitHub](https://github.com/KirkMcDonald/kirkmcdonald.github.io)). It is built from the ground up using Angular, Redux, and Typescript.
 
 **For instructions on how to use this tool,** check out the [wiki](https://github.com/factoriolab/factoriolab/wiki).
+.
 
-**To submit suggestions or issues,** please check out the [issues page](https://github.com/factoriolab/factoriolab/issues).
-
-**To discuss the calculator,** join the [Discord](https://discord.gg/N4FKV687x2).
-
-**If you love FactorioLab,** consider supporting it by [buying me a ☕](https://ko-fi.com/dcbroad3)!
+**If you love FactorioLab,** consider supporting it by [buying the developer of FactorioLab a ☕](https://ko-fi.com/dcbroad3)!
 
 ## Running online
 

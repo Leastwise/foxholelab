@@ -67,6 +67,10 @@ export function columnOptions(game: Game): SelectItem<Column>[] {
       return result.filter(
         (i) => i.value !== Column.Beacons && i.value !== Column.Pollution
       );
+    case Game.Foxhole:
+      return result.filter(
+        (i) => i.value !== Column.Beacons && i.value !== Column.Pollution
+      );
   }
 
   return [];

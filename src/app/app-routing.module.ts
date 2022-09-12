@@ -34,6 +34,10 @@ const routes: Routes = [
     redirectTo: '/list?s=sfy&v=4',
   },
   {
+    path: 'foxhole',
+    redirectTo: '/list?s=fox&v=4',
+  },
+  {
     path: '**',
     redirectTo: 'list',
   },
