@@ -42,6 +42,14 @@ export const gameInfo: Record<Game, GameInfo> = {
     meta: 'Satisfactory',
     modId: 'sfy',
   },
+  [Game.Foxhole]: {
+    icon: 'satisfactory',
+    route: 'foxhole',
+    title: 'title.fox',
+    label: 'options.game.foxhole',
+    meta: 'Foxhole',
+    modId: 'fox',
+  },
   [Game.CaptainOfIndustry]: {
     icon: 'captain-of-industry',
     route: 'coi',
