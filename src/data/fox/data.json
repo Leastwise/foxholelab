@@ -1631,7 +1631,12 @@
          "position":"-128px -1920px"
       },
       {
-         "id":"oil-well-t1",
+         "id":"e-oil-well",
+         "color":"#766d6d",
+         "position":"-128px -1920px"
+      },
+      {
+         "id":"fracker",
          "color":"#766d6d",
          "position":"-128px -1920px"
       },
@@ -2276,8 +2281,8 @@
       },
       {
          "category":"other",
-         "id":"oil-well-t1",
-         "name":"Electric Oil Well T1",
+         "id":"e-oil-well",
+         "name":"Electric Oil Well",
          "row":5,
          "factory":{
             "mining":true,
@@ -2289,14 +2294,14 @@
       },
       {
          "category":"other",
-         "id":"oil-well-t2",
-         "name":"Electric Oil Well T2",
+         "id":"fracker",
+         "name":"Fracker",
          "row":5,
          "factory":{
             "mining":true,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "usage":3000,
             "modules":0
          }
       },
@@ -2489,7 +2494,7 @@
          "row":5,
          "factory":{
             "mining":false,
-            "speed":25,
+            "speed":1,
             "type":"electric",
             "usage":2000,
             "modules":0
@@ -2502,7 +2507,7 @@
          "row":5,
          "factory":{
             "mining":false,
-            "speed":60,
+            "speed":1,
             "type":"electric",
             "usage":2000,
             "modules":0
@@ -2515,7 +2520,7 @@
          "row":5,
          "factory":{
             "mining":false,
-            "speed":25,
+            "speed":1,
             "type":"electric",
             "usage":4000,
             "modules":0
@@ -2528,7 +2533,7 @@
          "row":5,
          "factory":{
             "mining":false,
-            "speed":25,
+            "speed":1,
             "type":"electric",
             "usage":2000,
             "modules":0
@@ -2541,7 +2546,7 @@
          "row":5,
          "factory":{
             "mining":false,
-            "speed":25,
+            "speed":1,
             "type":"electric",
             "usage":4000,
             "modules":0
@@ -2721,6 +2726,17 @@
             "speed":1,
             "type":"electric",
             "usage":-10000
+         }
+      },
+      {
+         "category":"other",
+         "id":"sulfuric-reactor",
+         "name":"Sulfuric Reactor",
+         "row":6,
+         "factory":{
+            "speed":1,
+            "type":"electric",
+            "usage":16000
          }
       },
       {
@@ -2966,8 +2982,8 @@
          }
       },
       {
-         "id":"oil",
-         "name":"Oil Well",
+         "id":"oil-well",
+         "name":"Oil Well (Can)",
          "producers":[
             "oil-well"
          ],
@@ -2981,10 +2997,10 @@
          }
       },
       {
-         "id":"oil-t1",
-         "name":"Electric Oil Well T1",
+         "id":"e-oil-well-can",
+         "name":"Electric Oil Well (Can)",
          "producers":[
-            "oil-well-t1"
+            "e-oil-well"
          ],
          "time":26,
          "cost":1000,
@@ -2996,10 +3012,10 @@
          }
       },
       {
-         "id":"oil-fluid",
-         "name":"Electric Oil Well T2",
+         "id":"e-oil-well-pipe",
+         "name":"Electric Oil Well (Pipeline)",
          "producers":[
-            "oil-well-t2"
+            "e-oil-well"
          ],
          "time":40,
          "cost":1000,
@@ -3008,6 +3024,36 @@
          },
          "in":{
             
+         }
+      },
+      {
+         "id":"fracker-can",
+         "name":"Fracker Oil (Can)",
+         "producers":[
+            "fracker"
+         ],
+         "time":40,
+         "cost":1000,
+         "out":{
+            "oil":50
+         },
+         "in":{
+			 "water":25
+         }
+      },
+      {
+         "id":"fracker-can",
+         "name":"Fracker Oil (Pipeline)",
+         "producers":[
+            "fracker"
+         ],
+         "time":30,
+         "cost":1000,
+         "out":{
+            "oil":75
+         },
+         "in":{
+			 "water":25
          }
       },
       {
@@ -3027,7 +3073,7 @@
       },
       {
          "id":"water-e",
-         "name":"Electric Pump Water",
+         "name":"Electric Pump Water (Can)",
          "producers":[
             "e-water-pump-0"
          ],
@@ -3042,7 +3088,7 @@
       },
       {
          "id":"water-fluid",
-         "name":"Pipeline Water",
+         "name":"Electric Pump Water (Pipeline)",
          "producers":[
             "e-water-pump"
          ],
@@ -3758,6 +3804,37 @@
          },
          "out":{
             "power":600
+         }
+      },
+      {
+         "id":"reactor-oil-sulfur",
+         "name":"Sulfuric Reactor (Oil)",
+         "producers":[
+            "sulfuric-reactor"
+         ],
+         "time":120,
+         "cost":1000,
+         "in":{
+            "oil":50
+         },
+         "out":{
+            "sulfur":1
+         }
+      },
+      {
+         "id":"reactor-coke-sulfur",
+         "name":"Sulfuric Reactor (Coke)",
+         "producers":[
+            "sulfuric-reactor"
+         ],
+         "time":120,
+         "cost":1000,
+         "in":{
+            "coke":60,
+			"water":25
+         },
+         "out":{
+            "sulfur":1
          }
       }
    ],
