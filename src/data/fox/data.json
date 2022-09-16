@@ -1673,7 +1673,7 @@
       {
          "id":"oil-refinery",
          "color":"#766d6d",
-         "position":"-320px -1856px"
+         "position":"-448px -1984px"
       },
       {
          "id":"reformer",
@@ -1693,7 +1693,7 @@
       {
          "id":"coal-refinery",
          "color":"#766d6d",
-         "position":"-320px -1856px"
+         "position":"-0px -2048px"
       },
       {
          "id":"coke-furnace",
@@ -1713,72 +1713,72 @@
       {
          "id":"materials-factory",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-256px -1984px"
       },
       {
          "id":"forge",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-256px -1984px"
       },
       {
          "id":"metal-press",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-256px -1984px"
       },
       {
          "id":"mat-recycler",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-256px -1984px"
       },
       {
          "id":"smelter",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-256px -1984px"
       },
       {
          "id":"metalworks",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-320px -1984px"
       },
       {
          "id":"blast-furnace",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-320px -1984px"
       },
       {
          "id":"blast-furnace-8",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-320px -1984px"
       },
       {
          "id":"metal-recycler",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-320px -1984px"
       },
       {
          "id":"engineering-station-8",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-320px -1984px"
       },
       {
          "id":"engineering-station-9",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-320px -1984px"
       },
       {
          "id":"ammo-factory",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-384px -1984px"
       },
       {
          "id":"rocket-factory",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-384px -1984px"
       },
       {
          "id":"large-shell-factory",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-384px -1984px"
       },
       {
          "id":"vics",
