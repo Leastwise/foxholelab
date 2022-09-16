@@ -2922,7 +2922,7 @@
          }
       },
       {
-         "id":"scrap",
+         "id":"auto-harvester-scrap",
          "name":"Auto-Harvester Scrap",
          "producers":[
             "petrol-miner"
@@ -2937,7 +2937,7 @@
          }
       },
       {
-         "id":"coal",
+         "id":"auto-harvester-coal",
          "name":"Auto-Harvester Coal",
          "producers":[
             "petrol-miner"
@@ -2952,7 +2952,7 @@
          }
       },
       {
-         "id":"sulfur",
+         "id":"auto-harvester-sulfur",
          "name":"Auto-Harvester Sulfur",
          "producers":[
             "hoil-miner"
@@ -2967,7 +2967,7 @@
          }
       },
       {
-         "id":"comps",
+         "id":"auto-harvester-comps",
          "name":"Auto-Harvester Components",
          "producers":[
             "hoil-miner"
@@ -3042,7 +3042,7 @@
          }
       },
       {
-         "id":"fracker-can",
+         "id":"fracker-pipeline",
          "name":"Fracker Oil - Oil Pipeline",
          "producers":[
             "fracker"
@@ -3057,7 +3057,7 @@
          }
       },
       {
-         "id":"water",
+         "id":"water-pump-water",
          "name":"Water Pump - Water Can",
          "producers":[
             "water-pump"
@@ -3847,7 +3847,53 @@
       "cargoWagon":"freight-car",
       "fluidWagon":"freight-car",
       "disabledRecipes":[
-         
+		"sledge-mine-scrap",
+		"sledge-mine-coal",
+		"sledge-mine-comps",
+		"sledge-mine-sulfur",
+		"harvester-scrap",
+		"harvester-comps",
+		"harvester-coal",
+		"harvester-sulfur",
+		"auto-harvester-scrap",
+		"auto-harvester-coal",
+		"auto-harvester-sulfur",
+		"auto-harvester-comps",
+		"e-oil-well-can",
+		"e-oil-well-pipe",
+		"fracker-can",
+		"fracker-pipeline",
+		"water-e",
+		"water-fluid",
+		"petrol-reformer",
+		"hoil",
+		"eoil",
+		"coke-furnace",
+		"coal-liquefier",
+		"adv-coal-liquefier",
+		"metal-press-bcons",
+		"recycler-sandbags",
+		"recycler-wire",
+		"smelter-bcons",
+		"metalworks-pcons",
+		"blast-furnace-hams",
+		"blast-furnace-sams",
+		"blast-furnace-pCons",
+		"metal-recycler-beams",
+		"metal-recycler-scrap",
+		"engineer-scons",
+		"engineer-sulfur-scons",
+		"engineer-nams",
+		"rocket",
+		"in-rocket",
+		"75mm",
+		"94-5mm",
+		"300mm",
+		"petrol-power",
+		"oil-power",
+		"coal-power",
+		"reactor-oil-sulfur",
+		"reactor-coke-sulfur"
       ],
       "minFactoryRank":[
          "hammer-mine"
