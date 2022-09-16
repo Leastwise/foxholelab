@@ -1531,17 +1531,27 @@
          "position":"-128px -320px"
       },
       {
-         "id":"75mm",
+         "id":"seven-five-mm",
          "color":"#766d6d",
          "position":"-192px -384px"
       },
       {
-         "id":"94-5mm",
+         "id":"nine-four-five-mm",
          "color":"#766d6d",
          "position":"-256px -448px"
       },
       {
-         "id":"300mm",
+         "id":"one-twenty-mm",
+         "color":"#766d6d",
+         "position":"-384px -384px"
+      },
+      {
+         "id":"one-fifty-mm",
+         "color":"#766d6d",
+         "position":"-192px -384px"
+      },
+      {
+         "id":"three-hundred-mm",
          "color":"#766d6d",
          "position":"-448px -384px"
       },
@@ -1777,6 +1787,11 @@
       },
       {
          "id":"large-shell-factory",
+         "color":"#766d6d",
+         "position":"-384px -1984px"
+      },
+      {
+         "id":"large-shell-factory-6",
          "color":"#766d6d",
          "position":"-384px -1984px"
       },
@@ -2039,23 +2054,37 @@
       },
       {
          "category":"heavyammo",
-         "id":"75mm",
+         "id":"seven-five-mm",
          "name":"75mm HE Round",
          "row":1,
          "stack":100
       },
       {
          "category":"heavyammo",
-         "id":"94-5mm",
+         "id":"nine-four-five-mm",
          "name":"94.5mm AT Round",
          "row":1,
          "stack":100
       },
       {
          "category":"heavyammo",
-         "id":"300mm",
+         "id":"one-twenty-mm",
+         "name":"120mm Round",
+         "row":2,
+         "stack":100
+      },
+      {
+         "category":"heavyammo",
+         "id":"one-fifty-mm",
+         "name":"150mm Round",
+         "row":2,
+         "stack":100
+      },
+      {
+         "category":"heavyammo",
+         "id":"three-hundred-mm",
          "name":"300mm Round",
-         "row":1,
+         "row":2,
          "stack":100
       },
       {
@@ -2666,6 +2695,19 @@
             "speed":1,
             "type":"electric",
             "usage":4000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"large-shell-factory-6",
+         "name":"large-shell-factory",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":6000,
             "modules":0
          }
       },
@@ -3518,10 +3560,10 @@
          }
       },
       {
-         "id":"ammo-factory-flame-barrel",
+         "id":"flame-barrel",
          "name":"Ammo Factory - Flame Barrel",
          "producers":[
-            "ammo-factory"
+            "rocket-factory"
          ],
          "time":25,
          "cost":1000,
@@ -3566,7 +3608,7 @@
          }
       },
       {
-         "id":"75mm",
+         "id":"seven-five-mm",
          "name":"Large Shell Factory - 75mm HE Round",
          "producers":[
             "large-shell-factory"
@@ -3578,11 +3620,11 @@
             "bcons":2
          },
          "out":{
-            "75mm":1
+            "seven-five-mm":1
          }
       },
       {
-         "id":"94-5mm",
+         "id":"nine-four-five-mm",
          "name":"Large Shell Factory - 94.5mm AT Round",
          "producers":[
             "large-shell-factory"
@@ -3594,14 +3636,46 @@
             "bcons":2
          },
          "out":{
-            "94-5mm":1
+            "nine-four-five-mm":1
          }
       },
       {
-         "id":"300mm",
-         "name":"Large Shell Factory - 300mm Round",
+         "id":"one-twenty-mm",
+         "name":"Large Shell Factory - 120mm Round",
          "producers":[
             "large-shell-factory"
+         ],
+         "time":15,
+         "cost":1000,
+         "in":{
+            "emats":3,
+            "bcons":2
+         },
+         "out":{
+            "one-twenty-mm":1
+         }
+      },
+      {
+         "id":"one-fifty-mm",
+         "name":"Large Shell Factory - 150mm Round",
+         "producers":[
+            "large-shell-factory"
+         ],
+         "time":20,
+         "cost":1000,
+         "in":{
+            "hemats":2,
+            "bcons":3
+         },
+         "out":{
+            "one-fifty-mm":1
+         }
+      },
+      {
+         "id":"three-hundred-mm",
+         "name":"Large Shell Factory - 300mm Round",
+         "producers":[
+            "large-shell-factory-6"
          ],
          "time":25,
          "cost":1000,
@@ -3610,7 +3684,7 @@
             "bcons":3
          },
          "out":{
-            "300mm":1
+            "three-hundred-mm":1
          }
       },
       {
@@ -3886,9 +3960,9 @@
 		"engineer-nams",
 		"rocket",
 		"in-rocket",
-		"75mm",
-		"94-5mm",
-		"300mm",
+		"seven-five-mm",
+		"nine-four-five-mm",
+		"three-hundred-mm",
 		"petrol-power",
 		"oil-power",
 		"coal-power",
