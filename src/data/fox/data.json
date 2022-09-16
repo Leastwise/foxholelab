@@ -2826,8 +2826,12 @@
          "id":"sm-container-car",
          "name":"Small Container Car",
          "row":1,
-         "belt":{
-            "speed":1
+		 "stack":1,
+         "cargoWagon":{
+            "size":40
+         },
+		 "fluidWagon":{
+            "capacity":1
          }
       },
       {
@@ -2835,8 +2839,12 @@
          "id":"sm-flatbed-car",
          "name":"Small Flatbed Car",
          "row":1,
-         "belt":{
-            "speed":1
+		 "stack":1,
+         "cargoWagon":{
+            "size":40
+         },
+		 "fluidWagon":{
+            "capacity":1
          }
       }
    ],
