@@ -1874,6 +1874,16 @@
          "id":"short-gauge",
          "color":"#766d6d",
          "position":"-192px -1920px"
+      },
+      {
+         "id":"sm-container-car",
+         "color":"#766d6d",
+         "position":"-192px -1920px"
+      },
+      {
+         "id":"sm-flatbed-car",
+         "color":"#766d6d",
+         "position":"-192px -1920px"
       }
    ],
    "items":[
@@ -2810,6 +2820,24 @@
          "belt":{
             "speed":1
          }
+      },
+      {
+         "category":"vics",
+         "id":"sm-container-car",
+         "name":"Small Container Car",
+         "row":1,
+         "belt":{
+            "speed":1
+         }
+      },
+      {
+         "category":"vics",
+         "id":"sm-flatbed-car",
+         "name":"Small Flatbed Car",
+         "row":1,
+         "belt":{
+            "speed":1
+         }
       }
    ],
    "recipes":[
@@ -3704,7 +3732,7 @@
          }
       },
       {
-         "id":"small-gauge",
+         "id":"short-gauge",
          "name":"BMS Minesweeper Small-Gauge Locomotive",
          "producers":[
             "lv-assembly"
@@ -3712,10 +3740,46 @@
          "time":900,
          "cost":1000,
          "in":{
-            "pcons":35
+            "bcons":125,
+			"cams":10,
+			"pams":20
          },
          "out":{
-            "r1-upgrade":1
+            "short-gauge":1
+         }
+      },
+      {
+         "id":"sm-container-car",
+         "name":"Small Container Car",
+         "producers":[
+            "lv-assembly"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "bcons":35,
+			"cams":15,
+			"pams":5
+         },
+         "out":{
+            "sm-container-car":1
+         }
+      },
+      {
+         "id":"sm-flatbed-car",
+         "name":"Small Flatbed Car",
+         "producers":[
+            "lv-assembly"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "bcons":35,
+			"cams":15,
+			"pams":5
+         },
+         "out":{
+            "sm-flatbed-car":1
          }
       },
       {
