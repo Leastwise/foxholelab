@@ -1626,6 +1626,11 @@
          "position":"-64px -1216px"
       },
       {
+         "id":"harvester-vic",
+         "color":"#766d6d",
+         "position":"-64px -1216px"
+      },
+      {
          "id":"petrol-miner",
          "color":"#766d6d",
          "position":"-448px -1856px"
@@ -1893,7 +1898,37 @@
       {
          "id":"lv-assembly-upgrade",
          "color":"#766d6d",
-         "position":"-448px -1216px"
+         "position":"-64px -1216px"
+      },
+      {
+         "id":"ballista",
+         "color":"#766d6d",
+         "position":"-128px -1344px"
+      },
+      {
+         "id":"scorpion",
+         "color":"#766d6d",
+         "position":"-320px -1216px"
+      },
+      {
+         "id":"doru",
+         "color":"#766d6d",
+         "position":"-192px -1216px"
+      },
+      {
+         "id":"acheron",
+         "color":"#766d6d",
+         "position":"-128px -1216px"
+      },
+      {
+         "id":"battering-ram",
+         "color":"#766d6d",
+         "position":"-384px -1024px"
+      },
+      {
+         "id":"forty-smelter",
+         "color":"#766d6d",
+         "position":"-448px -1024px"
       },
       {
          "id":"tank-assembly",
@@ -2235,6 +2270,55 @@
          "id":"peltast",
          "name":"HH-d Peltast Mortar Half-Track",
          "row":5,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"harvester-vic",
+         "name":"BMS - Scrap Hauler",
+         "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"ballista",
+         "name":"HC-7 Ballista Siege Tank",
+         "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"battering-ram",
+         "name":"AA-2 Battering Ram",
+         "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"acheron",
+         "name":"AB-8 Acheron APC",
+         "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"scorpion",
+         "name":"HC-2 Scorpion Infantry Tank",
+         "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"doru",
+         "name":"AB-11 Doru APC",
+         "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"forty-smelter",
+         "name":"40-45 Smelter Field Gun",
+         "row":6,
          "stack":1
       },
       {
@@ -4044,6 +4128,72 @@
          },
          "out":{
             "peltast":1
+         }
+      },
+      {
+         "id":"harvester-vic",
+         "name":"BMS Scrap Hauler",
+         "producers":[
+            "lv-assembly-upgrade"
+         ],
+         "time":900,
+         "cost":1000,
+         "in":{
+            "pcons":90,
+			"hams":25
+         },
+         "out":{
+            "harvester-vic":1
+         }
+      },
+      {
+         "id":"scorpion",
+         "name":"HC-2 Scorpion Infantry Tank",
+         "producers":[
+            "lv-assembly-upgrade"
+         ],
+         "time":180,
+         "cost":1000,
+         "in":{
+            "bcons":15,
+			"ballista":1
+         },
+         "out":{
+            "scorpion":1
+         }
+      },
+      {
+         "id":"doru",
+         "name":"AB-11 Doru APC",
+         "producers":[
+            "lv-assembly-upgrade"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":10,
+			"sams":5,
+			"acheron":1
+         },
+         "out":{
+            "doru":1
+         }
+      },
+      {
+         "id":"forty-smelter",
+         "name":"40-45 Smelter Field Gun",
+         "producers":[
+            "lv-assembly-upgrade"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":10,
+			"hams":10,
+			"battering-ram":1
+         },
+         "out":{
+            "forty-smelter":1
          }
       },
       {
