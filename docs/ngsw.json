@@ -1,0 +1,127 @@
+{
+  "configVersion": 1,
+  "timestamp": 1663341287698,
+  "index": "/foxholelab/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/foxholelab/favicon.ico",
+        "/foxholelab/index.html",
+        "/foxholelab/main.js",
+        "/foxholelab/manifest.webmanifest",
+        "/foxholelab/polyfills.js",
+        "/foxholelab/runtime.js",
+        "/foxholelab/src_app_routes_flow_flow_module_ts.js",
+        "/foxholelab/src_app_routes_list_list_module_ts.js",
+        "/foxholelab/src_app_routes_matrix_matrix_module_ts.js",
+        "/foxholelab/styles.css",
+        "/foxholelab/theme-dark.css",
+        "/foxholelab/theme-light.css",
+        "/foxholelab/vendor.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/foxholelab/assets/glpk-wasm/glpk.all.wasm",
+        "/foxholelab/assets/i18n/en.json",
+        "/foxholelab/assets/i18n/zh.json",
+        "/foxholelab/assets/icons/icon-128x128.png",
+        "/foxholelab/assets/icons/icon-144x144.png",
+        "/foxholelab/assets/icons/icon-152x152.png",
+        "/foxholelab/assets/icons/icon-192x192.png",
+        "/foxholelab/assets/icons/icon-256x256.png",
+        "/foxholelab/assets/icons/icon-384x384.png",
+        "/foxholelab/assets/icons/icon-512x512.png",
+        "/foxholelab/assets/icons/icon-72x72.png",
+        "/foxholelab/assets/icons/icon-96x96.png",
+        "/foxholelab/color.png",
+        "/foxholelab/fa-brands-400.ttf",
+        "/foxholelab/fa-brands-400.woff2",
+        "/foxholelab/fa-regular-400.ttf",
+        "/foxholelab/fa-regular-400.woff2",
+        "/foxholelab/fa-solid-900.ttf",
+        "/foxholelab/fa-solid-900.woff2",
+        "/foxholelab/fa-v4compatibility.ttf",
+        "/foxholelab/fa-v4compatibility.woff2",
+        "/foxholelab/hue.png",
+        "/foxholelab/primeicons.svg",
+        "/foxholelab/primeicons.ttf",
+        "/foxholelab/primeicons.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/foxholelab/assets/glpk-wasm/glpk.all.wasm": "e23240d859358856b7106bba79e00b987170dbde",
+    "/foxholelab/assets/i18n/en.json": "b208ab605776b478d9ede545e645742101f9f474",
+    "/foxholelab/assets/i18n/zh.json": "16150aa3226880cd4750a27673cd4363657f64d5",
+    "/foxholelab/assets/icons/icon-128x128.png": "983e77afd570f31ac052b051c3195ad4f868abf6",
+    "/foxholelab/assets/icons/icon-144x144.png": "f7ca93fd4ecf6f8c64cb159ca872be67de2dc0b5",
+    "/foxholelab/assets/icons/icon-152x152.png": "324e466aa2f678b7cba6627d4107d0f0fdf51c4a",
+    "/foxholelab/assets/icons/icon-192x192.png": "dbd517a74cb7fdea1aa16c8b0293286a3703b7b5",
+    "/foxholelab/assets/icons/icon-256x256.png": "78292d174c936e1ee4017b094e18e4c8b3f8eb5f",
+    "/foxholelab/assets/icons/icon-384x384.png": "45060c738e8c04429fa75766215459c644ffe4b1",
+    "/foxholelab/assets/icons/icon-512x512.png": "8316392f7ba8787290d81642e3f81981e2e8dc32",
+    "/foxholelab/assets/icons/icon-72x72.png": "af772f4d8e1f9d20a1a73cd74875dc44dbe61d1d",
+    "/foxholelab/assets/icons/icon-96x96.png": "e2f631847e869a681191485f9273c892eeb4ef09",
+    "/foxholelab/color.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
+    "/foxholelab/fa-brands-400.ttf": "42350ed503d66ae23a9c68d38966f25bc3007319",
+    "/foxholelab/fa-brands-400.woff2": "380bea4e9eb484d835d89cc608f2af7c3179e8a4",
+    "/foxholelab/fa-regular-400.ttf": "9262ea1d0711b658bb75d5cbe9345e080c7dea90",
+    "/foxholelab/fa-regular-400.woff2": "56be4c28de7c67747b0fe3dd606be8b319f6d4f4",
+    "/foxholelab/fa-solid-900.ttf": "d2caaf5ce75d0da13ace325e24f7aa7079ef1891",
+    "/foxholelab/fa-solid-900.woff2": "a7fca574d24e9ffa5ee0e0589ffe17277ae4ec27",
+    "/foxholelab/fa-v4compatibility.ttf": "b12c2b515fb62c370de1af4ca99635b00aabfe58",
+    "/foxholelab/fa-v4compatibility.woff2": "9e1f957bf329bd280aba89e578420301b312403d",
+    "/foxholelab/favicon.ico": "98abad45ff4f9ac767af6e97f43545a9d4f5bef9",
+    "/foxholelab/hue.png": "f81ae627637a684614aa726e206c73ce099a01fd",
+    "/foxholelab/index.html": "0d5019cf1ba687139574e55a1b96106935fbbcd6",
+    "/foxholelab/main.js": "73d486eb91d6f5f991b05fe6d14644b150a573a6",
+    "/foxholelab/manifest.webmanifest": "2ea54b3f2df294afe489cc36242f7a8d44504628",
+    "/foxholelab/polyfills.js": "d2172717c74dca343ef7ccf6c5f7168de901ed5c",
+    "/foxholelab/primeicons.svg": "621775b2ec555fd2dd152a24390cf6dfeee168b1",
+    "/foxholelab/primeicons.ttf": "e6c86ca90a9fb4282fb35523d56fde00e78a1416",
+    "/foxholelab/primeicons.woff": "21e477ea19e15b66344bcc23b3fbb2161092a707",
+    "/foxholelab/runtime.js": "81b450bc8cd39c7d64b446f6ad90300108229ff8",
+    "/foxholelab/src_app_routes_flow_flow_module_ts.js": "784db08c0fd732912d8312c01e346fa46b791cdc",
+    "/foxholelab/src_app_routes_list_list_module_ts.js": "008aaf3a4232f333e254c5abcbe13d040a4c1161",
+    "/foxholelab/src_app_routes_matrix_matrix_module_ts.js": "6e07b7da49f4ec41bbbc65fb3d124ae3e2201408",
+    "/foxholelab/styles.css": "36be1e2b6984958e569c535ba947815586c18a0f",
+    "/foxholelab/theme-dark.css": "1f1135eb5c793c0bdcff0e35461c82de6ec18408",
+    "/foxholelab/theme-light.css": "5a4db0dc8afb8289a19adb3176c9b23ae4b17af1",
+    "/foxholelab/vendor.js": "c22f9690802a990834bf2981c0385fd1df15e16e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
