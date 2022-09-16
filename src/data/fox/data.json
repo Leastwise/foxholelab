@@ -1496,6 +1496,11 @@
          "position":"-0px -1984px"
       },
       {
+         "id":"power",
+         "color":"#766d6d",
+         "position":"-128px -1984px"
+      },
+      {
          "id":"small",
          "color":"#766d6d",
          "position":"-192px -0px"
@@ -1626,7 +1631,12 @@
          "position":"-128px -1920px"
       },
       {
-         "id":"oil-well-t1",
+         "id":"e-oil-well",
+         "color":"#766d6d",
+         "position":"-128px -1920px"
+      },
+      {
+         "id":"fracker",
          "color":"#766d6d",
          "position":"-128px -1920px"
       },
@@ -1644,6 +1654,21 @@
          "id":"e-water-pump-0",
          "color":"#766d6d",
          "position":"-384px -1920px"
+      },
+      {
+         "id":"mpf-town",
+         "color":"#766d6d",
+         "position":"-192px -1984px"
+      },
+      {
+         "id":"factory-town",
+         "color":"#766d6d",
+         "position":"-256px -1856px"
+      },
+      {
+         "id":"refinery-town",
+         "color":"#766d6d",
+         "position":"-320px -1856px"
       },
       {
          "id":"oil-refinery",
@@ -1985,6 +2010,13 @@
          "stack":100
       },
       {
+         "category":"raw",
+         "id":"power",
+         "name":"MW/S",
+         "row":1,
+         "stack":100
+      },
+      {
          "category":"heavyammo",
          "id":"flame-barrel",
          "name":"Flame Barrel",
@@ -2249,8 +2281,8 @@
       },
       {
          "category":"other",
-         "id":"oil-well-t1",
-         "name":"Electric Oil Well T1",
+         "id":"e-oil-well",
+         "name":"Electric Oil Well",
          "row":5,
          "factory":{
             "mining":true,
@@ -2262,14 +2294,14 @@
       },
       {
          "category":"other",
-         "id":"oil-well-t2",
-         "name":"Electric Oil Well T2",
+         "id":"fracker",
+         "name":"Fracker",
          "row":5,
          "factory":{
             "mining":true,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "usage":3000,
             "modules":0
          }
       },
@@ -2310,6 +2342,45 @@
             "type":"electric",
             "usage":500,
             "modules":1
+         }
+      },
+      {
+         "category":"other",
+         "id":"refinery-town",
+         "name":"Town Refinery",
+         "row":6,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":0,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"factory-town",
+         "name":"Town Factory",
+         "row":6,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":0,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"mpf-town",
+         "name":"Mass Production Factory",
+         "row":6,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":0,
+            "modules":0
          }
       },
       {
@@ -2423,7 +2494,7 @@
          "row":5,
          "factory":{
             "mining":false,
-            "speed":25,
+            "speed":1,
             "type":"electric",
             "usage":2000,
             "modules":0
@@ -2436,7 +2507,7 @@
          "row":5,
          "factory":{
             "mining":false,
-            "speed":60,
+            "speed":1,
             "type":"electric",
             "usage":2000,
             "modules":0
@@ -2449,7 +2520,7 @@
          "row":5,
          "factory":{
             "mining":false,
-            "speed":25,
+            "speed":1,
             "type":"electric",
             "usage":4000,
             "modules":0
@@ -2462,7 +2533,7 @@
          "row":5,
          "factory":{
             "mining":false,
-            "speed":25,
+            "speed":1,
             "type":"electric",
             "usage":2000,
             "modules":0
@@ -2475,7 +2546,7 @@
          "row":5,
          "factory":{
             "mining":false,
-            "speed":25,
+            "speed":1,
             "type":"electric",
             "usage":4000,
             "modules":0
@@ -2655,6 +2726,17 @@
             "speed":1,
             "type":"electric",
             "usage":-10000
+         }
+      },
+      {
+         "category":"other",
+         "id":"sulfuric-reactor",
+         "name":"Sulfuric Reactor",
+         "row":6,
+         "factory":{
+            "speed":1,
+            "type":"electric",
+            "usage":16000
          }
       },
       {
@@ -2900,8 +2982,8 @@
          }
       },
       {
-         "id":"oil",
-         "name":"Oil Well",
+         "id":"oil-well",
+         "name":"Oil Well (Can)",
          "producers":[
             "oil-well"
          ],
@@ -2915,10 +2997,10 @@
          }
       },
       {
-         "id":"oil-t1",
-         "name":"Electric Oil Well T1",
+         "id":"e-oil-well-can",
+         "name":"Electric Oil Well (Can)",
          "producers":[
-            "oil-well-t1"
+            "e-oil-well"
          ],
          "time":26,
          "cost":1000,
@@ -2930,10 +3012,10 @@
          }
       },
       {
-         "id":"oil-fluid",
-         "name":"Electric Oil Well T2",
+         "id":"e-oil-well-pipe",
+         "name":"Electric Oil Well (Pipeline)",
          "producers":[
-            "oil-well-t2"
+            "e-oil-well"
          ],
          "time":40,
          "cost":1000,
@@ -2942,6 +3024,36 @@
          },
          "in":{
             
+         }
+      },
+      {
+         "id":"fracker-can",
+         "name":"Fracker Oil (Can)",
+         "producers":[
+            "fracker"
+         ],
+         "time":40,
+         "cost":1000,
+         "out":{
+            "oil":50
+         },
+         "in":{
+			 "water":25
+         }
+      },
+      {
+         "id":"fracker-can",
+         "name":"Fracker Oil (Pipeline)",
+         "producers":[
+            "fracker"
+         ],
+         "time":30,
+         "cost":1000,
+         "out":{
+            "oil":75
+         },
+         "in":{
+			 "water":25
          }
       },
       {
@@ -2961,7 +3073,7 @@
       },
       {
          "id":"water-e",
-         "name":"Electric Pump Water",
+         "name":"Electric Pump Water (Can)",
          "producers":[
             "e-water-pump-0"
          ],
@@ -2976,7 +3088,7 @@
       },
       {
          "id":"water-fluid",
-         "name":"Pipeline Water",
+         "name":"Electric Pump Water (Pipeline)",
          "producers":[
             "e-water-pump"
          ],
@@ -2987,6 +3099,36 @@
          },
          "in":{
             
+         }
+      },
+      {
+         "id":"diesel",
+         "name":"Diesel",
+         "producers":[
+            "refinery-town"
+         ],
+         "time":12,
+         "cost":1000,
+         "in":{
+            "scrap":10
+         },
+         "out":{
+            "diesel":1
+         }
+      },
+      {
+         "id":"hemats",
+         "name":"Heavy Explosive Materials",
+         "producers":[
+            "refinery-town"
+         ],
+         "time":60,
+         "cost":1000,
+         "in":{
+            "sulfur":10
+         },
+         "out":{
+            "hemats":1
          }
       },
       {
@@ -3601,6 +3743,98 @@
          },
          "out":{
             "ixion":1
+         }
+      },
+      {
+         "id":"diesel-power",
+         "name":"Diesel Power",
+         "producers":[
+            "diesel-power-plant"
+         ],
+         "time":45,
+         "cost":1000,
+         "in":{
+            "diesel":25
+         },
+         "out":{
+            "power":225
+         }
+      },
+      {
+         "id":"petrol-power",
+         "name":"Petrol Power",
+         "producers":[
+            "petrol-power-plant"
+         ],
+         "time":90,
+         "cost":1000,
+         "in":{
+            "petrol":50
+         },
+         "out":{
+            "power":1080
+         }
+      },
+      {
+         "id":"oil-power",
+         "name":"Oil Power",
+         "producers":[
+            "power-station"
+         ],
+         "time":90,
+         "cost":1000,
+         "in":{
+            "oil":50
+         },
+         "out":{
+            "power":900
+         }
+      },
+      {
+         "id":"coal-power",
+         "name":"Coal Power",
+         "producers":[
+            "power-station"
+         ],
+         "time":60,
+         "cost":1000,
+         "in":{
+            "coal":60,
+            "water":25
+         },
+         "out":{
+            "power":600
+         }
+      },
+      {
+         "id":"reactor-oil-sulfur",
+         "name":"Sulfuric Reactor (Oil)",
+         "producers":[
+            "sulfuric-reactor"
+         ],
+         "time":120,
+         "cost":1000,
+         "in":{
+            "oil":50
+         },
+         "out":{
+            "sulfur":1
+         }
+      },
+      {
+         "id":"reactor-coke-sulfur",
+         "name":"Sulfuric Reactor (Coke)",
+         "producers":[
+            "sulfuric-reactor"
+         ],
+         "time":120,
+         "cost":1000,
+         "in":{
+            "coke":60,
+			"water":25
+         },
+         "out":{
+            "sulfur":1
          }
       }
    ],
