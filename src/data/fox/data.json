@@ -2983,7 +2983,7 @@
       },
       {
          "id":"oil-well",
-         "name":"Oil Well (Can)",
+         "name":"Oil Well - Oil Can",
          "producers":[
             "oil-well"
          ],
@@ -2998,7 +2998,7 @@
       },
       {
          "id":"e-oil-well-can",
-         "name":"Electric Oil Well (Can)",
+         "name":"Electric Oil Well - Oil Can",
          "producers":[
             "e-oil-well"
          ],
@@ -3013,7 +3013,7 @@
       },
       {
          "id":"e-oil-well-pipe",
-         "name":"Electric Oil Well (Pipeline)",
+         "name":"Electric Oil Well - Oil Pipeline",
          "producers":[
             "e-oil-well"
          ],
@@ -3028,7 +3028,7 @@
       },
       {
          "id":"fracker-can",
-         "name":"Fracker Oil (Can)",
+         "name":"Fracker - Oil Can",
          "producers":[
             "fracker"
          ],
@@ -3043,7 +3043,7 @@
       },
       {
          "id":"fracker-can",
-         "name":"Fracker Oil (Pipeline)",
+         "name":"Fracker Oil - Oil Pipeline",
          "producers":[
             "fracker"
          ],
@@ -3058,7 +3058,7 @@
       },
       {
          "id":"water",
-         "name":"Water Pump Water",
+         "name":"Water Pump - Water Can",
          "producers":[
             "water-pump"
          ],
@@ -3073,7 +3073,7 @@
       },
       {
          "id":"water-e",
-         "name":"Electric Pump Water (Can)",
+         "name":"Electric Water Pump - Water Can",
          "producers":[
             "e-water-pump-0"
          ],
@@ -3088,7 +3088,7 @@
       },
       {
          "id":"water-fluid",
-         "name":"Electric Pump Water (Pipeline)",
+         "name":"Electric Water Pump - Water Pipeline)",
          "producers":[
             "e-water-pump"
          ],
@@ -3133,7 +3133,7 @@
       },
       {
          "id":"petrol-refinery",
-         "name":"Refinery Petrol",
+         "name":"Oil Refinery - Petrol",
          "producers":[
             "oil-refinery"
          ],
@@ -3148,7 +3148,7 @@
       },
       {
          "id":"petrol-reformer",
-         "name":"Reformer Petrol",
+         "name":"Reformer - Petrol",
          "producers":[
             "reformer"
          ],
@@ -3164,7 +3164,7 @@
       },
       {
          "id":"hoil",
-         "name":"Heavy Oil",
+         "name":"Cracking Unit - Heavy Oil",
          "producers":[
             "cracking-unit"
          ],
@@ -3179,7 +3179,7 @@
       },
       {
          "id":"eoil",
-         "name":"Enriched Oil",
+         "name":"Petrochemical Plant - Enriched Oil",
          "producers":[
             "petro-plant"
          ],
@@ -3195,7 +3195,7 @@
       },
       {
          "id":"coke",
-         "name":"Refinery Coke",
+         "name":"Coal Refinery - Coke",
          "producers":[
             "coal-refinery"
          ],
@@ -3210,7 +3210,7 @@
       },
       {
          "id":"coke-furnace",
-         "name":"Coke Furnace",
+         "name":"Coke Furnace - Coke",
          "producers":[
             "coke-furnace"
          ],
@@ -3226,7 +3226,7 @@
       },
       {
          "id":"coal-liquefier",
-         "name":"Coal Liquefier",
+         "name":"Coal Liquefier - Heavy Oil",
          "producers":[
             "coal-liquefier"
          ],
@@ -3243,7 +3243,7 @@
       },
       {
          "id":"adv-coal-liquefier",
-         "name":"Advanced Coal Liquefier",
+         "name":"Advanced Coal Liquefier - Coke",
          "producers":[
             "adv-coal-liquefier"
          ],
@@ -3260,7 +3260,7 @@
       },
       {
          "id":"bcons",
-         "name":"Materials Factory bCons",
+         "name":"Materials Factory - bCons",
          "producers":[
             "materials-factory"
          ],
@@ -3275,7 +3275,7 @@
       },
       {
          "id":"cams",
-         "name":"Forge Cams",
+         "name":"Forge - Cams",
          "producers":[
             "forge"
          ],
@@ -3291,7 +3291,7 @@
       },
       {
          "id":"pams",
-         "name":"Forge Pams",
+         "name":"Forge - Pams",
          "producers":[
             "forge"
          ],
@@ -3307,7 +3307,7 @@
       },
       {
          "id":"metal-press-bcons",
-         "name":"Metal Press Bcons",
+         "name":"Metal Press - bCons",
          "producers":[
             "metal-press"
          ],
@@ -3323,7 +3323,7 @@
       },
       {
          "id":"recycler-sandbags",
-         "name":"Recycler Sandbags",
+         "name":"Recycler - Sandbags",
          "producers":[
             "mat-recycler"
          ],
@@ -3339,7 +3339,7 @@
       },
       {
          "id":"recycler-wire",
-         "name":"Recycler Barbed Wire",
+         "name":"Recycler - Barbed Wire",
          "producers":[
             "mat-recycler"
          ],
@@ -3355,7 +3355,7 @@
       },
       {
          "id":"smelter-bcons",
-         "name":"Smelter bCons",
+         "name":"Smelter - bCons",
          "producers":[
             "smelter"
          ],
@@ -3371,7 +3371,7 @@
       },
       {
          "id":"metalworks-pcons",
-         "name":"Metalworks pCons",
+         "name":"Metalworks - pCons",
          "producers":[
             "metalworks"
          ],
@@ -3387,7 +3387,7 @@
       },
       {
          "id":"blast-furnace-hams",
-         "name":"Blast Furnace Hams",
+         "name":"Blast Furnace - Hams",
          "producers":[
             "blast-furnace"
          ],
@@ -3403,7 +3403,7 @@
       },
       {
          "id":"blast-furnace-sams",
-         "name":"Blast Furnace Sams",
+         "name":"Blast Furnace - Sams",
          "producers":[
             "blast-furnace"
          ],
@@ -3419,7 +3419,7 @@
       },
       {
          "id":"blast-furnace-pCons",
-         "name":"Blast Furnace pCons",
+         "name":"Blast Furnace - pCons",
          "producers":[
             "blast-furnace-8"
          ],
@@ -3436,7 +3436,7 @@
       },
       {
          "id":"metal-recycler-beams",
-         "name":"Metalworks Recycler Beams",
+         "name":"Metalworks Recycler - Beams",
          "producers":[
             "metal-recycler"
          ],
@@ -3453,7 +3453,7 @@
       },
       {
          "id":"metal-recycler-scrap",
-         "name":"Metalworks Recycler Scrap",
+         "name":"Metalworks Recycler - Scrap",
          "producers":[
             "metal-recycler"
          ],
@@ -3468,7 +3468,7 @@
       },
       {
          "id":"engineer-scons",
-         "name":"Engineering Scons",
+         "name":"Engineering - Scons",
          "producers":[
             "engineering-station-9"
          ],
@@ -3485,7 +3485,7 @@
       },
       {
          "id":"engineer-sulfur-scons",
-         "name":"Engineering Sulfur Scons",
+         "name":"Engineering - Sulfur Scons",
          "producers":[
             "engineering-station-8"
          ],
@@ -3503,7 +3503,7 @@
       },
       {
          "id":"engineer-nams",
-         "name":"Engineering Nams",
+         "name":"Engineering - Nams",
          "producers":[
             "engineering-station-8"
          ],
@@ -3519,7 +3519,7 @@
       },
       {
          "id":"ammo-factory-flame-barrel",
-         "name":"Ammo Factory Flame Barrel",
+         "name":"Ammo Factory - Flame Barrel",
          "producers":[
             "ammo-factory"
          ],
@@ -3535,7 +3535,7 @@
       },
       {
          "id":"rocket",
-         "name":"Rocket",
+         "name":"Rocket Factory - Rocket",
          "producers":[
             "rocket-factory"
          ],
@@ -3551,7 +3551,7 @@
       },
       {
          "id":"in-rocket",
-         "name":"Incendiary Rocket",
+         "name":"Rocket Factory - Incendiary Rocket",
          "producers":[
             "rocket-factory"
          ],
@@ -3567,7 +3567,7 @@
       },
       {
          "id":"75mm",
-         "name":"75mm HE Round",
+         "name":"Large Shell Factory - 75mm HE Round",
          "producers":[
             "large-shell-factory"
          ],
@@ -3583,7 +3583,7 @@
       },
       {
          "id":"94-5mm",
-         "name":"94.5mm AT Round",
+         "name":"Large Shell Factory - 94.5mm AT Round",
          "producers":[
             "large-shell-factory"
          ],
@@ -3599,7 +3599,7 @@
       },
       {
          "id":"300mm",
-         "name":"300mm Round",
+         "name":"Large Shell Factory - 300mm Round",
          "producers":[
             "large-shell-factory"
          ],
@@ -3808,7 +3808,7 @@
       },
       {
          "id":"reactor-oil-sulfur",
-         "name":"Sulfuric Reactor (Oil)",
+         "name":"Sulfuric Reactor - Oil",
          "producers":[
             "sulfuric-reactor"
          ],
@@ -3823,7 +3823,7 @@
       },
       {
          "id":"reactor-coke-sulfur",
-         "name":"Sulfuric Reactor (Coke)",
+         "name":"Sulfuric Reactor - Coke",
          "producers":[
             "sulfuric-reactor"
          ],
