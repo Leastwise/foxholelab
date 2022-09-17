@@ -1981,6 +1981,26 @@
          "position":"-256px -1536px"
       },
       {
+         "id":"large-assembly",
+         "color":"#766d6d",
+         "position":"-256px -1920px"
+      },
+      {
+         "id":"locomotive",
+         "color":"#766d6d",
+         "position":"-256px -1920px"
+      },
+      {
+         "id":"container-car",
+         "color":"#766d6d",
+         "position":"-64px -2048px"
+      },
+      {
+         "id":"flatbed-car",
+         "color":"#766d6d",
+         "position":"-128px -2048px"
+      },
+      {
          "id":"pipeline",
          "color":"#766d6d",
          "position":"-64px -1984px"
@@ -2428,6 +2448,39 @@
          "name":"DAE 2a-1 Ruptura 75mm EAT",
          "row":7,
          "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"locomotive",
+         "name":"BMS Black Bolt Locomotive",
+         "row":8,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"container-car",
+         "name":"Container Car",
+         "row":8,
+         "stack":1,
+         "cargoWagon":{
+            "size":60
+         },
+         "fluidWagon":{
+            "capacity":100
+         }
+      },
+      {
+         "category":"vics",
+         "id":"flatbed-car",
+         "name":"Flatbed Car",
+         "row":8,
+         "stack":1,
+         "cargoWagon":{
+            "size":60
+         },
+         "fluidWagon":{
+            "capacity":100
+         }
       },
       {
          "category":"fluids",
@@ -3038,6 +3091,19 @@
             "speed":1,
             "type":"electric",
             "usage":2000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"large-assembly",
+         "name":"Large Assembly Factory",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":8000,
             "modules":0
          }
       },
@@ -4409,6 +4475,57 @@
          },
          "out":{
             "ruptura":1
+         }
+      },
+      {
+         "id":"locomotive",
+         "name":"BMS Black Bolt Locomotive",
+         "producers":[
+            "large-assembly"
+         ],
+         "time":28800,
+         "cost":1000,
+         "in":{
+            "pcons":200,
+			"cams":60,
+			"hams":50
+         },
+         "out":{
+            "locomotive":1
+         }
+      },
+      {
+         "id":"container-car",
+         "name":"Container Car",
+         "producers":[
+            "large-assembly"
+         ],
+         "time":14400,
+         "cost":1000,
+         "in":{
+            "pcons":50,
+			"pams":45,
+			"sams":20
+         },
+         "out":{
+            "container-car":1
+         }
+      },
+      {
+         "id":"flatbed-car",
+         "name":"Flatbed Car",
+         "producers":[
+            "large-assembly"
+         ],
+         "time":14400,
+         "cost":1000,
+         "in":{
+            "pcons":50,
+			"pams":45,
+			"sams":20
+         },
+         "out":{
+            "flatbed-car":1
          }
       },
       {
