@@ -1531,17 +1531,27 @@
          "position":"-128px -320px"
       },
       {
-         "id":"75mm",
+         "id":"seven-five-mm",
          "color":"#766d6d",
          "position":"-192px -384px"
       },
       {
-         "id":"94-5mm",
+         "id":"nine-four-five-mm",
          "color":"#766d6d",
          "position":"-256px -448px"
       },
       {
-         "id":"300mm",
+         "id":"one-twenty-mm",
+         "color":"#766d6d",
+         "position":"-384px -384px"
+      },
+      {
+         "id":"one-fifty-mm",
+         "color":"#766d6d",
+         "position":"-192px -384px"
+      },
+      {
+         "id":"three-hundred-mm",
          "color":"#766d6d",
          "position":"-448px -384px"
       },
@@ -1616,6 +1626,11 @@
          "position":"-64px -1216px"
       },
       {
+         "id":"harvester-vic",
+         "color":"#766d6d",
+         "position":"-64px -1216px"
+      },
+      {
          "id":"petrol-miner",
          "color":"#766d6d",
          "position":"-448px -1856px"
@@ -1673,7 +1688,7 @@
       {
          "id":"oil-refinery",
          "color":"#766d6d",
-         "position":"-320px -1856px"
+         "position":"-448px -1984px"
       },
       {
          "id":"reformer",
@@ -1693,7 +1708,7 @@
       {
          "id":"coal-refinery",
          "color":"#766d6d",
-         "position":"-320px -1856px"
+         "position":"-0px -2048px"
       },
       {
          "id":"coke-furnace",
@@ -1713,72 +1728,77 @@
       {
          "id":"materials-factory",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-256px -1984px"
       },
       {
          "id":"forge",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-256px -1984px"
       },
       {
          "id":"metal-press",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-256px -1984px"
       },
       {
          "id":"mat-recycler",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-256px -1984px"
       },
       {
          "id":"smelter",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-256px -1984px"
       },
       {
          "id":"metalworks",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-320px -1984px"
       },
       {
          "id":"blast-furnace",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-320px -1984px"
       },
       {
          "id":"blast-furnace-8",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-320px -1984px"
       },
       {
          "id":"metal-recycler",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-320px -1984px"
       },
       {
          "id":"engineering-station-8",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-320px -1984px"
       },
       {
          "id":"engineering-station-9",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-320px -1984px"
       },
       {
          "id":"ammo-factory",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-384px -1984px"
       },
       {
          "id":"rocket-factory",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-384px -1984px"
       },
       {
          "id":"large-shell-factory",
          "color":"#766d6d",
-         "position":"-256px -1856px"
+         "position":"-384px -1984px"
+      },
+      {
+         "id":"large-shell-factory-6",
+         "color":"#766d6d",
+         "position":"-384px -1984px"
       },
       {
          "id":"vics",
@@ -1851,12 +1871,152 @@
          "position":"-0px -1472px"
       },
       {
+         "id":"artillery-factory",
+         "color":"#766d6d",
+         "position":"-256px -1152px"
+      },
+      {
+         "id":"javelin",
+         "color":"#766d6d",
+         "position":"-320px -1152px"
+      },
+      {
+         "id":"retiarius",
+         "color":"#766d6d",
+         "position":"-128px -1472px"
+      },
+      {
+         "id":"hoplite",
+         "color":"#766d6d",
+         "position":"-384px -1152px"
+      },
+      {
+         "id":"peltast",
+         "color":"#766d6d",
+         "position":"-256px -1152px"
+      },
+      {
+         "id":"lv-assembly-upgrade",
+         "color":"#766d6d",
+         "position":"-64px -1216px"
+      },
+      {
+         "id":"ballista",
+         "color":"#766d6d",
+         "position":"-128px -1344px"
+      },
+      {
+         "id":"scorpion",
+         "color":"#766d6d",
+         "position":"-320px -1216px"
+      },
+      {
+         "id":"doru",
+         "color":"#766d6d",
+         "position":"-192px -1216px"
+      },
+      {
+         "id":"acheron",
+         "color":"#766d6d",
+         "position":"-128px -1216px"
+      },
+      {
+         "id":"battering-ram",
+         "color":"#766d6d",
+         "position":"-384px -1024px"
+      },
+      {
+         "id":"forty-smelter",
+         "color":"#766d6d",
+         "position":"-448px -1024px"
+      },
+      {
+         "id":"tank-assembly",
+         "color":"#766d6d",
+         "position":"-448px -1216px"
+      },
+      {
+         "id":"hatchet",
+         "color":"#766d6d",
+         "position":"-448px -1216px"
+      },
+      {
+         "id":"vulcan",
+         "color":"#766d6d",
+         "position":"-448px -1216px"
+      },
+      {
+         "id":"pelekys",
+         "color":"#766d6d",
+         "position":"-128px -1280px"
+      },
+      {
+         "id":"kranesca",
+         "color":"#766d6d",
+         "position":"-64px -1280px"
+      },
+      {
+         "id":"falchion",
+         "color":"#766d6d",
+         "position":"-384px -1280px"
+      },
+      {
+         "id":"spatha",
+         "color":"#766d6d",
+         "position":"-448px -1280px"
+      },
+      {
+         "id":"bardiche",
+         "color":"#766d6d",
+         "position":"-256px -1280px"
+      },
+      {
+         "id":"ranseur",
+         "color":"#766d6d",
+         "position":"-64px -1792px"
+      },
+      {
+         "id":"ruptura",
+         "color":"#766d6d",
+         "position":"-256px -1536px"
+      },
+      {
+         "id":"large-assembly",
+         "color":"#766d6d",
+         "position":"-256px -1920px"
+      },
+      {
+         "id":"locomotive",
+         "color":"#766d6d",
+         "position":"-256px -1920px"
+      },
+      {
+         "id":"container-car",
+         "color":"#766d6d",
+         "position":"-64px -2048px"
+      },
+      {
+         "id":"flatbed-car",
+         "color":"#766d6d",
+         "position":"-128px -2048px"
+      },
+      {
          "id":"pipeline",
          "color":"#766d6d",
          "position":"-64px -1984px"
       },
       {
          "id":"short-gauge",
+         "color":"#766d6d",
+         "position":"-192px -1920px"
+      },
+      {
+         "id":"sm-container-car",
+         "color":"#766d6d",
+         "position":"-192px -1920px"
+      },
+      {
+         "id":"sm-flatbed-car",
          "color":"#766d6d",
          "position":"-192px -1920px"
       }
@@ -2039,23 +2199,37 @@
       },
       {
          "category":"heavyammo",
-         "id":"75mm",
+         "id":"seven-five-mm",
          "name":"75mm HE Round",
          "row":1,
          "stack":100
       },
       {
          "category":"heavyammo",
-         "id":"94-5mm",
+         "id":"nine-four-five-mm",
          "name":"94.5mm AT Round",
          "row":1,
          "stack":100
       },
       {
          "category":"heavyammo",
-         "id":"300mm",
+         "id":"one-twenty-mm",
+         "name":"120mm Round",
+         "row":2,
+         "stack":100
+      },
+      {
+         "category":"heavyammo",
+         "id":"one-fifty-mm",
+         "name":"150mm Round",
+         "row":2,
+         "stack":100
+      },
+      {
+         "category":"heavyammo",
+         "id":"three-hundred-mm",
          "name":"300mm Round",
-         "row":1,
+         "row":2,
          "stack":100
       },
       {
@@ -2134,6 +2308,179 @@
          "name":"T5 Percutio AT Armored Car",
          "row":4,
          "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"javelin",
+         "name":"HH-a Javelin Half-Track",
+         "row":5,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"retiarius",
+         "name":"R-17 Retiarius Skirmisher",
+         "row":5,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"hoplite",
+         "name":"HH-b Hoplite Half-Track",
+         "row":5,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"peltast",
+         "name":"HH-d Peltast Mortar Half-Track",
+         "row":5,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"harvester-vic",
+         "name":"BMS - Scrap Hauler",
+         "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"ballista",
+         "name":"HC-7 Ballista Siege Tank",
+         "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"battering-ram",
+         "name":"AA-2 Battering Ram",
+         "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"acheron",
+         "name":"AB-8 Acheron APC",
+         "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"scorpion",
+         "name":"HC-2 Scorpion Infantry Tank",
+         "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"doru",
+         "name":"AB-11 Doru APC",
+         "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"forty-smelter",
+         "name":"40-45 Smelter Field Gun",
+         "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"hatchet",
+         "name":"H-5 Hatchet Light Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"vulcan",
+         "name":"H-19 Vulcan Flame Light Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"pelekys",
+         "name":"H-10 Pelekys LTD",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"kranesca",
+         "name":"H-8 Kranesca Light Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"falchion",
+         "name":"85K-b Falchion Mass-Produced Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"spatha",
+         "name":"85K-a Spatha Assault Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"bardiche",
+         "name":"86K-a Bardiche Assault Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"ranseur",
+         "name":"86K-c Ranseur RPG Assault Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"ruptura",
+         "name":"DAE 2a-1 Ruptura 75mm EAT",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"locomotive",
+         "name":"BMS Black Bolt Locomotive",
+         "row":8,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"container-car",
+         "name":"Container Car",
+         "row":8,
+         "stack":1,
+         "cargoWagon":{
+            "size":60
+         },
+         "fluidWagon":{
+            "capacity":100
+         }
+      },
+      {
+         "category":"vics",
+         "id":"flatbed-car",
+         "name":"Flatbed Car",
+         "row":8,
+         "stack":1,
+         "cargoWagon":{
+            "size":60
+         },
+         "fluidWagon":{
+            "capacity":100
+         }
       },
       {
          "category":"fluids",
@@ -2671,6 +3018,19 @@
       },
       {
          "category":"other",
+         "id":"large-shell-factory-6",
+         "name":"large-shell-factory",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":6000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
          "id":"lv-assembly",
          "name":"Light Vehicle Assembly Station",
          "row":5,
@@ -2692,6 +3052,58 @@
             "speed":1,
             "type":"electric",
             "usage":2000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"artillery-factory",
+         "name":"Artillery Factory",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":2000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"lv-assembly-upgrade",
+         "name":"Light Vehicle Assembly Upgrade",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":2000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"tank-assembly",
+         "name":"Tank Assembly",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":2000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"large-assembly",
+         "name":"Large Assembly Factory",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":8000,
             "modules":0
          }
       },
@@ -2767,6 +3179,32 @@
          "row":1,
          "belt":{
             "speed":1
+         }
+      },
+      {
+         "category":"vics",
+         "id":"sm-container-car",
+         "name":"Small Container Car",
+         "row":1,
+		 "stack":1,
+         "cargoWagon":{
+            "size":40
+         },
+		 "fluidWagon":{
+            "capacity":1
+         }
+      },
+      {
+         "category":"vics",
+         "id":"sm-flatbed-car",
+         "name":"Small Flatbed Car",
+         "row":1,
+		 "stack":1,
+         "cargoWagon":{
+            "size":40
+         },
+		 "fluidWagon":{
+            "capacity":1
          }
       }
    ],
@@ -2922,7 +3360,7 @@
          }
       },
       {
-         "id":"scrap",
+         "id":"auto-harvester-scrap",
          "name":"Auto-Harvester Scrap",
          "producers":[
             "petrol-miner"
@@ -2937,7 +3375,7 @@
          }
       },
       {
-         "id":"coal",
+         "id":"auto-harvester-coal",
          "name":"Auto-Harvester Coal",
          "producers":[
             "petrol-miner"
@@ -2952,7 +3390,7 @@
          }
       },
       {
-         "id":"sulfur",
+         "id":"auto-harvester-sulfur",
          "name":"Auto-Harvester Sulfur",
          "producers":[
             "hoil-miner"
@@ -2967,7 +3405,7 @@
          }
       },
       {
-         "id":"comps",
+         "id":"auto-harvester-comps",
          "name":"Auto-Harvester Components",
          "producers":[
             "hoil-miner"
@@ -2983,7 +3421,7 @@
       },
       {
          "id":"oil-well",
-         "name":"Oil Well (Can)",
+         "name":"Oil Well - Oil Can",
          "producers":[
             "oil-well"
          ],
@@ -2998,7 +3436,7 @@
       },
       {
          "id":"e-oil-well-can",
-         "name":"Electric Oil Well (Can)",
+         "name":"Electric Oil Well - Oil Can",
          "producers":[
             "e-oil-well"
          ],
@@ -3013,7 +3451,7 @@
       },
       {
          "id":"e-oil-well-pipe",
-         "name":"Electric Oil Well (Pipeline)",
+         "name":"Electric Oil Well - Oil Pipeline",
          "producers":[
             "e-oil-well"
          ],
@@ -3028,7 +3466,7 @@
       },
       {
          "id":"fracker-can",
-         "name":"Fracker Oil (Can)",
+         "name":"Fracker - Oil Can",
          "producers":[
             "fracker"
          ],
@@ -3042,8 +3480,8 @@
          }
       },
       {
-         "id":"fracker-can",
-         "name":"Fracker Oil (Pipeline)",
+         "id":"fracker-pipeline",
+         "name":"Fracker Oil - Oil Pipeline",
          "producers":[
             "fracker"
          ],
@@ -3057,8 +3495,8 @@
          }
       },
       {
-         "id":"water",
-         "name":"Water Pump Water",
+         "id":"water-pump-water",
+         "name":"Water Pump - Water Can",
          "producers":[
             "water-pump"
          ],
@@ -3073,7 +3511,7 @@
       },
       {
          "id":"water-e",
-         "name":"Electric Pump Water (Can)",
+         "name":"Electric Water Pump - Water Can",
          "producers":[
             "e-water-pump-0"
          ],
@@ -3088,7 +3526,7 @@
       },
       {
          "id":"water-fluid",
-         "name":"Electric Pump Water (Pipeline)",
+         "name":"Electric Water Pump - Water Pipeline)",
          "producers":[
             "e-water-pump"
          ],
@@ -3133,7 +3571,7 @@
       },
       {
          "id":"petrol-refinery",
-         "name":"Refinery Petrol",
+         "name":"Oil Refinery - Petrol",
          "producers":[
             "oil-refinery"
          ],
@@ -3148,7 +3586,7 @@
       },
       {
          "id":"petrol-reformer",
-         "name":"Reformer Petrol",
+         "name":"Reformer - Petrol",
          "producers":[
             "reformer"
          ],
@@ -3164,7 +3602,7 @@
       },
       {
          "id":"hoil",
-         "name":"Heavy Oil",
+         "name":"Cracking Unit - Heavy Oil",
          "producers":[
             "cracking-unit"
          ],
@@ -3179,7 +3617,7 @@
       },
       {
          "id":"eoil",
-         "name":"Enriched Oil",
+         "name":"Petrochemical Plant - Enriched Oil",
          "producers":[
             "petro-plant"
          ],
@@ -3195,7 +3633,7 @@
       },
       {
          "id":"coke",
-         "name":"Refinery Coke",
+         "name":"Coal Refinery - Coke",
          "producers":[
             "coal-refinery"
          ],
@@ -3210,7 +3648,7 @@
       },
       {
          "id":"coke-furnace",
-         "name":"Coke Furnace",
+         "name":"Coke Furnace - Coke",
          "producers":[
             "coke-furnace"
          ],
@@ -3226,7 +3664,7 @@
       },
       {
          "id":"coal-liquefier",
-         "name":"Coal Liquefier",
+         "name":"Coal Liquefier - Heavy Oil",
          "producers":[
             "coal-liquefier"
          ],
@@ -3243,7 +3681,7 @@
       },
       {
          "id":"adv-coal-liquefier",
-         "name":"Advanced Coal Liquefier",
+         "name":"Advanced Coal Liquefier - Coke",
          "producers":[
             "adv-coal-liquefier"
          ],
@@ -3260,7 +3698,7 @@
       },
       {
          "id":"bcons",
-         "name":"Materials Factory bCons",
+         "name":"Materials Factory - bCons",
          "producers":[
             "materials-factory"
          ],
@@ -3275,7 +3713,7 @@
       },
       {
          "id":"cams",
-         "name":"Forge Cams",
+         "name":"Forge - Cams",
          "producers":[
             "forge"
          ],
@@ -3291,7 +3729,7 @@
       },
       {
          "id":"pams",
-         "name":"Forge Pams",
+         "name":"Forge - Pams",
          "producers":[
             "forge"
          ],
@@ -3307,7 +3745,7 @@
       },
       {
          "id":"metal-press-bcons",
-         "name":"Metal Press Bcons",
+         "name":"Metal Press - bCons",
          "producers":[
             "metal-press"
          ],
@@ -3323,7 +3761,7 @@
       },
       {
          "id":"recycler-sandbags",
-         "name":"Recycler Sandbags",
+         "name":"Recycler - Sandbags",
          "producers":[
             "mat-recycler"
          ],
@@ -3339,7 +3777,7 @@
       },
       {
          "id":"recycler-wire",
-         "name":"Recycler Barbed Wire",
+         "name":"Recycler - Barbed Wire",
          "producers":[
             "mat-recycler"
          ],
@@ -3355,7 +3793,7 @@
       },
       {
          "id":"smelter-bcons",
-         "name":"Smelter bCons",
+         "name":"Smelter - bCons",
          "producers":[
             "smelter"
          ],
@@ -3371,7 +3809,7 @@
       },
       {
          "id":"metalworks-pcons",
-         "name":"Metalworks pCons",
+         "name":"Metalworks - pCons",
          "producers":[
             "metalworks"
          ],
@@ -3387,7 +3825,7 @@
       },
       {
          "id":"blast-furnace-hams",
-         "name":"Blast Furnace Hams",
+         "name":"Blast Furnace - Hams",
          "producers":[
             "blast-furnace"
          ],
@@ -3403,7 +3841,7 @@
       },
       {
          "id":"blast-furnace-sams",
-         "name":"Blast Furnace Sams",
+         "name":"Blast Furnace - Sams",
          "producers":[
             "blast-furnace"
          ],
@@ -3419,7 +3857,7 @@
       },
       {
          "id":"blast-furnace-pCons",
-         "name":"Blast Furnace pCons",
+         "name":"Blast Furnace - pCons",
          "producers":[
             "blast-furnace-8"
          ],
@@ -3436,7 +3874,7 @@
       },
       {
          "id":"metal-recycler-beams",
-         "name":"Metalworks Recycler Beams",
+         "name":"Metalworks Recycler - Beams",
          "producers":[
             "metal-recycler"
          ],
@@ -3453,7 +3891,7 @@
       },
       {
          "id":"metal-recycler-scrap",
-         "name":"Metalworks Recycler Scrap",
+         "name":"Metalworks Recycler - Scrap",
          "producers":[
             "metal-recycler"
          ],
@@ -3468,7 +3906,7 @@
       },
       {
          "id":"engineer-scons",
-         "name":"Engineering Scons",
+         "name":"Engineering - Scons",
          "producers":[
             "engineering-station-9"
          ],
@@ -3485,7 +3923,7 @@
       },
       {
          "id":"engineer-sulfur-scons",
-         "name":"Engineering Sulfur Scons",
+         "name":"Engineering - Sulfur Scons",
          "producers":[
             "engineering-station-8"
          ],
@@ -3503,7 +3941,7 @@
       },
       {
          "id":"engineer-nams",
-         "name":"Engineering Nams",
+         "name":"Engineering - Nams",
          "producers":[
             "engineering-station-8"
          ],
@@ -3518,10 +3956,10 @@
          }
       },
       {
-         "id":"ammo-factory-flame-barrel",
-         "name":"Ammo Factory Flame Barrel",
+         "id":"flame-barrel",
+         "name":"Ammo Factory - Flame Barrel",
          "producers":[
-            "ammo-factory"
+            "rocket-factory"
          ],
          "time":25,
          "cost":1000,
@@ -3535,7 +3973,7 @@
       },
       {
          "id":"rocket",
-         "name":"Rocket",
+         "name":"Rocket Factory - Rocket",
          "producers":[
             "rocket-factory"
          ],
@@ -3551,7 +3989,7 @@
       },
       {
          "id":"in-rocket",
-         "name":"Incendiary Rocket",
+         "name":"Rocket Factory - Incendiary Rocket",
          "producers":[
             "rocket-factory"
          ],
@@ -3566,8 +4004,8 @@
          }
       },
       {
-         "id":"75mm",
-         "name":"75mm HE Round",
+         "id":"seven-five-mm",
+         "name":"Large Shell Factory - 75mm HE Round",
          "producers":[
             "large-shell-factory"
          ],
@@ -3578,12 +4016,12 @@
             "bcons":2
          },
          "out":{
-            "75mm":1
+            "seven-five-mm":1
          }
       },
       {
-         "id":"94-5mm",
-         "name":"94.5mm AT Round",
+         "id":"nine-four-five-mm",
+         "name":"Large Shell Factory - 94.5mm AT Round",
          "producers":[
             "large-shell-factory"
          ],
@@ -3594,14 +4032,46 @@
             "bcons":2
          },
          "out":{
-            "94-5mm":1
+            "nine-four-five-mm":1
          }
       },
       {
-         "id":"300mm",
-         "name":"300mm Round",
+         "id":"one-twenty-mm",
+         "name":"Large Shell Factory - 120mm Round",
          "producers":[
             "large-shell-factory"
+         ],
+         "time":15,
+         "cost":1000,
+         "in":{
+            "emats":3,
+            "bcons":2
+         },
+         "out":{
+            "one-twenty-mm":1
+         }
+      },
+      {
+         "id":"one-fifty-mm",
+         "name":"Large Shell Factory - 150mm Round",
+         "producers":[
+            "large-shell-factory"
+         ],
+         "time":20,
+         "cost":1000,
+         "in":{
+            "hemats":2,
+            "bcons":3
+         },
+         "out":{
+            "one-fifty-mm":1
+         }
+      },
+      {
+         "id":"three-hundred-mm",
+         "name":"Large Shell Factory - 300mm Round",
+         "producers":[
+            "large-shell-factory-6"
          ],
          "time":25,
          "cost":1000,
@@ -3610,7 +4080,7 @@
             "bcons":3
          },
          "out":{
-            "300mm":1
+            "three-hundred-mm":1
          }
       },
       {
@@ -3630,7 +4100,7 @@
          }
       },
       {
-         "id":"small-gauge",
+         "id":"short-gauge",
          "name":"BMS Minesweeper Small-Gauge Locomotive",
          "producers":[
             "lv-assembly"
@@ -3638,10 +4108,46 @@
          "time":900,
          "cost":1000,
          "in":{
-            "pcons":35
+            "bcons":125,
+			"cams":10,
+			"pams":20
          },
          "out":{
-            "r1-upgrade":1
+            "short-gauge":1
+         }
+      },
+      {
+         "id":"sm-container-car",
+         "name":"Small Container Car",
+         "producers":[
+            "lv-assembly"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "bcons":35,
+			"cams":15,
+			"pams":5
+         },
+         "out":{
+            "sm-container-car":1
+         }
+      },
+      {
+         "id":"sm-flatbed-car",
+         "name":"Small Flatbed Car",
+         "producers":[
+            "lv-assembly"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "bcons":35,
+			"cams":15,
+			"pams":5
+         },
+         "out":{
+            "sm-flatbed-car":1
          }
       },
       {
@@ -3746,6 +4252,283 @@
          }
       },
       {
+         "id":"retiarius",
+         "name":"R-17 Retiarius Skirmisher",
+         "producers":[
+            "artillery-factory"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":70,
+            "cams":10,
+            "sams":15,
+			"r1-hauler":1
+         },
+         "out":{
+            "retiarius":1
+         }
+      },
+      {
+         "id":"hoplite",
+         "name":"HH-b Hoplite Half-Track",
+         "producers":[
+            "artillery-factory"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":5,
+            "hams":10,
+			"javelin":1
+         },
+         "out":{
+            "hoplite":1
+         }
+      },
+      {
+         "id":"peltast",
+         "name":"HH-b Peltast Mortar Half-Track",
+         "producers":[
+            "artillery-factory"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":10,
+            "pams":5,
+			"hams":5,
+			"javelin":1
+         },
+         "out":{
+            "peltast":1
+         }
+      },
+      {
+         "id":"harvester-vic",
+         "name":"BMS Scrap Hauler",
+         "producers":[
+            "lv-assembly-upgrade"
+         ],
+         "time":900,
+         "cost":1000,
+         "in":{
+            "pcons":90,
+			"hams":25
+         },
+         "out":{
+            "harvester-vic":1
+         }
+      },
+      {
+         "id":"scorpion",
+         "name":"HC-2 Scorpion Infantry Tank",
+         "producers":[
+            "lv-assembly-upgrade"
+         ],
+         "time":180,
+         "cost":1000,
+         "in":{
+            "bcons":15,
+			"ballista":1
+         },
+         "out":{
+            "scorpion":1
+         }
+      },
+      {
+         "id":"doru",
+         "name":"AB-11 Doru APC",
+         "producers":[
+            "lv-assembly-upgrade"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":10,
+			"sams":5,
+			"acheron":1
+         },
+         "out":{
+            "doru":1
+         }
+      },
+      {
+         "id":"forty-smelter",
+         "name":"40-45 Smelter Field Gun",
+         "producers":[
+            "lv-assembly-upgrade"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":10,
+			"hams":10,
+			"battering-ram":1
+         },
+         "out":{
+            "forty-smelter":1
+         }
+      },
+      {
+         "id":"vulcan",
+         "name":"H-19 Vulcan Flame Tank",
+         "producers":[
+            "tank-assembly"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":35,
+			"pams":20,
+			"sams":10,
+			"hatchet":1
+         },
+         "out":{
+            "vulcan":1
+         }
+      },
+      {
+         "id":"pelekys",
+         "name":"H-10 Pelekys LTD",
+         "producers":[
+            "tank-assembly"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":15,
+			"pams":20,
+			"sams":10,
+			"hatchet":1
+         },
+         "out":{
+            "pelekys":1
+         }
+      },
+      {
+         "id":"kranesca",
+         "name":"H-8 Kranesca Light Tank",
+         "producers":[
+            "tank-assembly"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":10,
+			"cams":20,
+			"hams":10,
+			"hatchet":1
+         },
+         "out":{
+            "kranesca":1
+         }
+      },
+      {
+         "id":"spatha",
+         "name":"85k-a Spatha Assault Tank",
+         "producers":[
+            "tank-assembly"
+         ],
+         "time":420,
+         "cost":1000,
+         "in":{
+            "pcons":15,
+			"cams":10,
+			"hams":15,
+			"falchion":1
+         },
+         "out":{
+            "spatha":1
+         }
+      },
+      {
+         "id":"ranseur",
+         "name":"86K-c Ranseur",
+         "producers":[
+            "tank-assembly"
+         ],
+         "time":420,
+         "cost":1000,
+         "in":{
+            "pcons":20,
+			"pams":10,
+			"sams":20,
+			"bardiche":1
+         },
+         "out":{
+            "ranseur":1
+         }
+      },
+      {
+         "id":"ruptura",
+         "name":"DAE 2a-1 Ruptura 75mm EAT",
+         "producers":[
+            "tank-assembly"
+         ],
+         "time":600,
+         "cost":1000,
+         "in":{
+            "pcons":155,
+			"cams":10,
+			"hams":25
+         },
+         "out":{
+            "ruptura":1
+         }
+      },
+      {
+         "id":"locomotive",
+         "name":"BMS Black Bolt Locomotive",
+         "producers":[
+            "large-assembly"
+         ],
+         "time":28800,
+         "cost":1000,
+         "in":{
+            "pcons":200,
+			"cams":60,
+			"hams":50
+         },
+         "out":{
+            "locomotive":1
+         }
+      },
+      {
+         "id":"container-car",
+         "name":"Container Car",
+         "producers":[
+            "large-assembly"
+         ],
+         "time":14400,
+         "cost":1000,
+         "in":{
+            "pcons":50,
+			"pams":45,
+			"sams":20
+         },
+         "out":{
+            "container-car":1
+         }
+      },
+      {
+         "id":"flatbed-car",
+         "name":"Flatbed Car",
+         "producers":[
+            "large-assembly"
+         ],
+         "time":14400,
+         "cost":1000,
+         "in":{
+            "pcons":50,
+			"pams":45,
+			"sams":20
+         },
+         "out":{
+            "flatbed-car":1
+         }
+      },
+      {
          "id":"diesel-power",
          "name":"Diesel Power",
          "producers":[
@@ -3808,7 +4591,7 @@
       },
       {
          "id":"reactor-oil-sulfur",
-         "name":"Sulfuric Reactor (Oil)",
+         "name":"Sulfuric Reactor - Oil",
          "producers":[
             "sulfuric-reactor"
          ],
@@ -3823,7 +4606,7 @@
       },
       {
          "id":"reactor-coke-sulfur",
-         "name":"Sulfuric Reactor (Coke)",
+         "name":"Sulfuric Reactor - Coke",
          "producers":[
             "sulfuric-reactor"
          ],
@@ -3847,7 +4630,53 @@
       "cargoWagon":"freight-car",
       "fluidWagon":"freight-car",
       "disabledRecipes":[
-         
+		"sledge-mine-scrap",
+		"sledge-mine-coal",
+		"sledge-mine-comps",
+		"sledge-mine-sulfur",
+		"harvester-scrap",
+		"harvester-comps",
+		"harvester-coal",
+		"harvester-sulfur",
+		"auto-harvester-scrap",
+		"auto-harvester-coal",
+		"auto-harvester-sulfur",
+		"auto-harvester-comps",
+		"e-oil-well-can",
+		"e-oil-well-pipe",
+		"fracker-can",
+		"fracker-pipeline",
+		"water-e",
+		"water-fluid",
+		"petrol-reformer",
+		"hoil",
+		"eoil",
+		"coke-furnace",
+		"coal-liquefier",
+		"adv-coal-liquefier",
+		"metal-press-bcons",
+		"recycler-sandbags",
+		"recycler-wire",
+		"smelter-bcons",
+		"metalworks-pcons",
+		"blast-furnace-hams",
+		"blast-furnace-sams",
+		"blast-furnace-pCons",
+		"metal-recycler-beams",
+		"metal-recycler-scrap",
+		"engineer-scons",
+		"engineer-sulfur-scons",
+		"engineer-nams",
+		"rocket",
+		"in-rocket",
+		"seven-five-mm",
+		"nine-four-five-mm",
+		"three-hundred-mm",
+		"petrol-power",
+		"oil-power",
+		"coal-power",
+		"reactor-oil-sulfur",
+		"reactor-coke-sulfur"
       ],
       "minFactoryRank":[
          "hammer-mine"
