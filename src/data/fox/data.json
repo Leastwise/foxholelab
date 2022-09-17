@@ -1933,7 +1933,52 @@
       {
          "id":"tank-assembly",
          "color":"#766d6d",
-         "position":"-128px -1408px"
+         "position":"-448px -1216px"
+      },
+      {
+         "id":"hatchet",
+         "color":"#766d6d",
+         "position":"-448px -1216px"
+      },
+      {
+         "id":"vulcan",
+         "color":"#766d6d",
+         "position":"-448px -1216px"
+      },
+      {
+         "id":"pelekys",
+         "color":"#766d6d",
+         "position":"-128px -1280px"
+      },
+      {
+         "id":"kranesca",
+         "color":"#766d6d",
+         "position":"-64px -1280px"
+      },
+      {
+         "id":"falchion",
+         "color":"#766d6d",
+         "position":"-384px -1280px"
+      },
+      {
+         "id":"spatha",
+         "color":"#766d6d",
+         "position":"-448px -1280px"
+      },
+      {
+         "id":"bardiche",
+         "color":"#766d6d",
+         "position":"-256px -1280px"
+      },
+      {
+         "id":"ranseur",
+         "color":"#766d6d",
+         "position":"-64px -1792px"
+      },
+      {
+         "id":"ruptura",
+         "color":"#766d6d",
+         "position":"-256px -1536px"
       },
       {
          "id":"pipeline",
@@ -2319,6 +2364,69 @@
          "id":"forty-smelter",
          "name":"40-45 Smelter Field Gun",
          "row":6,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"hatchet",
+         "name":"H-5 Hatchet Light Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"vulcan",
+         "name":"H-19 Vulcan Flame Light Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"pelekys",
+         "name":"H-10 Pelekys LTD",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"kranesca",
+         "name":"H-8 Kranesca Light Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"falchion",
+         "name":"85K-b Falchion Mass-Produced Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"spatha",
+         "name":"85K-a Spatha Assault Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"bardiche",
+         "name":"86K-a Bardiche Assault Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"ranseur",
+         "name":"86K-c Ranseur RPG Assault Tank",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"ruptura",
+         "name":"DAE 2a-1 Ruptura 75mm EAT",
+         "row":7,
          "stack":1
       },
       {
@@ -4194,6 +4302,113 @@
          },
          "out":{
             "forty-smelter":1
+         }
+      },
+      {
+         "id":"vulcan",
+         "name":"H-19 Vulcan Flame Tank",
+         "producers":[
+            "tank-assembly"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":35,
+			"pams":20,
+			"sams":10,
+			"hatchet":1
+         },
+         "out":{
+            "vulcan":1
+         }
+      },
+      {
+         "id":"pelekys",
+         "name":"H-10 Pelekys LTD",
+         "producers":[
+            "tank-assembly"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":15,
+			"pams":20,
+			"sams":10,
+			"hatchet":1
+         },
+         "out":{
+            "pelekys":1
+         }
+      },
+      {
+         "id":"kranesca",
+         "name":"H-8 Kranesca Light Tank",
+         "producers":[
+            "tank-assembly"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":10,
+			"cams":20,
+			"hams":10,
+			"hatchet":1
+         },
+         "out":{
+            "kranesca":1
+         }
+      },
+      {
+         "id":"spatha",
+         "name":"85k-a Spatha Assault Tank",
+         "producers":[
+            "tank-assembly"
+         ],
+         "time":420,
+         "cost":1000,
+         "in":{
+            "pcons":15,
+			"cams":10,
+			"hams":15,
+			"falchion":1
+         },
+         "out":{
+            "spatha":1
+         }
+      },
+      {
+         "id":"ranseur",
+         "name":"86K-c Ranseur",
+         "producers":[
+            "tank-assembly"
+         ],
+         "time":420,
+         "cost":1000,
+         "in":{
+            "pcons":20,
+			"pams":10,
+			"sams":20,
+			"bardiche":1
+         },
+         "out":{
+            "ranseur":1
+         }
+      },
+      {
+         "id":"ruptura",
+         "name":"DAE 2a-1 Ruptura 75mm EAT",
+         "producers":[
+            "tank-assembly"
+         ],
+         "time":600,
+         "cost":1000,
+         "in":{
+            "pcons":155,
+			"cams":10,
+			"hams":25
+         },
+         "out":{
+            "ruptura":1
          }
       },
       {
