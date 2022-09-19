@@ -2115,56 +2115,56 @@
       {
          "category":"cons",
          "id":"bcons",
-         "name":"Construction Materials",
+         "name":"Construction Materials (bCons)",
          "row":0,
          "stack":1
       },
       {
          "category":"cons",
          "id":"pcons",
-         "name":"Processed Construction Materials",
+         "name":"Processed Construction Materials (pCons)",
          "row":0,
          "stack":1
       },
       {
          "category":"cons",
          "id":"scons",
-         "name":"Steel Construction Materials",
+         "name":"Steel Construction Materials (sCons)",
          "row":0,
          "stack":1
       },
       {
          "category":"ams",
          "id":"cams",
-         "name":"Coal Assembly Materials",
+         "name":"Coal Assembly Materials (Cams)",
          "row":0,
          "stack":1
       },
       {
          "category":"ams",
          "id":"pams",
-         "name":"Petrol Assembly Materials",
+         "name":"Petrol Assembly Materials (Pams)",
          "row":0,
          "stack":1
       },
       {
          "category":"ams",
          "id":"sams",
-         "name":"Sulfur Assembly Materials",
+         "name":"Sulfur Assembly Materials (Sams)",
          "row":0,
          "stack":1
       },
       {
          "category":"ams",
          "id":"hams",
-         "name":"Heavy Oil Assembly Materials",
+         "name":"Heavy Oil Assembly Materials (Hams)",
          "row":0,
          "stack":1
       },
       {
          "category":"ams",
          "id":"nams",
-         "name":"Encriched Oil Assembly Materials",
+         "name":"Enriched Oil Assembly Materials (Nams)",
          "row":0,
          "stack":1
       },
@@ -2292,7 +2292,7 @@
       {
          "category":"raw",
          "id":"power",
-         "name":"MW/S",
+         "name":"MW",
          "row":1,
          "stack":1
       },
@@ -3385,8 +3385,8 @@
    ],
    "recipes":[
       {
-         "id":"hammer-mine-scrap",
-         "name":"Hammer-Mined Scrap",
+         "id":"scrap",
+         "name":"Scrap",
          "producers":[
             "hammer-mine"
          ],
@@ -3400,8 +3400,8 @@
          }
       },
       {
-         "id":"hammer-mine-coal",
-         "name":"Hammer-Mined Coal",
+         "id":"coal",
+         "name":"Coal",
          "producers":[
             "hammer-mine"
          ],
@@ -3546,7 +3546,7 @@
             "scrap":50
          },
          "in":{
-            "petrol":2
+            "petrol-liquid":4
          }
       },
       {
@@ -3561,7 +3561,7 @@
             "coal":50
          },
          "in":{
-            "petrol":2
+            "petrol-liquid":4
          }
       },
       {
@@ -3576,7 +3576,7 @@
             "sulfur":6
          },
          "in":{
-            "hoil":2
+            "hoil-liquid":4
          }
       },
       {
@@ -3591,7 +3591,7 @@
             "comps":6
          },
          "in":{
-            "hoil":2
+            "hoil-liquid":4
          }
       },
       {
@@ -3866,8 +3866,8 @@
          }
       },
       {
-         "id":"hoil-xfer2",
-         "name":"Heavy Oil Can-to-Liquid",
+         "id":"hoil",
+         "name":"Heavy Oil Can",
          "producers":[
             "fuel-xfer"
          ],
@@ -3982,7 +3982,7 @@
          "cost":1000,
          "in":{
             "coal":300,
-            "water":75
+            "water-liquid":75
          },
          "out":{
             "hoil":30,
@@ -3999,10 +3999,10 @@
          "cost":1000,
          "in":{
             "coal":300,
-            "water":150
+            "water-liquid":150
          },
          "out":{
-            "hoil":60,
+            "hoil-liquid":60,
             "coke":260
          }
       },
@@ -4134,8 +4134,8 @@
          }
       },
       {
-         "id":"blast-furnace-hams",
-         "name":"Blast Furnace - Hams",
+         "id":"hams",
+         "name":"Heavy Oil Assembly Materials (Hams)",
          "producers":[
             "blast-furnace"
          ],
@@ -4143,15 +4143,15 @@
          "cost":1000,
          "in":{
             "pcons":1,
-            "hoil":66
+            "hoil-liquid":66
          },
          "out":{
             "hams":1
          }
       },
       {
-         "id":"blast-furnace-sams",
-         "name":"Blast Furnace - Sams",
+         "id":"sams",
+         "name":"Sulfur Assembly Materials (Sams)",
          "producers":[
             "blast-furnace"
          ],
@@ -4176,7 +4176,7 @@
          "in":{
             "bcons":3,
             "comps":56,
-            "hoil":6
+            "hoil-liquid":6
          },
          "out":{
             "pcons":3
@@ -4225,7 +4225,7 @@
          "in":{
             "pcons":3,
             "comps":20,
-            "eoil":6
+            "eoil-liquid":6
          },
          "out":{
             "scons":1
@@ -4243,15 +4243,15 @@
             "pcons":3,
             "comps":20,
             "sulfur":20,
-            "eoil":3
+            "eoil-liquid":3
          },
          "out":{
             "scons":3
          }
       },
       {
-         "id":"engineer-nams",
-         "name":"Engineering - Nams",
+         "id":"nams",
+         "name":"Enriched Oil Assembly Materials (Nams)",
          "producers":[
             "engineering-station-8"
          ],
@@ -4259,7 +4259,7 @@
          "cost":1000,
          "in":{
             "scons":1,
-            "eoil":6
+            "eoil-liquid":6
          },
          "out":{
             "nams":1
@@ -4847,22 +4847,22 @@
          "time":45,
          "cost":1000,
          "in":{
-            "diesel":25
+            "diesel-liquid":25
          },
          "out":{
             "power":225
          }
       },
       {
-         "id":"petrol-power",
-         "name":"Petrol Power",
+         "id":"power",
+         "name":"Power",
          "producers":[
             "petrol-power-plant"
          ],
          "time":90,
          "cost":1000,
          "in":{
-            "petrol":50
+            "petrol-liquid":50
          },
          "out":{
             "power":1080
@@ -4877,7 +4877,7 @@
          "time":90,
          "cost":1000,
          "in":{
-            "oil":50
+            "oil-liquid":50
          },
          "out":{
             "power":900
@@ -4893,7 +4893,7 @@
          "cost":1000,
          "in":{
             "coal":60,
-            "water":25
+            "water-liquid":25
          },
          "out":{
             "power":600
@@ -4908,7 +4908,7 @@
          "time":120,
          "cost":1000,
          "in":{
-            "oil":50
+            "oil-liquid":50
          },
          "out":{
             "sulfur":1
@@ -4924,7 +4924,7 @@
          "cost":1000,
          "in":{
             "coke":60,
-			"water":25
+			"water-liquid":25
          },
          "out":{
             "sulfur":1
@@ -4961,6 +4961,8 @@
 		"petrol-reformer",
 		"hoil",
 		"eoil",
+		"hoil-liquid",
+		"eoil-liquid",
 		"coke-furnace",
 		"coal-liquefier",
 		"adv-coal-liquefier",
@@ -4969,14 +4971,14 @@
 		"recycler-wire",
 		"smelter-bcons",
 		"metalworks-pcons",
-		"blast-furnace-hams",
-		"blast-furnace-sams",
+		"hams",
+		"sams",
 		"blast-furnace-pCons",
 		"metal-recycler-beams",
 		"metal-recycler-scrap",
 		"engineer-scons",
 		"engineer-sulfur-scons",
-		"engineer-nams",
+		"nams",
 		"rocket",
 		"in-rocket",
 		"seven-five-mm",
