@@ -1346,11 +1346,6 @@
          "position":"-640px -896px"
       },
       {
-         "id":"water",
-         "color":"#4a4f54",
-         "position":"-768px -896px"
-      },
-      {
          "id":"water-extractor",
          "color":"#6a6264",
          "position":"-704px -896px"
@@ -1566,9 +1561,19 @@
          "position":"-448px -768px"
       },
       {
+         "id":"oil-liquid",
+         "color":"#766d6d",
+         "position":"-256px -2048px"
+      },
+      {
          "id":"hoil",
          "color":"#766d6d",
          "position":"-448px -768px"
+      },
+      {
+         "id":"hoil-liquid",
+         "color":"#766d6d",
+         "position":"-384px -2048px"
       },
       {
          "id":"eoil",
@@ -1576,9 +1581,19 @@
          "position":"-448px -768px"
       },
       {
+         "id":"eoil-liquid",
+         "color":"#766d6d",
+         "position":"-448px -2048px"
+      },
+      {
          "id":"water",
          "color":"#766d6d",
          "position":"-384px -1856px"
+      },
+      {
+         "id":"water-liquid",
+         "color":"#766d6d",
+         "position":"-192px -2048px"
       },
       {
          "id":"diesel",
@@ -1586,14 +1601,54 @@
          "position":"-384px -640px"
       },
       {
+         "id":"diesel-liquid",
+         "color":"#766d6d",
+         "position":"-0px -2112px"
+      },
+      {
          "id":"petrol",
          "color":"#766d6d",
          "position":"-448px -640px"
       },
       {
+         "id":"petrol-liquid",
+         "color":"#766d6d",
+         "position":"-320px -2048px"
+      },
+      {
          "id":"shippable",
          "color":"#766d6d",
          "position":"-256px -1600px"
+      },
+      {
+         "id":"shipping-container",
+         "color":"#766d6d",
+         "position":"-256px -1600px"
+      },
+      {
+         "id":"resource-container",
+         "color":"#766d6d",
+         "position":"-128px -1600px"
+      },
+      {
+         "id":"material-pallet",
+         "color":"#766d6d",
+         "position":"-64px -1600px"
+      },
+      {
+         "id":"fuel-container",
+         "color":"#766d6d",
+         "position":"-64px -2112px"
+      },
+      {
+         "id":"fuel-xfer",
+         "color":"#766d6d",
+         "position":"-64px -2112px"
+      },
+      {
+         "id":"fuel-silo",
+         "color":"#766d6d",
+         "position":"-128px -2112px"
       },
       {
          "id":"sandbags",
@@ -2027,210 +2082,275 @@
          "id":"bmats",
          "name":"Basic Materials",
          "row":0,
-         "stack":100
+         "stack":1
       },
       {
          "category":"mats",
          "id":"rmats",
          "name":"Refined Materials",
          "row":0,
-         "stack":100
+         "stack":1
       },
       {
          "category":"mats",
          "id":"emats",
          "name":"Explosive Materials",
          "row":0,
-         "stack":100
+         "stack":1
       },
       {
          "category":"mats",
          "id":"hemats",
          "name":"Heavy Explosive Materials",
          "row":0,
-         "stack":100
+         "stack":1
       },
       {
          "category":"mats",
          "id":"concrete",
          "name":"Concrete Materials",
          "row":0,
-         "stack":100
+         "stack":1
       },
       {
          "category":"cons",
          "id":"bcons",
-         "name":"Construction Materials",
+         "name":"Construction Materials (bCons)",
          "row":0,
-         "stack":100
+         "stack":1
       },
       {
          "category":"cons",
          "id":"pcons",
-         "name":"Processed Construction Materials",
+         "name":"Processed Construction Materials (pCons)",
          "row":0,
-         "stack":100
+         "stack":1
       },
       {
          "category":"cons",
          "id":"scons",
-         "name":"Steel Construction Materials",
+         "name":"Steel Construction Materials (sCons)",
          "row":0,
-         "stack":100
+         "stack":1
       },
       {
          "category":"ams",
          "id":"cams",
-         "name":"Coal Assembly Materials",
+         "name":"Coal Assembly Materials (Cams)",
          "row":0,
-         "stack":100
+         "stack":1
       },
       {
          "category":"ams",
          "id":"pams",
-         "name":"Petrol Assembly Materials",
+         "name":"Petrol Assembly Materials (Pams)",
          "row":0,
-         "stack":100
+         "stack":1
       },
       {
          "category":"ams",
          "id":"sams",
-         "name":"Sulfur Assembly Materials",
+         "name":"Sulfur Assembly Materials (Sams)",
          "row":0,
-         "stack":100
+         "stack":1
       },
       {
          "category":"ams",
          "id":"hams",
-         "name":"Heavy Oil Assembly Materials",
+         "name":"Heavy Oil Assembly Materials (Hams)",
          "row":0,
-         "stack":100
+         "stack":1
       },
       {
          "category":"ams",
          "id":"nams",
-         "name":"Encriched Oil Assembly Materials",
+         "name":"Enriched Oil Assembly Materials (Nams)",
          "row":0,
-         "stack":100
+         "stack":1
+      },
+      {
+         "category":"shippable",
+         "id":"fuel-container",
+         "name":"Fuel Container",
+         "row":0,
+         "stack":1,
+         "cargoWagon":{
+            "size":100
+         },
+         "fluidWagon":{
+            "capacity":1
+         }
+      },
+      {
+         "category":"shippable",
+         "id":"shipping-container",
+         "name":"Shipping Container",
+         "row":0,
+         "stack":1,
+         "cargoWagon":{
+            "size":60
+         },
+         "fluidWagon":{
+            "capacity":1
+         }
+      },
+      {
+         "category":"shippable",
+         "id":"resource-container",
+         "name":"Resource Container",
+         "row":0,
+         "stack":1,
+         "cargoWagon":{
+            "size":5000
+         },
+         "fluidWagon":{
+            "capacity":1
+         }
+      },
+      {
+         "category":"shippable",
+         "id":"material-pallet",
+         "name":"Material Pallet",
+         "row":0,
+         "stack":1,
+         "cargoWagon":{
+            "size":60
+         },
+         "fluidWagon":{
+            "capacity":1
+         }
       },
       {
          "category":"shippable",
          "id":"sandbags",
          "name":"Sandbags",
-         "row":0,
-         "stack":100
+         "row":1,
+         "stack":1
       },
       {
          "category":"shippable",
          "id":"metal-beams",
          "name":"Metal Beams",
-         "row":0,
-         "stack":100
+         "row":1,
+         "stack":1
       },
       {
          "category":"shippable",
          "id":"barbed-wire",
          "name":"Barbed Wire",
+         "row":1,
+         "stack":1
+      },
+      {
+         "category":"shippable",
+         "id":"fuel-silo",
+         "name":"Fuel Silo",
          "row":0,
-         "stack":100
+         "stack":1,
+         "cargoWagon":{
+            "size":1
+         },
+         "fluidWagon":{
+            "capacity":500
+         }
       },
       {
          "category":"raw",
          "id":"scrap",
          "name":"Scrap",
          "row":1,
-         "stack":100
+         "stack":1
       },
       {
          "category":"raw",
          "id":"comps",
          "name":"Components",
          "row":1,
-         "stack":100
+         "stack":1
       },
       {
          "category":"raw",
          "id":"sulfur",
          "name":"Sulfur",
          "row":1,
-         "stack":100
+         "stack":1
       },
       {
          "category":"raw",
          "id":"coal",
          "name":"Coal",
          "row":1,
-         "stack":100
+         "stack":1
       },
       {
          "category":"raw",
          "id":"coke",
          "name":"Coke",
          "row":1,
-         "stack":100
+         "stack":1
       },
       {
          "category":"raw",
          "id":"power",
-         "name":"MW/S",
+         "name":"MW",
          "row":1,
-         "stack":100
+         "stack":1
       },
       {
          "category":"heavyammo",
          "id":"flame-barrel",
          "name":"Flame Barrel",
          "row":1,
-         "stack":100
+         "stack":1
       },
       {
          "category":"heavyammo",
          "id":"rocket",
          "name":"Rocket",
          "row":1,
-         "stack":100
+         "stack":1
       },
       {
          "category":"heavyammo",
          "id":"in-rocket",
          "name":"Incendiary Rocket",
          "row":1,
-         "stack":100
+         "stack":1
       },
       {
          "category":"heavyammo",
          "id":"seven-five-mm",
          "name":"75mm HE Round",
          "row":1,
-         "stack":100
+         "stack":1
       },
       {
          "category":"heavyammo",
          "id":"nine-four-five-mm",
          "name":"94.5mm AT Round",
          "row":1,
-         "stack":100
+         "stack":1
       },
       {
          "category":"heavyammo",
          "id":"one-twenty-mm",
          "name":"120mm Round",
          "row":2,
-         "stack":100
+         "stack":1
       },
       {
          "category":"heavyammo",
          "id":"one-fifty-mm",
          "name":"150mm Round",
          "row":2,
-         "stack":100
+         "stack":1
       },
       {
          "category":"heavyammo",
          "id":"three-hundred-mm",
          "name":"300mm Round",
          "row":2,
-         "stack":100
+         "stack":1
       },
       {
          "category":"vics",
@@ -2466,7 +2586,7 @@
             "size":60
          },
          "fluidWagon":{
-            "capacity":100
+            "capacity":1
          }
       },
       {
@@ -2474,53 +2594,35 @@
          "id":"flatbed-car",
          "name":"Flatbed Car",
          "row":8,
-         "stack":1,
-         "cargoWagon":{
-            "size":60
-         },
-         "fluidWagon":{
-            "capacity":100
-         }
+         "stack":1
       },
       {
          "category":"fluids",
          "id":"oil",
-         "name":"Crude Oil",
+         "name":"Oil Can",
          "row":1,
-         "stack":100,
+         "stack":1,
          "fuel":{
             "category":"chemical",
-            "value":50
+            "value":1
+         }
+      },
+      {
+         "category":"fluids",
+         "id":"oil-liquid",
+         "name":"Oil",
+         "row":2,
+         "fuel":{
+            "category":"chemical",
+            "value":1
          }
       },
       {
          "category":"fluids",
          "id":"hoil",
-         "name":"Heavy Oil",
+         "name":"Heavy Oil Can",
          "row":1,
-         "stack":100,
-         "fuel":{
-            "category":"chemical",
-            "value":30
-         }
-      },
-      {
-         "category":"fluids",
-         "id":"eoil",
-         "name":"Enriched Oil",
-         "row":1,
-         "stack":100,
-         "fuel":{
-            "category":"chemical",
-            "value":30
-         }
-      },
-      {
-         "category":"fluids",
-         "id":"water",
-         "name":"Water",
-         "row":1,
-         "stack":100,
+         "stack":1,
          "fuel":{
             "category":"chemical",
             "value":50
@@ -2528,10 +2630,72 @@
       },
       {
          "category":"fluids",
-         "id":"diesel",
-         "name":"Diesel",
+         "id":"hoil-liquid",
+         "name":"Heavy Oil",
+         "row":2,
+         "fuel":{
+            "category":"chemical",
+            "value":50
+         }
+      },
+      {
+         "category":"fluids",
+         "id":"eoil",
+         "name":"Enriched Oil Can",
          "row":1,
-         "stack":100,
+         "stack":1,
+         "fuel":{
+            "category":"chemical",
+            "value":1
+         }
+      },
+      {
+         "category":"fluids",
+         "id":"eoil-liquid",
+         "name":"Enriched Oil",
+         "row":2,
+         "fuel":{
+            "category":"chemical",
+            "value":1
+         }
+      },
+      {
+         "category":"fluids",
+         "id":"water",
+         "name":"Water Can",
+         "row":1,
+         "stack":1,
+         "fuel":{
+            "category":"chemical",
+            "value":30
+         }
+      },
+      {
+         "category":"fluids",
+         "id":"water-liquid",
+         "name":"Water",
+         "row":2,
+         "fuel":{
+            "category":"chemical",
+            "value":30
+         }
+      },
+      {
+         "category":"fluids",
+         "id":"diesel",
+         "name":"Diesel Can",
+         "row":1,
+         "stack":1,
+         "fuel":{
+            "category":"chemical",
+            "value":100
+         }
+      },
+      {
+         "category":"fluids",
+         "id":"diesel-liquid",
+         "name":"Diesel",
+         "row":2,
          "fuel":{
             "category":"chemical",
             "value":100
@@ -2540,12 +2704,22 @@
       {
          "category":"fluids",
          "id":"petrol",
-         "name":"Petrol",
+         "name":"Petrol Can",
          "row":1,
-         "stack":100,
+         "stack":1,
          "fuel":{
             "category":"chemical",
-            "value":100
+            "value":200
+         }
+      },
+      {
+         "category":"fluids",
+         "id":"petrol-liquid",
+         "name":"Petrol",
+         "row":2,
+         "fuel":{
+            "category":"chemical",
+            "value":200
          }
       },
       {
@@ -2610,6 +2784,19 @@
             "speed":1,
             "type":"electric",
             "usage":2000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"fuel-xfer",
+         "name":"Can-to-Liquid Transfer",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "usage":0,
             "modules":0
          }
       },
@@ -3153,23 +3340,11 @@
       },
       {
          "category":"other",
-         "id":"freight-car",
-         "name":"Freight Car",
-         "row":2,
-         "cargoWagon":{
-            "size":60
-         },
-         "fluidWagon":{
-            "capacity":1600
-         }
-      },
-      {
-         "category":"other",
          "id":"pipeline",
          "name":"Pipeline",
          "row":1,
          "pipe":{
-            "speed":5
+            "speed":2.5
          }
       },
       {
@@ -3188,7 +3363,7 @@
          "row":1,
 		 "stack":1,
          "cargoWagon":{
-            "size":40
+            "size":2500
          },
 		 "fluidWagon":{
             "capacity":1
@@ -3201,7 +3376,7 @@
          "row":1,
 		 "stack":1,
          "cargoWagon":{
-            "size":40
+            "size":100
          },
 		 "fluidWagon":{
             "capacity":1
@@ -3210,8 +3385,8 @@
    ],
    "recipes":[
       {
-         "id":"hammer-mine-scrap",
-         "name":"Hammer-Mined Scrap",
+         "id":"scrap",
+         "name":"Scrap",
          "producers":[
             "hammer-mine"
          ],
@@ -3225,8 +3400,8 @@
          }
       },
       {
-         "id":"hammer-mine-coal",
-         "name":"Hammer-Mined Coal",
+         "id":"coal",
+         "name":"Coal",
          "producers":[
             "hammer-mine"
          ],
@@ -3371,7 +3546,7 @@
             "scrap":50
          },
          "in":{
-            "petrol":2
+            "petrol-liquid":4
          }
       },
       {
@@ -3386,7 +3561,7 @@
             "coal":50
          },
          "in":{
-            "petrol":2
+            "petrol-liquid":4
          }
       },
       {
@@ -3401,7 +3576,7 @@
             "sulfur":6
          },
          "in":{
-            "hoil":2
+            "hoil-liquid":4
          }
       },
       {
@@ -3416,19 +3591,34 @@
             "comps":6
          },
          "in":{
-            "hoil":2
+            "hoil-liquid":4
          }
       },
       {
-         "id":"oil-well",
-         "name":"Oil Well - Oil Can",
+         "id":"oil-xfer",
+         "name":"Oil Can to Liquid",
+         "producers":[
+            "fuel-xfer"
+         ],
+         "time":1,
+         "cost":1500,
+         "out":{
+            "oil-liquid":50
+         },
+         "in":{
+            "oil":1
+         }
+      },
+      {
+         "id":"oil",
+         "name":"Oil Can",
          "producers":[
             "oil-well"
          ],
          "time":50,
          "cost":1000,
          "out":{
-            "oil":50
+            "oil":1
          },
          "in":{
             
@@ -3443,22 +3633,22 @@
          "time":26,
          "cost":1000,
          "out":{
-            "oil":50
+            "oil":1
          },
          "in":{
             
          }
       },
       {
-         "id":"e-oil-well-pipe",
-         "name":"Electric Oil Well - Oil Pipeline",
+         "id":"oil-liquid",
+         "name":"Oil",
          "producers":[
             "e-oil-well"
          ],
          "time":40,
          "cost":1000,
          "out":{
-            "oil":75
+            "oil-liquid":75
          },
          "in":{
             
@@ -3473,10 +3663,10 @@
          "time":40,
          "cost":1000,
          "out":{
-            "oil":50
+            "oil":1
          },
          "in":{
-			 "water":25
+			 "water-liquid":25
          }
       },
       {
@@ -3488,22 +3678,37 @@
          "time":30,
          "cost":1000,
          "out":{
-            "oil":75
+            "oil-liquid":75
          },
          "in":{
-			 "water":25
+			 "water-liquid":25
          }
       },
       {
-         "id":"water-pump-water",
-         "name":"Water Pump - Water Can",
+         "id":"water-xfer",
+         "name":"Water Can to Liquid",
+         "producers":[
+            "fuel-xfer"
+         ],
+         "time":1,
+         "cost":1500,
+         "out":{
+            "water-liquid":50
+         },
+         "in":{
+            "water":1
+         }
+      },
+      {
+         "id":"water",
+         "name":"Water Can",
          "producers":[
             "water-pump"
          ],
          "time":50,
          "cost":1000,
          "out":{
-            "water":50
+            "water":1
          },
          "in":{
             
@@ -3518,22 +3723,22 @@
          "time":40,
          "cost":1000,
          "out":{
-            "water":50
+            "water":1
          },
          "in":{
             
          }
       },
       {
-         "id":"water-fluid",
-         "name":"Electric Water Pump - Water Pipeline)",
+         "id":"water-liquid",
+         "name":"Water",
          "producers":[
             "e-water-pump"
          ],
          "time":50,
          "cost":1000,
          "out":{
-            "water":60
+            "water-liquid":60
          },
          "in":{
             
@@ -3541,7 +3746,7 @@
       },
       {
          "id":"diesel",
-         "name":"Diesel",
+         "name":"Diesel Can",
          "producers":[
             "refinery-town"
          ],
@@ -3551,6 +3756,21 @@
             "scrap":10
          },
          "out":{
+            "diesel":1
+         }
+      },
+      {
+         "id":"diesel-liquid",
+         "name":"Diesel",
+         "producers":[
+            "fuel-xfer"
+         ],
+         "time":1,
+         "cost":1500,
+         "out":{
+            "diesel-liquid":100
+         },
+         "in":{
             "diesel":1
          }
       },
@@ -3570,18 +3790,48 @@
          }
       },
       {
-         "id":"petrol-refinery",
-         "name":"Oil Refinery - Petrol",
+         "id":"petrol-xfer",
+         "name":"Petrol Can-to-Liquid",
+         "producers":[
+            "fuel-xfer"
+         ],
+         "time":1,
+         "cost":1500,
+         "out":{
+            "petrol-liquid":50
+         },
+         "in":{
+            "petrol":1
+         }
+      },
+      {
+         "id":"petrol",
+         "name":"Petrol Can",
+         "producers":[
+            "fuel-xfer"
+         ],
+         "time":1,
+         "cost":1500,
+         "out":{
+            "petrol":1
+         },
+         "in":{
+            "petrol-liquid":50
+         }
+      },
+      {
+         "id":"petrol-liquid",
+         "name":"Petrol",
          "producers":[
             "oil-refinery"
          ],
          "time":150,
          "cost":1000,
          "in":{
-            "oil":150
+            "oil-liquid":150
          },
          "out":{
-            "petrol":150
+            "petrol-liquid":150
          }
       },
       {
@@ -3593,47 +3843,107 @@
          "time":150,
          "cost":1000,
          "in":{
-            "oil":120,
-            "water":30
+            "oil-liquid":120,
+            "water-liquid":30
          },
          "out":{
-            "petrol":150
+            "petrol-liquid":150
+         }
+      },
+      {
+         "id":"hoil-xfer",
+         "name":"Heavy Oil Can-to-Liquid",
+         "producers":[
+            "fuel-xfer"
+         ],
+         "time":1,
+         "cost":1500,
+         "out":{
+            "hoil-liquid":30
+         },
+         "in":{
+            "hoil":1
          }
       },
       {
          "id":"hoil",
-         "name":"Cracking Unit - Heavy Oil",
+         "name":"Heavy Oil Can",
+         "producers":[
+            "fuel-xfer"
+         ],
+         "time":1,
+         "cost":1500,
+         "out":{
+            "hoil":1
+         },
+         "in":{
+            "hoil-liquid":30
+         }
+      },
+      {
+         "id":"hoil-liquid",
+         "name":"Heavy Oil",
          "producers":[
             "cracking-unit"
          ],
          "time":160,
          "cost":1000,
          "in":{
-            "oil":120
+            "oil-liquid":120
          },
          "out":{
-            "hoil":90
+            "hoil-liquid":90
+         }
+      },
+      {
+         "id":"eoil-xfer",
+         "name":"Enriched Oil Can-to-Liquid",
+         "producers":[
+            "fuel-xfer"
+         ],
+         "time":1,
+         "cost":1500,
+         "out":{
+            "eoil-liquid":30
+         },
+         "in":{
+            "eoil":1
          }
       },
       {
          "id":"eoil",
-         "name":"Petrochemical Plant - Enriched Oil",
+         "name":"Enriched Oil Can",
+         "producers":[
+            "fuel-xfer"
+         ],
+         "time":1,
+         "cost":1500,
+         "out":{
+            "eoil":1
+         },
+         "in":{
+            "eoil-liquid":30
+         }
+      },
+      {
+         "id":"eoil-liquid",
+         "name":"Enriched Oil",
          "producers":[
             "petro-plant"
          ],
          "time":160,
          "cost":1000,
          "in":{
-            "hoil":90,
+            "hoil-liquid":90,
             "sulfur":20
          },
          "out":{
-            "eoil":90
+            "eoil-liquid":90
          }
       },
       {
          "id":"coke",
-         "name":"Coal Refinery - Coke",
+         "name":"Coke",
          "producers":[
             "coal-refinery"
          ],
@@ -3672,7 +3982,7 @@
          "cost":1000,
          "in":{
             "coal":300,
-            "water":75
+            "water-liquid":75
          },
          "out":{
             "hoil":30,
@@ -3689,16 +3999,16 @@
          "cost":1000,
          "in":{
             "coal":300,
-            "water":150
+            "water-liquid":150
          },
          "out":{
-            "hoil":60,
+            "hoil-liquid":60,
             "coke":260
          }
       },
       {
          "id":"bcons",
-         "name":"Materials Factory - bCons",
+         "name":"Construcion Materials (bCons)",
          "producers":[
             "materials-factory"
          ],
@@ -3713,7 +4023,7 @@
       },
       {
          "id":"cams",
-         "name":"Forge - Cams",
+         "name":"Coal Assembly Materials (Cams)",
          "producers":[
             "forge"
          ],
@@ -3729,7 +4039,7 @@
       },
       {
          "id":"pams",
-         "name":"Forge - Pams",
+         "name":"Petrol Assembly Materials (Pams)",
          "producers":[
             "forge"
          ],
@@ -3824,8 +4134,8 @@
          }
       },
       {
-         "id":"blast-furnace-hams",
-         "name":"Blast Furnace - Hams",
+         "id":"hams",
+         "name":"Heavy Oil Assembly Materials (Hams)",
          "producers":[
             "blast-furnace"
          ],
@@ -3833,15 +4143,15 @@
          "cost":1000,
          "in":{
             "pcons":1,
-            "hoil":66
+            "hoil-liquid":66
          },
          "out":{
             "hams":1
          }
       },
       {
-         "id":"blast-furnace-sams",
-         "name":"Blast Furnace - Sams",
+         "id":"sams",
+         "name":"Sulfur Assembly Materials (Sams)",
          "producers":[
             "blast-furnace"
          ],
@@ -3866,7 +4176,7 @@
          "in":{
             "bcons":3,
             "comps":56,
-            "hoil":6
+            "hoil-liquid":6
          },
          "out":{
             "pcons":3
@@ -3915,7 +4225,7 @@
          "in":{
             "pcons":3,
             "comps":20,
-            "eoil":6
+            "eoil-liquid":6
          },
          "out":{
             "scons":1
@@ -3933,15 +4243,15 @@
             "pcons":3,
             "comps":20,
             "sulfur":20,
-            "eoil":3
+            "eoil-liquid":3
          },
          "out":{
             "scons":3
          }
       },
       {
-         "id":"engineer-nams",
-         "name":"Engineering - Nams",
+         "id":"nams",
+         "name":"Enriched Oil Assembly Materials (Nams)",
          "producers":[
             "engineering-station-8"
          ],
@@ -3949,7 +4259,7 @@
          "cost":1000,
          "in":{
             "scons":1,
-            "eoil":6
+            "eoil-liquid":6
          },
          "out":{
             "nams":1
@@ -4537,22 +4847,22 @@
          "time":45,
          "cost":1000,
          "in":{
-            "diesel":25
+            "diesel-liquid":25
          },
          "out":{
             "power":225
          }
       },
       {
-         "id":"petrol-power",
-         "name":"Petrol Power",
+         "id":"power",
+         "name":"Power",
          "producers":[
             "petrol-power-plant"
          ],
          "time":90,
          "cost":1000,
          "in":{
-            "petrol":50
+            "petrol-liquid":50
          },
          "out":{
             "power":1080
@@ -4567,7 +4877,7 @@
          "time":90,
          "cost":1000,
          "in":{
-            "oil":50
+            "oil-liquid":50
          },
          "out":{
             "power":900
@@ -4583,7 +4893,7 @@
          "cost":1000,
          "in":{
             "coal":60,
-            "water":25
+            "water-liquid":25
          },
          "out":{
             "power":600
@@ -4598,7 +4908,7 @@
          "time":120,
          "cost":1000,
          "in":{
-            "oil":50
+            "oil-liquid":50
          },
          "out":{
             "sulfur":1
@@ -4614,7 +4924,7 @@
          "cost":1000,
          "in":{
             "coke":60,
-			"water":25
+			"water-liquid":25
          },
          "out":{
             "sulfur":1
@@ -4627,8 +4937,8 @@
       "minPipe":"pipeline",
       "maxPipe":"pipeline",
       "fuel":"petrol",
-      "cargoWagon":"freight-car",
-      "fluidWagon":"freight-car",
+      "cargoWagon":"sm-container-car",
+      "fluidWagon":"fuel-silo",
       "disabledRecipes":[
 		"sledge-mine-scrap",
 		"sledge-mine-coal",
@@ -4651,6 +4961,8 @@
 		"petrol-reformer",
 		"hoil",
 		"eoil",
+		"hoil-liquid",
+		"eoil-liquid",
 		"coke-furnace",
 		"coal-liquefier",
 		"adv-coal-liquefier",
@@ -4659,14 +4971,14 @@
 		"recycler-wire",
 		"smelter-bcons",
 		"metalworks-pcons",
-		"blast-furnace-hams",
-		"blast-furnace-sams",
+		"hams",
+		"sams",
 		"blast-furnace-pCons",
 		"metal-recycler-beams",
 		"metal-recycler-scrap",
 		"engineer-scons",
 		"engineer-sulfur-scons",
-		"engineer-nams",
+		"nams",
 		"rocket",
 		"in-rocket",
 		"seven-five-mm",
