@@ -6,6 +6,7 @@
     "lab": "Factorio Calculator",
     "dsp": "Dyson Sphere Program Calculator",
     "sfy": "Satisfactory Calculator",
+	"fox": "Foxhole Calculator",
     "coi": "Captain of Industry Calculator"
   },
   "app": {
@@ -33,6 +34,7 @@
       "factorio": "Factorio",
       "dysonSphereProgram": "Dyson Sphere Program",
       "satisfactory": "Satisfactory",
+	  "foxhole": "Foxhole",
       "captainOfIndustry": "Captain of Industry"
     },
     "inserterCapacity": {
