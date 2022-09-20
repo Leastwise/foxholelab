@@ -6262,7 +6262,7 @@ const gameInfo = {
         modId: 'sfy',
     },
     [_enum__WEBPACK_IMPORTED_MODULE_0__.Game.Foxhole]: {
-        icon: 'satisfactory',
+        icon: 'foxhole',
         route: 'foxhole',
         title: 'title.fox',
         label: 'options.game.foxhole',
@@ -15327,7 +15327,7 @@ module.exports = JSON.parse('{"name":"foxholelab","description":"FactorioLab bra
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"game":"None","id":"app","name":"factoriolab","version":{},"categories":[],"items":[],"recipes":[],"icons":[{"id":"captain-of-industry","color":"#ab5a30","position":"-1px -1px"},{"id":"dyson-sphere-program","color":"#867e74","position":"-66px -1px"},{"id":"factorio","color":"#945a2e","position":"-131px -1px"},{"id":"fast-inserter","color":"#608ea1","position":"-196px -1px"},{"id":"inserter","color":"#a5885c","position":"-1px -66px"},{"id":"long-handed-inserter","color":"#a2635f","position":"-66px -66px"},{"id":"module","color":"#e2e3e2","position":"-131px -66px"},{"id":"pipe","color":"#6d634e","position":"-196px -66px"},{"id":"satisfactory","color":"#8b9096","position":"-1px -131px"},{"id":"stack-inserter","color":"#839d5f","position":"-66px -131px"},{"id":"time","color":"#acabac","position":"-131px -131px"}],"limitations":{}}');
+module.exports = JSON.parse('{"game":"None","id":"app","name":"factoriolab","version":{},"categories":[],"items":[],"recipes":[],"icons":[{"id":"captain-of-industry","color":"#ab5a30","position":"-1px -1px"},{"id":"dyson-sphere-program","color":"#867e74","position":"-66px -1px"},{"id":"factorio","color":"#945a2e","position":"-131px -1px"},{"id":"fast-inserter","color":"#608ea1","position":"-196px -1px"},{"id":"inserter","color":"#a5885c","position":"-1px -66px"},{"id":"long-handed-inserter","color":"#a2635f","position":"-66px -66px"},{"id":"module","color":"#e2e3e2","position":"-131px -66px"},{"id":"pipe","color":"#6d634e","position":"-196px -66px"},{"id":"satisfactory","color":"#8b9096","position":"-1px -131px"},{"id":"satisfactory","color":"#8b9096","position":"-1px -131px"},{"id":"foxhole","color":"#8b9096","position":"-196px -131px"},{"id":"stack-inserter","color":"#839d5f","position":"-66px -131px"},{"id":"time","color":"#acabac","position":"-131px -131px"}],"limitations":{}}');
 
 /***/ })
 

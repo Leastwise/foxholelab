@@ -1,1 +1,3 @@
 https://angular.io/guide/deployment
+
+ng build --output-path docs --base-href /foxholelab/

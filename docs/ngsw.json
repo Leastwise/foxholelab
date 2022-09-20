@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1663554842955,
+  "timestamp": 1663684863070,
   "index": "/foxholelab/index.html",
   "assetGroups": [
     {
@@ -67,7 +67,7 @@
   "dataGroups": [],
   "hashTable": {
     "/foxholelab/assets/glpk-wasm/glpk.all.wasm": "e23240d859358856b7106bba79e00b987170dbde",
-    "/foxholelab/assets/i18n/en.json": "b208ab605776b478d9ede545e645742101f9f474",
+    "/foxholelab/assets/i18n/en.json": "2d7bb932c409b961d360a7ed8e536ce489913470",
     "/foxholelab/assets/i18n/zh.json": "16150aa3226880cd4750a27673cd4363657f64d5",
     "/foxholelab/assets/icons/icon-128x128.png": "983e77afd570f31ac052b051c3195ad4f868abf6",
     "/foxholelab/assets/icons/icon-144x144.png": "f7ca93fd4ecf6f8c64cb159ca872be67de2dc0b5",
@@ -89,8 +89,8 @@
     "/foxholelab/fa-v4compatibility.woff2": "9e1f957bf329bd280aba89e578420301b312403d",
     "/foxholelab/favicon.ico": "98abad45ff4f9ac767af6e97f43545a9d4f5bef9",
     "/foxholelab/hue.png": "f81ae627637a684614aa726e206c73ce099a01fd",
-    "/foxholelab/index.html": "0d5019cf1ba687139574e55a1b96106935fbbcd6",
-    "/foxholelab/main.js": "73d486eb91d6f5f991b05fe6d14644b150a573a6",
+    "/foxholelab/index.html": "1081049198a2a5d08f04bd76d711f6bb0dd8f80e",
+    "/foxholelab/main.js": "e34f3ed083d6e7712a7ea5d19c616a6c1fc99edf",
     "/foxholelab/manifest.webmanifest": "2ea54b3f2df294afe489cc36242f7a8d44504628",
     "/foxholelab/polyfills.js": "d2172717c74dca343ef7ccf6c5f7168de901ed5c",
     "/foxholelab/primeicons.svg": "621775b2ec555fd2dd152a24390cf6dfeee168b1",
