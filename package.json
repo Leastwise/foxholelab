@@ -1,6 +1,6 @@
 {
-  "name": "factoriolab",
-  "description": "Angular-based calculator for the game Factorio",
+  "name": "foxholelab",
+  "description": "FactorioLab branch for Foxhole",
   "version": "2.0.45",
   "private": true,
   "contributors": [
@@ -8,9 +8,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/factoriolab/factoriolab.git"
+    "url": "https://github.com/foxholelab/foxholelab.git"
   },
-  "homepage": "https://factoriolab.github.io",
+  "homepage": "https://foxholelab.github.io",
   "license": "MIT",
   "scripts": {
     "ng": "ng",

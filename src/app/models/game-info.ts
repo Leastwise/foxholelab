@@ -43,7 +43,7 @@ export const gameInfo: Record<Game, GameInfo> = {
     modId: 'sfy',
   },
   [Game.Foxhole]: {
-    icon: 'satisfactory',
+    icon: 'foxhole',
     route: 'foxhole',
     title: 'title.fox',
     label: 'options.game.foxhole',
