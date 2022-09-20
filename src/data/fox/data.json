@@ -1448,12 +1448,12 @@
       {
          "id":"sams",
          "color":"#877a72",
-         "position":"-0px -1856px"
+         "position":"-64px -1856px"
       },
       {
          "id":"hams",
          "color":"#877a72",
-         "position":"-64px -1856px"
+         "position":"-0px -1856px"
       },
       {
          "id":"nams",
@@ -1528,12 +1528,12 @@
       {
          "id":"seven-five-mm",
          "color":"#766d6d",
-         "position":"-192px -384px"
+         "position":"-384px -2112px"
       },
       {
          "id":"nine-four-five-mm",
          "color":"#766d6d",
-         "position":"-256px -448px"
+         "position":"--320px -2112px"
       },
       {
          "id":"one-twenty-mm",
@@ -1558,7 +1558,7 @@
       {
          "id":"oil",
          "color":"#766d6d",
-         "position":"-448px -768px"
+         "position":"-256px -2176px"
       },
       {
          "id":"oil-liquid",
@@ -1568,7 +1568,7 @@
       {
          "id":"hoil",
          "color":"#766d6d",
-         "position":"-448px -768px"
+         "position":"-320px -2176px"
       },
       {
          "id":"hoil-liquid",
@@ -1578,7 +1578,7 @@
       {
          "id":"eoil",
          "color":"#766d6d",
-         "position":"-448px -768px"
+         "position":"-384px -2176px"
       },
       {
          "id":"eoil-liquid",
@@ -1938,7 +1938,7 @@
       {
          "id":"retiarius",
          "color":"#766d6d",
-         "position":"-128px -1472px"
+         "position":"-448px -2112px"
       },
       {
          "id":"hoplite",
@@ -2033,7 +2033,7 @@
       {
          "id":"ruptura",
          "color":"#766d6d",
-         "position":"-256px -1536px"
+         "position":"-192px -2176px"
       },
       {
          "id":"large-assembly",
@@ -2043,7 +2043,7 @@
       {
          "id":"locomotive",
          "color":"#766d6d",
-         "position":"-256px -1920px"
+         "position":"-448px -2176px"
       },
       {
          "id":"container-car",
@@ -2063,7 +2063,7 @@
       {
          "id":"short-gauge",
          "color":"#766d6d",
-         "position":"-192px -1920px"
+         "position":"-256px -1920px"
       },
       {
          "id":"sm-container-car",
@@ -2583,7 +2583,7 @@
          "row":8,
          "stack":1,
          "cargoWagon":{
-            "size":60
+            "size":150
          },
          "fluidWagon":{
             "capacity":1
