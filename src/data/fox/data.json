@@ -1411,6 +1411,11 @@
          "position":"-256px -704px"
       },
       {
+         "id":"supply-station",
+         "color":"#92857a",
+         "position":"-192px -2240px"
+      },
+      {
          "id":"concrete-mixer",
          "color":"#92857a",
          "position":"-192px -2112px"
@@ -2066,6 +2071,11 @@
          "position":"-64px -1984px"
       },
       {
+         "id":"liquid-transfer-station",
+         "color":"#766d6d",
+         "position":"-256px -2240px"
+      },
+      {
          "id":"short-gauge",
          "color":"#766d6d",
          "position":"-256px -1920px"
@@ -2078,7 +2088,7 @@
       {
          "id":"sm-flatbed-car",
          "color":"#766d6d",
-         "position":"-192px -1920px"
+         "position":"-320px -2240px"
       }
    ],
    "items":[
@@ -2114,6 +2124,13 @@
          "category":"mats",
          "id":"concrete",
          "name":"Concrete Materials",
+         "row":0,
+         "stack":1
+      },
+      {
+         "category":"mats",
+         "id":"gsupps",
+         "name":"Garrison Supplies",
          "row":0,
          "stack":1
       },
@@ -3354,6 +3371,17 @@
             "speed":1,
             "type":"electric",
             "drain":-16000
+         }
+      },
+      {
+         "category":"other",
+         "id":"supply-station",
+         "name":"Maintenance Tunnel",
+         "row":6,
+         "factory":{
+            "speed":1,
+            "type":"electric",
+            "drain":-1000
          }
       },
       {
@@ -4909,7 +4937,7 @@
             "power-station"
          ],
          "time":90,
-         "cost":1000,
+         "cost":1100,
          "in":{
             "oil-liquid":50
          },
@@ -4945,8 +4973,8 @@
             "oil-liquid":50
          },
          "out":{
-            "sulfur":1
-			"power":16000
+            "sulfur":1,
+			"power":1920
          }
       },
       {
@@ -4962,8 +4990,23 @@
 			"water-liquid":25
          },
          "out":{
-            "sulfur":1
-			"power":16000
+            "sulfur":1,
+			"power":1920
+         }
+      },
+      {
+         "id":"supply-station",
+         "name":"Maintenance Tunnel",
+         "producers":[
+            "supply-station"
+         ],
+         "time":120,
+         "cost":1000,
+         "in":{
+            "bcons":40
+         },
+         "out":{
+            "gsupps":1
          }
       }
    ],
