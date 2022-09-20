@@ -1406,6 +1406,11 @@
          "position":"-384px -768px"
       },
       {
+         "id":"gsupps",
+         "color":"#92857a",
+         "position":"-256px -704px"
+      },
+      {
          "id":"concrete-mixer",
          "color":"#92857a",
          "position":"-192px -2112px"
@@ -1533,7 +1538,7 @@
       {
          "id":"nine-four-five-mm",
          "color":"#766d6d",
-         "position":"--320px -2112px"
+         "position":"-320px -2112px"
       },
       {
          "id":"one-twenty-mm",
@@ -2731,7 +2736,7 @@
             "mining":false,
             "speed":1,
             "type":"manual",
-            "usage":0,
+            "drain":0,
             "modules":0
          }
       },
@@ -2744,7 +2749,7 @@
             "mining":true,
             "speed":1,
             "type":"manual",
-            "usage":0,
+            "drain":0,
             "modules":0
          }
       },
@@ -2757,7 +2762,7 @@
             "mining":true,
             "speed":1,
             "type":"manual",
-            "usage":0,
+            "drain":0,
             "modules":0
          }
       },
@@ -2770,7 +2775,7 @@
             "mining":true,
             "speed":1,
             "type":"manual",
-            "usage":0,
+            "drain":0,
             "modules":0
          }
       },
@@ -2783,7 +2788,7 @@
             "mining":true,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "drain":2000,
             "modules":0
          }
       },
@@ -2796,7 +2801,7 @@
             "mining":true,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "drain":2000,
             "modules":0
          }
       },
@@ -2809,7 +2814,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":0,
+            "drain":0,
             "modules":0
          }
       },
@@ -2822,7 +2827,7 @@
             "mining":true,
             "speed":1,
             "type":"electric",
-            "usage":0,
+            "drain":0,
             "modules":0
          }
       },
@@ -2835,7 +2840,7 @@
             "mining":true,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "drain":2000,
             "modules":0
          }
       },
@@ -2848,7 +2853,7 @@
             "mining":true,
             "speed":1,
             "type":"electric",
-            "usage":3000,
+            "drain":3000,
             "modules":0
          }
       },
@@ -2861,7 +2866,7 @@
             "mining":true,
             "speed":1,
             "type":"electric",
-            "usage":0,
+            "drain":0,
             "modules":0
          }
       },
@@ -2874,7 +2879,7 @@
             "mining":true,
             "speed":1,
             "type":"electric",
-            "usage":0,
+            "drain":0,
             "modules":0
          }
       },
@@ -2887,7 +2892,7 @@
             "mining":true,
             "speed":1,
             "type":"electric",
-            "usage":500,
+            "drain":500,
             "modules":1
          }
       },
@@ -2900,7 +2905,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":0,
+            "drain":0,
             "modules":0
          }
       },
@@ -2913,7 +2918,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":0,
+            "drain":0,
             "modules":0
          }
       },
@@ -2926,7 +2931,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":0,
+            "drain":0,
             "modules":0
          }
       },
@@ -2939,7 +2944,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":1000,
+            "drain":1000,
             "modules":0
          }
       },
@@ -2952,7 +2957,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":1000,
+            "drain":1000,
             "modules":0
          }
       },
@@ -2965,7 +2970,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":1500,
+            "drain":1500,
             "modules":0
          }
       },
@@ -2978,7 +2983,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "drain":2000,
             "modules":0
          }
       },
@@ -2991,7 +2996,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":3000,
+            "drain":3000,
             "modules":0
          }
       },
@@ -3004,7 +3009,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":3000,
+            "drain":3000,
             "modules":0
          }
       },
@@ -3017,7 +3022,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":4000,
+            "drain":4000,
             "modules":0
          }
       },
@@ -3030,7 +3035,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":4000,
+            "drain":4000,
             "modules":0
          }
       },
@@ -3043,7 +3048,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "drain":2000,
             "modules":0
          }
       },
@@ -3056,7 +3061,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "drain":2000,
             "modules":0
          }
       },
@@ -3069,7 +3074,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":4000,
+            "drain":4000,
             "modules":0
          }
       },
@@ -3082,7 +3087,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "drain":2000,
             "modules":0
          }
       },
@@ -3095,7 +3100,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":4000,
+            "drain":4000,
             "modules":0
          }
       },
@@ -3108,7 +3113,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":5000,
+            "drain":5000,
             "modules":0
          }
       },
@@ -3121,7 +3126,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":5000,
+            "drain":5000,
             "modules":0
          }
       },
@@ -3134,7 +3139,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":8000,
+            "drain":8000,
             "modules":0
          }
       },
@@ -3147,7 +3152,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":5000,
+            "drain":5000,
             "modules":0
          }
       },
@@ -3160,7 +3165,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":9000,
+            "drain":9000,
             "modules":0
          }
       },
@@ -3173,7 +3178,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":8000,
+            "drain":8000,
             "modules":0
          }
       },
@@ -3186,7 +3191,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":4000,
+            "drain":4000,
             "modules":0
          }
       },
@@ -3199,7 +3204,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":4000,
+            "drain":4000,
             "modules":0
          }
       },
@@ -3212,7 +3217,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":4000,
+            "drain":4000,
             "modules":0
          }
       },
@@ -3225,7 +3230,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":6000,
+            "drain":6000,
             "modules":0
          }
       },
@@ -3238,7 +3243,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "drain":2000,
             "modules":0
          }
       },
@@ -3251,7 +3256,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "drain":2000,
             "modules":0
          }
       },
@@ -3264,7 +3269,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "drain":2000,
             "modules":0
          }
       },
@@ -3277,7 +3282,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "drain":2000,
             "modules":0
          }
       },
@@ -3290,7 +3295,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":2000,
+            "drain":2000,
             "modules":0
          }
       },
@@ -3303,7 +3308,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "usage":8000,
+            "drain":8000,
             "modules":0
          }
       },
@@ -3315,7 +3320,7 @@
          "factory":{
             "speed":1,
             "type":"electric",
-            "usage":-6000
+            "drain":-6000
          }
       },
       {
@@ -3326,7 +3331,7 @@
          "factory":{
             "speed":1,
             "type":"electric",
-            "usage":-12000
+            "drain":-12000
          }
       },
       {
@@ -3337,7 +3342,7 @@
          "factory":{
             "speed":1,
             "type":"electric",
-            "usage":-10000
+            "drain":-10000
          }
       },
       {
@@ -3348,7 +3353,7 @@
          "factory":{
             "speed":1,
             "type":"electric",
-            "usage":16000
+            "drain":-16000
          }
       },
       {
@@ -4941,6 +4946,7 @@
          },
          "out":{
             "sulfur":1
+			"power":16000
          }
       },
       {
@@ -4957,6 +4963,7 @@
          },
          "out":{
             "sulfur":1
+			"power":16000
          }
       }
    ],
