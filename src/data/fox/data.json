@@ -1486,6 +1486,11 @@
          "position":"-64px -768px"
       },
       {
+         "id":"damaged-comps",
+         "color":"#766d6d",
+         "position":"-0px -2304px"
+      },
+      {
          "id":"sulfur",
          "color":"#766d6d",
          "position":"-128px -768px"
@@ -1554,6 +1559,11 @@
          "id":"one-fifty-mm",
          "color":"#766d6d",
          "position":"-192px -384px"
+      },
+      {
+         "id":"two-fifty-mm",
+         "color":"#766d6d",
+         "position":"-0px -448px"
       },
       {
          "id":"three-hundred-mm",
@@ -1662,6 +1672,11 @@
       },
       {
          "id":"sandbags",
+         "color":"#766d6d",
+         "position":"-448px -1600px"
+      },
+      {
+         "id":"pipes",
          "color":"#766d6d",
          "position":"-448px -1600px"
       },
@@ -1836,12 +1851,22 @@
          "position":"-320px -1984px"
       },
       {
+         "id":"metal-recycler-4",
+         "color":"#766d6d",
+         "position":"-320px -1984px"
+      },
+      {
          "id":"engineering-station-8",
          "color":"#766d6d",
          "position":"-320px -1984px"
       },
       {
          "id":"engineering-station-9",
+         "color":"#766d6d",
+         "position":"-320px -1984px"
+      },
+      {
+         "id":"engineering-station-12",
          "color":"#766d6d",
          "position":"-320px -1984px"
       },
@@ -1951,6 +1976,11 @@
          "position":"-448px -2112px"
       },
       {
+         "id":"hades",
+         "color":"#766d6d",
+         "position":"-0px -2176px"
+      },
+      {
          "id":"hoplite",
          "color":"#766d6d",
          "position":"-384px -1152px"
@@ -2044,6 +2074,11 @@
          "id":"ruptura",
          "color":"#766d6d",
          "position":"-192px -2176px"
+      },
+      {
+         "id":"weapons-platform",
+         "color":"#766d6d",
+         "position":"-448px -1216px"
       },
       {
          "id":"heavy-tank-assembly",
@@ -2286,6 +2321,13 @@
       },
       {
          "category":"shippable",
+         "id":"pipes",
+         "name":"Pipes",
+         "row":1,
+         "stack":1
+      },
+      {
+         "category":"shippable",
          "id":"metal-beams",
          "name":"Metal Beams",
          "row":1,
@@ -2327,6 +2369,13 @@
       },
       {
          "category":"raw",
+         "id":"damaged-comps",
+         "name":"Damaged Components",
+         "row":2,
+         "stack":1
+      },
+      {
+         "category":"raw",
          "id":"sulfur",
          "name":"Sulfur",
          "row":1,
@@ -2343,14 +2392,14 @@
          "category":"raw",
          "id":"coke",
          "name":"Coke",
-         "row":1,
+         "row":2,
          "stack":1
       },
       {
          "category":"raw",
          "id":"power",
          "name":"MW",
-         "row":1,
+         "row":3,
          "stack":1
       },
       {
@@ -2497,6 +2546,13 @@
          "category":"vics",
          "id":"retiarius",
          "name":"R-17 Retiarius Skirmisher",
+         "row":5,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"hades",
+         "name":"DAE 3b-2 Hades' Net ERA",
          "row":5,
          "stack":1
       },
@@ -2882,7 +2938,7 @@
             "mining":true,
             "speed":1,
             "type":"electric",
-            "drain":2000,
+            "drain":0,
             "modules":0
          }
       },
@@ -2895,7 +2951,7 @@
             "mining":true,
             "speed":1,
             "type":"electric",
-            "drain":2000,
+            "drain":0,
             "modules":0
          }
       },
@@ -3077,7 +3133,7 @@
             "mining":false,
             "speed":1,
             "type":"electric",
-            "drain":2000,
+            "drain":6000,
             "modules":0
          }
       },
@@ -3252,6 +3308,19 @@
       },
       {
          "category":"other",
+         "id":"metal-recycler-4",
+         "name":"Metalworks Recycler",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "drain":4000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
          "id":"engineering-station-9",
          "name":"Engineering Station",
          "row":5,
@@ -3273,6 +3342,19 @@
             "speed":1,
             "type":"electric",
             "drain":8000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"engineering-station-12",
+         "name":"Engineering Station",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "drain":12000,
             "modules":0
          }
       },
@@ -3357,7 +3439,7 @@
       {
          "category":"other",
          "id":"artillery-factory",
-         "name":"Artillery Factory",
+         "name":"Rocket Factory",
          "row":5,
          "factory":{
             "mining":false,
@@ -3370,7 +3452,7 @@
       {
          "category":"other",
          "id":"lv-assembly-upgrade",
-         "name":"Light Vehicle Assembly Upgrade",
+         "name":"Field Station",
          "row":5,
          "factory":{
             "mining":false,
@@ -3383,7 +3465,20 @@
       {
          "category":"other",
          "id":"tank-assembly",
-         "name":"Tank Assembly",
+         "name":"Tank Factory",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "drain":2000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"weapons-platform",
+         "name":"Weapons Platform Assembly",
          "row":5,
          "factory":{
             "mining":false,
@@ -3427,7 +3522,7 @@
          "factory":{
             "speed":1,
             "type":"electric",
-            "drain":-6000
+            "drain":-5000
          }
       },
       {
@@ -3471,7 +3566,7 @@
          "factory":{
             "speed":1,
             "type":"electric",
-            "drain":-1000
+            "drain":-2000
          }
       },
       {
@@ -3719,7 +3814,7 @@
          "id":"auto-harvester-comps",
          "name":"Auto-Harvester Components",
          "producers":[
-            "hoil-miner"
+            "petrol-miner"
          ],
          "time":12,
          "cost":1000,
@@ -3727,9 +3822,24 @@
             "comps":6
          },
          "in":{
-            "hoil-liquid":4
+            "petrol-liquid":4
          }
-      },      
+      },
+      {
+         "id":"damaged-comps",
+         "name":"Damaged Components",
+         "producers":[
+            "petrol-miner"
+         ],
+         "time":12,
+         "cost":1000,
+         "out":{
+            "damaged-comps":9
+         },
+         "in":{
+            "petrol-liquid":6
+         }
+      },          
 	  {
          "id":"concrete",
          "name":"Concrete",
@@ -3815,7 +3925,7 @@
          "time":40,
          "cost":1000,
          "out":{
-            "oil":1
+            "oil":2
          },
          "in":{
 			 "water-liquid":25
@@ -4041,7 +4151,7 @@
          "time":160,
          "cost":1000,
          "in":{
-            "oil-liquid":120
+            "oil-liquid":150
          },
          "out":{
             "hoil-liquid":90
@@ -4083,14 +4193,14 @@
          "producers":[
             "petro-plant"
          ],
-         "time":160,
+         "time":200,
          "cost":1000,
          "in":{
-            "hoil-liquid":90,
-            "sulfur":20
+            "hoil-liquid":55,
+            "sulfur":60
          },
          "out":{
-            "eoil-liquid":90
+            "eoil-liquid":30
          }
       },
       {
@@ -4126,7 +4236,7 @@
       },
       {
          "id":"coal-liquefier",
-         "name":"Coal Liquefier - Heavy Oil",
+         "name":"Coal Liquefier - Concrete",
          "producers":[
             "coal-liquefier"
          ],
@@ -4134,10 +4244,10 @@
          "cost":1000,
          "in":{
             "coal":300,
-            "water-liquid":75
+            "water-liquid":50
          },
          "out":{
-            "hoil":30,
+            "oil":50,
             "concrete":1
          }
       },
@@ -4151,7 +4261,7 @@
          "cost":1000,
          "in":{
             "coal":300,
-            "water-liquid":150
+            "water-liquid":100
          },
          "out":{
             "hoil-liquid":60,
@@ -4167,7 +4277,7 @@
          "time":25,
          "cost":1000,
          "in":{
-            "scrap":20
+            "scrap":10
          },
          "out":{
             "bcons":1
@@ -4182,8 +4292,8 @@
          "time":60,
          "cost":1000,
          "in":{
-            "scrap":20,
-            "coke":180
+            "scrap":15,
+            "coke":75
          },
          "out":{
             "cams":1
@@ -4198,8 +4308,8 @@
          "time":60,
          "cost":1000,
          "in":{
-            "scrap":20,
-            "petrol-liquid":90
+            "scrap":15,
+            "petrol-liquid":50
          },
          "out":{
             "pams":1
@@ -4214,8 +4324,8 @@
          "time":25,
          "cost":1000,
          "in":{
-            "scrap":20,
-            "petrol-liquid":6
+            "scrap":15,
+            "petrol-liquid":25
          },
          "out":{
             "bcons":3
@@ -4262,8 +4372,8 @@
          "time":25,
          "cost":1000,
          "in":{
-            "scrap":20,
-            "coke":30
+            "scrap":15,
+            "coke":25
          },
          "out":{
             "bcons":3
@@ -4283,6 +4393,21 @@
          },
          "out":{
             "pcons":1
+         }
+      },
+      {
+         "id":"metalworks-pipe",
+         "name":"Metalworks - Pipes",
+         "producers":[
+            "metalworks"
+         ],
+         "time":120,
+         "cost":1000,
+         "in":{
+            "pcons":3
+         },
+         "out":{
+            "pipes":1
          }
       },
       {
@@ -4327,7 +4452,7 @@
          "cost":1000,
          "in":{
             "bcons":3,
-            "comps":56,
+            "comps":55,
             "hoil-liquid":6
          },
          "out":{
@@ -4352,50 +4477,51 @@
          }
       },
       {
-         "id":"metal-recycler-scrap",
-         "name":"Metalworks Recycler - Scrap",
+         "id":"metal-recycler-comps",
+         "name":"Metalworks Recycler - Comps",
          "producers":[
-            "metal-recycler"
+            "metal-recycler-4"
          ],
          "time":90,
          "cost":1000,
          "in":{
-            "scrap":250
+            "damaged-comps":30
          },
          "out":{
-            "comps":1
+            "comps":20
          }
       },
       {
-         "id":"engineer-scons",
-         "name":"Engineering - Scons",
+         "id":"engineer-sulfur-scons",
+         "name":"Engineering - Sulfur - Scons",
          "producers":[
             "engineering-station-9"
          ],
-         "time":160,
+         "time":90,
          "cost":1000,
          "in":{
             "pcons":3,
-            "comps":20,
-            "eoil-liquid":6
+            "coke":200,
+            "sulfur":65,
+			"hoil-liquid":35
          },
          "out":{
             "scons":1
          }
       },
       {
-         "id":"engineer-sulfur-scons",
-         "name":"Engineering - Sulfur Scons",
+         "id":"engineer-scons",
+         "name":"Engineering - Enriched - Scons",
          "producers":[
-            "engineering-station-8"
+            "engineering-station-12"
          ],
-         "time":160,
+         "time":90,
          "cost":1000,
          "in":{
-            "pcons":3,
-            "comps":20,
-            "sulfur":20,
-            "eoil-liquid":3
+            "pcons":9,
+            "coke":375,
+            "water-liquid":100,
+            "eoil-liquid":90
          },
          "out":{
             "scons":3
@@ -4407,11 +4533,13 @@
          "producers":[
             "engineering-station-8"
          ],
-         "time":160,
+         "time":120,
          "cost":1000,
          "in":{
-            "scons":1,
-            "eoil-liquid":6
+            "scons":3,
+			"coke":245,
+			"cams":15,
+            "pams":15
          },
          "out":{
             "nams":1
@@ -4421,7 +4549,7 @@
          "id":"flame-barrel",
          "name":"Ammo Factory - Flame Barrel",
          "producers":[
-            "rocket-factory"
+            "ammo-factory"
          ],
          "time":25,
          "cost":1000,
@@ -4434,15 +4562,31 @@
          }
       },
       {
+         "id":"two-fifty-mm",
+         "name":"Ammo Factory - 250mm",
+         "producers":[
+            "ammo-factory"
+         ],
+         "time":30,
+         "cost":1000,
+         "in":{
+            "hemats":6,
+            "bcons":5
+         },
+         "out":{
+            "two-fifty-mm":1
+         }
+      },
+      {
          "id":"rocket",
-         "name":"Rocket Factory - Rocket",
+         "name":"Rocket Factory - HE Rocket",
          "producers":[
             "rocket-factory"
          ],
          "time":25,
          "cost":1000,
          "in":{
-            "hemats":2,
+            "hemats":1,
             "bcons":2
          },
          "out":{
@@ -4458,7 +4602,7 @@
          "time":25,
          "cost":1000,
          "in":{
-            "hemats":2,
+            "hemats":1,
             "bcons":2
          },
          "out":{
@@ -4539,7 +4683,7 @@
          "cost":1000,
          "in":{
             "hemats":6,
-            "bcons":3
+            "bcons":4
          },
          "out":{
             "three-hundred-mm":1
@@ -4613,19 +4757,19 @@
          }
       },
       {
-         "id":"argonaut",
-         "name":"UV-05a Argonaut",
+         "id":"odyssey",
+         "name":"UV-05c Odyssey",
          "producers":[
             "motorpool"
          ],
          "time":180,
          "cost":1000,
          "in":{
-            "bcons":5,
-            "odyssey":1
+            "bcons":3,
+            "argonaut":1
          },
          "out":{
-            "argonaut":1
+            "odyssey":1
          }
       },
       {
@@ -4637,8 +4781,8 @@
          "time":180,
          "cost":1000,
          "in":{
-            "bcons":5,
-            "odyssey":1,
+            "bcons":3,
+            "argonaut":1,
             "pams":10
          },
          "out":{
@@ -4671,7 +4815,7 @@
          "time":300,
          "cost":1000,
          "in":{
-            "bcons":20,
+            "bcons":10,
             "xiphos":1,
             "cams":10
          },
@@ -4688,7 +4832,7 @@
          "time":300,
          "cost":1000,
          "in":{
-            "pcons":10,
+            "pcons":5,
             "xiphos":1,
             "cams":10
          },
@@ -4705,8 +4849,8 @@
          "time":300,
          "cost":1000,
          "in":{
-            "bcons":20,
-            "xiphos":1,
+            "bcons":10,
+            "actaeon":1,
             "cams":15
          },
          "out":{
@@ -4724,11 +4868,28 @@
          "in":{
             "pcons":70,
             "cams":10,
-            "sams":15,
+            "sams":8,
 			"r1-hauler":1
          },
          "out":{
             "retiarius":1
+         }
+      },
+      {
+         "id":"hades",
+         "name":"DAE 3b-2 Hades' Net ERA",
+         "producers":[
+            "artillery-factory"
+         ],
+         "time":300,
+         "cost":1000,
+         "in":{
+            "pcons":20,
+            "pams":15,
+            "hams":3
+         },
+         "out":{
+            "hades":1
          }
       },
       {
@@ -4740,8 +4901,8 @@
          "time":300,
          "cost":1000,
          "in":{
-            "pcons":5,
-            "hams":10,
+            "pcons":3,
+            "hams":3,
 			"javelin":1
          },
          "out":{
@@ -4757,9 +4918,9 @@
          "time":300,
          "cost":1000,
          "in":{
-            "pcons":10,
+            "pcons":5,
             "pams":5,
-			"hams":5,
+			"hams":3,
 			"javelin":1
          },
          "out":{
@@ -4791,7 +4952,7 @@
          "time":180,
          "cost":1000,
          "in":{
-            "bcons":15,
+            "bcons":5,
 			"ballista":1
          },
          "out":{
@@ -4807,8 +4968,8 @@
          "time":300,
          "cost":1000,
          "in":{
-            "pcons":10,
-			"sams":5,
+            "pcons":5,
+			"sams":3,
 			"acheron":1
          },
          "out":{
@@ -4824,8 +4985,8 @@
          "time":300,
          "cost":1000,
          "in":{
-            "pcons":10,
-			"hams":10,
+            "pcons":5,
+			"hams":5,
 			"battering-ram":1
          },
          "out":{
@@ -4843,7 +5004,7 @@
          "in":{
             "pcons":35,
 			"pams":20,
-			"sams":10,
+			"sams":5,
 			"hatchet":1
          },
          "out":{
@@ -4859,9 +5020,9 @@
          "time":300,
          "cost":1000,
          "in":{
-            "pcons":15,
+            "pcons":8,
 			"pams":20,
-			"sams":10,
+			"sams":5,
 			"hatchet":1
          },
          "out":{
@@ -4877,9 +5038,9 @@
          "time":300,
          "cost":1000,
          "in":{
-            "pcons":10,
+            "pcons":5,
 			"cams":20,
-			"hams":10,
+			"hams":5,
 			"hatchet":1
          },
          "out":{
@@ -4895,9 +5056,9 @@
          "time":420,
          "cost":1000,
          "in":{
-            "pcons":15,
+            "pcons":8,
 			"cams":10,
-			"hams":15,
+			"hams":8,
 			"falchion":1
          },
          "out":{
@@ -4913,9 +5074,9 @@
          "time":420,
          "cost":1000,
          "in":{
-            "pcons":20,
+            "pcons":10,
 			"pams":10,
-			"sams":20,
+			"sams":10,
 			"bardiche":1
          },
          "out":{
@@ -4931,9 +5092,9 @@
          "time":600,
          "cost":1000,
          "in":{
-            "pcons":155,
+            "pcons":135,
 			"cams":10,
-			"hams":25
+			"hams":15
          },
          "out":{
             "ruptura":1
@@ -4945,7 +5106,7 @@
          "producers":[
             "large-assembly"
          ],
-         "time":28800,
+         "time":21600,
          "cost":1000,
          "in":{
             "pcons":200,
@@ -4962,12 +5123,12 @@
          "producers":[
             "large-assembly"
          ],
-         "time":14400,
+         "time":1800,
          "cost":1000,
          "in":{
-            "pcons":50,
-			"pams":45,
-			"sams":20
+            "pcons":20,
+			"pams":15,
+			"sams":5
          },
          "out":{
             "container-car":1
@@ -4979,12 +5140,12 @@
          "producers":[
             "large-assembly"
          ],
-         "time":14400,
+         "time":1800,
          "cost":1000,
          "in":{
-            "pcons":50,
-			"pams":45,
-			"sams":20
+            "pcons":20,
+			"pams":15,
+			"sams":10
          },
          "out":{
             "flatbed-car":1
@@ -4996,12 +5157,12 @@
          "producers":[
             "large-assembly"
          ],
-         "time":14400,
+         "time":1800,
          "cost":1000,
          "in":{
-            "pcons":50,
-			"pams":45,
-			"sams":20
+            "pcons":20,
+			"pams":15,
+			"sams":5
          },
          "out":{
             "infantry-car":1
@@ -5058,14 +5219,14 @@
          "producers":[
             "power-station"
          ],
-         "time":60,
+         "time":90,
          "cost":1000,
          "in":{
             "coal":60,
             "water-liquid":25
          },
          "out":{
-            "power":600
+            "power":900
          }
       },
       {
@@ -5077,10 +5238,10 @@
          "time":120,
          "cost":1000,
          "in":{
-            "oil-liquid":50
+            "hoil-liquid":50
          },
          "out":{
-            "sulfur":1,
+            "sulfur":5,
 			"power":1920
          }
       },
@@ -5097,7 +5258,7 @@
 			"water-liquid":25
          },
          "out":{
-            "sulfur":1,
+            "sulfur":5,
 			"power":1920
          }
       },
@@ -5107,13 +5268,13 @@
          "producers":[
             "supply-station"
          ],
-         "time":120,
-         "cost":1000,
+         "time":450,
+         "cost":900,
          "in":{
-            "bcons":40
+            "bcons":1
          },
          "out":{
-            "gsupps":1
+            "gsupps":20
          }
       }
    ],
