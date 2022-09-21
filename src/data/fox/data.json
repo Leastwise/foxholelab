@@ -2078,17 +2078,37 @@
       {
          "id":"weapons-platform",
          "color":"#766d6d",
-         "position":"-448px -1216px"
+         "position":"-128px -2304px"
+      },
+      {
+         "id":"talos",
+         "color":"#766d6d",
+         "position":"-128px -2304px"
+      },
+      {
+         "id":"stygian-bolt",
+         "color":"#766d6d",
+         "position":"-256px -2112px"
+      },
+      {
+         "id":"train-assembly",
+         "color":"#766d6d",
+         "position":"-64px -2240px"
+      },
+      {
+         "id":"combat-car",
+         "color":"#766d6d",
+         "position":"-64px -2240px"
       },
       {
          "id":"heavy-tank-assembly",
          "color":"#766d6d",
-         "position":"-256px -1920px"
+         "position":"-64px -2176px"
       },
       {
          "id":"ares",
          "color":"#766d6d",
-         "position":"-64px -2176px"
+         "position":"-192px -2304px"
       },
       {
          "id":"lance",
@@ -2124,11 +2144,6 @@
          "id":"infantry-car",
          "color":"#766d6d",
          "position":"-0px -2240px"
-      },
-      {
-         "id":"combat-car",
-         "color":"#766d6d",
-         "position":"-64px -2240px"
       },
       {
          "id":"tempest-cannon",
@@ -2684,8 +2699,15 @@
       },
       {
          "category":"vics",
-         "id":"ruptura",
-         "name":"DAE 2a-1 Ruptura 75mm EAT",
+         "id":"stygian-bolt",
+         "name":"945g Stygian Bolt 94.5mm FAT",
+         "row":7,
+         "stack":1
+      },
+      {
+         "category":"vics",
+         "id":"talos",
+         "name":"85V-g Talos Assault Tank",
          "row":7,
          "stack":1
       },
@@ -2700,13 +2722,6 @@
          "category":"vics",
          "id":"lance",
          "name":"Lance-36 Battle Tank",
-         "row":8,
-         "stack":1
-      },
-      {
-         "category":"vics",
-         "id":"hasta",
-         "name":"Lance-40 Halberd Battle Tank",
          "row":8,
          "stack":1
       },
@@ -3492,6 +3507,19 @@
          "category":"other",
          "id":"large-assembly",
          "name":"Large Assembly Factory",
+         "row":5,
+         "factory":{
+            "mining":false,
+            "speed":1,
+            "type":"electric",
+            "drain":8000,
+            "modules":0
+         }
+      },
+      {
+         "category":"other",
+         "id":"train-assembly",
+         "name":"Train Assembly",
          "row":5,
          "factory":{
             "mining":false,
@@ -5101,6 +5129,78 @@
          }
       },
       {
+         "id":"stygian-bolt",
+         "name":"945g Stygian Bolt 94.5mm FAT",
+         "producers":[
+            "weapons-platform"
+         ],
+         "time":420,
+         "cost":1000,
+         "in":{
+            "scons":15,
+			"pams":20,
+			"sams":15,
+			"battering-ram":1
+         },
+         "out":{
+            "stygian-bolt":1
+         }
+      },
+      {
+         "id":"talos",
+         "name":"85V-g Talos Assault Tank",
+         "producers":[
+            "weapons-platform"
+         ],
+         "time":420,
+         "cost":1000,
+         "in":{
+            "scons":5,
+			"cams":10,
+			"hams":15,
+			"falchion":1
+         },
+         "out":{
+            "talos":1
+         }
+      },
+      {
+         "id":"ares",
+         "name":"0-75b Ares Super Tank",
+         "producers":[
+            "heavy-tank-assembly"
+         ],
+         "time":172800,
+         "cost":1000,
+         "in":{
+            "scons":275,
+			"nams":175,
+			"sams":105,
+			"hams":95
+         },
+         "out":{
+            "ares":1
+         }
+      },
+      {
+         "id":"lance",
+         "name":"Lance-36 Battle Tank",
+         "producers":[
+            "heavy-tank-assembly"
+         ],
+         "time":172800,
+         "cost":1000,
+         "in":{
+            "scons":50,
+			"nams":35,
+			"sams":30,
+			"hams":60
+         },
+         "out":{
+            "lance":1
+         }
+      },
+      {
          "id":"locomotive",
          "name":"BMS Black Bolt Locomotive",
          "producers":[
@@ -5166,6 +5266,23 @@
          },
          "out":{
             "infantry-car":1
+         }
+      },
+      {
+         "id":"combat-car",
+         "name":"Combat Car",
+         "producers":[
+            "train-assembly"
+         ],
+         "time":1800,
+         "cost":1000,
+         "in":{
+            "scons":30,
+			"cams":30,
+			"hams":30
+         },
+         "out":{
+            "combat-car":1
          }
       },
       {
