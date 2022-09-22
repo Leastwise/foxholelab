@@ -1511,6 +1511,37 @@
          "position":"-128px -1984px"
       },
       {
+         "id":"petrol-power",
+         "color":"#766d6d",
+         "position":"-128px -1984px"
+      },
+      {
+         "id":"oil-power",
+         "color":"#766d6d",
+         "position":"-128px -1984px"
+      },
+      {
+         "id":"coal-power",
+         "color":"#766d6d",
+         "position":"-128px -1984px"
+      },
+	  
+      {
+         "id":"diesel-power",
+         "color":"#766d6d",
+         "position":"-128px -1984px"
+      },
+      {
+         "id":"hoil-power",
+         "color":"#766d6d",
+         "position":"-128px -1984px"
+      },
+      {
+         "id":"coke-power",
+         "color":"#766d6d",
+         "position":"-128px -1984px"
+      },
+      {
          "id":"small",
          "color":"#766d6d",
          "position":"-192px -0px"
@@ -2414,7 +2445,42 @@
          "category":"raw",
          "id":"power",
          "name":"MW",
-         "row":3,
+         "row":4,
+         "stack":1
+      },
+      {
+         "category":"raw",
+         "id":"petrol-power",
+         "name":"Petrol MW",
+         "row":4,
+         "stack":1
+      },
+      {
+         "category":"raw",
+         "id":"oil-power",
+         "name":"Oil MW",
+         "row":4,
+         "stack":1
+      },
+      {
+         "category":"raw",
+         "id":"hoil-power",
+         "name":"Heavy Oil MW",
+         "row":4,
+         "stack":1
+      },
+      {
+         "category":"raw",
+         "id":"coke-power",
+         "name":"Coke MW",
+         "row":4,
+         "stack":1
+      },
+      {
+         "category":"raw",
+         "id":"diesel-power",
+         "name":"Diesel MW",
+         "row":4,
          "stack":1
       },
       {
@@ -3594,7 +3660,7 @@
          "factory":{
             "speed":1,
             "type":"electric",
-            "drain":-2000
+            "drain":2000
          }
       },
       {
@@ -5297,12 +5363,12 @@
             "diesel-liquid":25
          },
          "out":{
-            "power":225
+            "diesel-power":225
          }
       },
       {
-         "id":"power",
-         "name":"Power",
+         "id":"petrol-power",
+         "name":"Petrol Power Plant",
          "producers":[
             "petrol-power-plant"
          ],
@@ -5312,7 +5378,7 @@
             "petrol-liquid":50
          },
          "out":{
-            "power":1080
+            "petrol-power":1080
          }
       },
       {
@@ -5327,7 +5393,7 @@
             "oil-liquid":50
          },
          "out":{
-            "power":900
+            "oil-power":900
          }
       },
       {
@@ -5343,12 +5409,12 @@
             "water-liquid":25
          },
          "out":{
-            "power":900
+            "coal-power":900
          }
       },
       {
-         "id":"reactor-oil-sulfur",
-         "name":"Sulfuric Reactor - Oil",
+         "id":"hoil-power",
+         "name":"Sulfuric Reactor - Heavy Oil",
          "producers":[
             "sulfuric-reactor"
          ],
@@ -5359,11 +5425,11 @@
          },
          "out":{
             "sulfur":5,
-			"power":1920
+			"hoil-power":1920
          }
       },
       {
-         "id":"reactor-coke-sulfur",
+         "id":"coke-power",
          "name":"Sulfuric Reactor - Coke",
          "producers":[
             "sulfuric-reactor"
@@ -5376,7 +5442,7 @@
          },
          "out":{
             "sulfur":5,
-			"power":1920
+			"coke-power":1920
          }
       },
       {
