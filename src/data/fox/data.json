@@ -1709,7 +1709,7 @@
       {
          "id":"pipes",
          "color":"#766d6d",
-         "position":"-448px -1600px"
+         "position":"-64px -2304px"
       },
       {
          "id":"barbed-wire",
@@ -2352,7 +2352,7 @@
          "row":0,
          "stack":1,
          "cargoWagon":{
-            "size":60
+            "size":120
          },
          "fluidWagon":{
             "capacity":1
@@ -4290,7 +4290,7 @@
          "time":200,
          "cost":1000,
          "in":{
-            "hoil-liquid":55,
+            "hoil-liquid":30,
             "sulfur":60
          },
          "out":{
@@ -4341,7 +4341,7 @@
             "water-liquid":50
          },
          "out":{
-            "oil":50,
+            "oil-liquid":50,
             "concrete":1
          }
       },
@@ -4597,7 +4597,7 @@
             "pcons":3,
             "coke":200,
             "sulfur":65,
-			"hoil-liquid":35
+			   "hoil-liquid":35
          },
          "out":{
             "scons":1
@@ -4631,9 +4631,9 @@
          "cost":1000,
          "in":{
             "scons":3,
-			"coke":245,
-			"cams":15,
-            "pams":15
+			   "coke":245,
+			   "cams":10,
+            "pams":10
          },
          "out":{
             "nams":1
@@ -4975,7 +4975,7 @@
          "producers":[
             "artillery-factory"
          ],
-         "time":300,
+         "time":600,
          "cost":1000,
          "in":{
             "pcons":20,
@@ -4997,7 +4997,7 @@
          "in":{
             "pcons":3,
             "hams":3,
-			"javelin":1
+			   "javelin":1
          },
          "out":{
             "hoplite":1
@@ -5014,8 +5014,8 @@
          "in":{
             "pcons":5,
             "pams":5,
-			"hams":3,
-			"javelin":1
+			   "hams":3,
+			   "javelin":1
          },
          "out":{
             "peltast":1
@@ -5031,7 +5031,7 @@
          "cost":1000,
          "in":{
             "pcons":90,
-			"hams":25
+			   "hams":25
          },
          "out":{
             "harvester-vic":1
@@ -5047,7 +5047,7 @@
          "cost":1000,
          "in":{
             "bcons":5,
-			"ballista":1
+			   "ballista":1
          },
          "out":{
             "scorpion":1
@@ -5080,8 +5080,8 @@
          "cost":1000,
          "in":{
             "pcons":5,
-			"hams":5,
-			"battering-ram":1
+			   "hams":5,
+			   "battering-ram":1
          },
          "out":{
             "forty-smelter":1
@@ -5097,9 +5097,9 @@
          "cost":1000,
          "in":{
             "pcons":35,
-			"pams":20,
-			"sams":5,
-			"hatchet":1
+			   "pams":20,
+			   "sams":5,
+			   "hatchet":1
          },
          "out":{
             "vulcan":1
@@ -5115,9 +5115,9 @@
          "cost":1000,
          "in":{
             "pcons":8,
-			"pams":20,
-			"sams":5,
-			"hatchet":1
+			   "pams":20,
+			   "sams":5,
+			   "hatchet":1
          },
          "out":{
             "pelekys":1
@@ -5133,9 +5133,9 @@
          "cost":1000,
          "in":{
             "pcons":5,
-			"cams":20,
-			"hams":5,
-			"hatchet":1
+			   "cams":20,
+			   "hams":5,
+			   "hatchet":1
          },
          "out":{
             "kranesca":1
@@ -5151,9 +5151,9 @@
          "cost":1000,
          "in":{
             "pcons":8,
-			"cams":10,
-			"hams":8,
-			"falchion":1
+			   "cams":10,
+			   "hams":8,
+			   "falchion":1
          },
          "out":{
             "spatha":1
@@ -5169,9 +5169,9 @@
          "cost":1000,
          "in":{
             "pcons":10,
-			"pams":10,
-			"sams":10,
-			"bardiche":1
+			   "pams":10,
+			   "sams":10,
+			   "bardiche":1
          },
          "out":{
             "ranseur":1
@@ -5187,8 +5187,8 @@
          "cost":1000,
          "in":{
             "pcons":135,
-			"cams":10,
-			"hams":15
+			   "cams":10,
+			   "hams":15
          },
          "out":{
             "ruptura":1
@@ -5204,9 +5204,9 @@
          "cost":1000,
          "in":{
             "scons":15,
-			"pams":20,
-			"sams":15,
-			"battering-ram":1
+			   "pams":20,
+			   "sams":15,
+			   "battering-ram":1
          },
          "out":{
             "stygian-bolt":1
@@ -5222,9 +5222,9 @@
          "cost":1000,
          "in":{
             "scons":5,
-			"cams":10,
-			"hams":15,
-			"falchion":1
+			   "cams":10,
+			   "hams":15,
+			   "falchion":1
          },
          "out":{
             "talos":1
@@ -5240,9 +5240,9 @@
          "cost":1000,
          "in":{
             "scons":275,
-			"nams":175,
-			"sams":105,
-			"hams":95
+			   "nams":175,
+			   "sams":105,
+			   "hams":95
          },
          "out":{
             "ares":1
@@ -5254,13 +5254,13 @@
          "producers":[
             "heavy-tank-assembly"
          ],
-         "time":172800,
+         "time":64800,
          "cost":1000,
          "in":{
             "scons":50,
-			"nams":35,
-			"sams":30,
-			"hams":60
+			   "nams":35,
+			   "sams":30,
+			   "hams":60
          },
          "out":{
             "lance":1
